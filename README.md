@@ -3,5 +3,5 @@
 
 ---
 
-Ceci est l'implémentation en JAVA du Jeu des citadelles
+This is an implementation of the board game Citadelles.
 [Règles du jeu](https://www.regledujeu.fr/citadelles/)
