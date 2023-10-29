@@ -15,7 +15,7 @@ public class Interaction {
                 continu = false;
             } catch (InputMismatchException e) {
                 System.out.print("Veuillez rentrer un chiffre : ");
-                sc.next(); // passe l'entier pour �viter de boucler
+                sc.next(); // passe l'entier pour éviter de boucler
             }
         } while(continu);
         return i;
@@ -29,14 +29,14 @@ public class Interaction {
         return i;
     }
 
-    // lit les r�ponses "oui", "non", "o" ou "n" et renvoie un bool�en
+    // lit les réponses "oui", "non", "o" ou "n" et renvoie un bool�en
     public static boolean lireOuiOuNon() {
         boolean retour = true;
         // ...
         return retour;
     }
 
-    // renvoie une cha�ne de caract�re lue au clavier:
+    // renvoie une cha�ne de caractère lue au clavier:
     public static String lireUneChaine() {
         String retour = "";
 		//...
