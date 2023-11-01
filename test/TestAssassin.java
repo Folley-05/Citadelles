@@ -8,7 +8,7 @@ public class TestAssassin {
 	public static void main(String[] args) {
 		TestAssassin test = new TestAssassin();
 		test.test1();
-		//test.test2();	
+		//test.test2();
 	}
 	
 	public void test1() {

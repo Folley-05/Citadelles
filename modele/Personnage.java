@@ -1,16 +1,16 @@
 package modele;
 
 public abstract class Personnage {
-    private String nom, caractéristiques;
+    private String nom, caracteristiques;
     private int rang;
     private Joueur joueur;
     private boolean assassine, vole;
     private PlateauDeJeu plateau;
 
-    public Personnage(String nom,int rang,String caractéristiques) {
+    public Personnage(String nom,int rang,String caracteristiques) {
         this.nom=nom;
         this.rang=rang;
-        this.caractéristiques=caractéristiques;
+        this.caracteristiques=caracteristiques;
         this.joueur=null;
         this.vole=false;
         this.assassine=false;
@@ -23,7 +23,7 @@ public abstract class Personnage {
         return nom;
     }
     public String getCaracteristiques() {
-        return caractéristiques;
+        return caracteristiques;
     }
     public int getRang() {
         return rang;
