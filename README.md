@@ -3,5 +3,5 @@
 
 ---
 
-This is an implementation of the board game Citadelles.
+This is an implementation of the board game Citadelle.
 [Règles du jeu](https://www.regledujeu.fr/citadelles/)
