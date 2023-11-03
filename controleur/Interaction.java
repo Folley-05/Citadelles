@@ -32,9 +32,9 @@ public class Interaction {
                 if(i>=borneMin && i<borneMax)
                     continu = false;
                 else
-                    System.out.print("Veuillez rentrer un chiffre compris entre " + borneMin + " et " + borneMax + " :");
+                    System.out.print("Veuillez rentrer un chiffre compris entre [ " + borneMin + " et " + borneMax + " [ :");
             } catch (InputMismatchException e) {
-                System.out.print("Veuillez rentrer un chiffre compris entre " + borneMin + " et " + borneMax + " :");
+                System.out.print("Veuillez rentrer un chiffre compris entre [ " + borneMin + " et " + borneMax + " [ :");
                 sc.next(); // passe l'entier pour éviter de boucler
             }
         } while(continu);
