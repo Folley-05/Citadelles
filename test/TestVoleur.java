@@ -10,7 +10,7 @@ import modele.PlateauDeJeu;
 public class TestVoleur {
 	public static void main(String[] args) {
 		TestVoleur test = new TestVoleur();
-		//test.test1();
+		test.test1();
 		test.test2();
 	}
 	

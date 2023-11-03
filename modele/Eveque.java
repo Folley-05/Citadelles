@@ -18,7 +18,7 @@ public class Eveque extends Personnage{
             }
             //compter le nombre de quartiers
             for (int k = 0; k < cite.length; k++) {
-                if (cite[k].getType() == "RELIGIEUX") {
+                if (cite[k].getType().equals("RELIGIEUX")) {
                     nbQuartierReligieux++;
                 }
             }

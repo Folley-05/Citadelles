@@ -15,8 +15,8 @@ import java.util.ArrayList;
 public class TestMagicienne {
 	public static void main(String[] args) {
 		TestMagicienne test = new TestMagicienne();
-		//test.test1();
-		test.test2();	
+		test.test1();
+		//test.test2();
 	}
 	
 	public void test1() {
