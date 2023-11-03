@@ -1,6 +1,7 @@
 package test;
 
 import modele.Assassin;
+import modele.Joueur;
 import modele.PlateauDeJeu;
 import modele.Roi;
 
@@ -8,7 +9,7 @@ public class TestAssassin {
 	public static void main(String[] args) {
 		TestAssassin test = new TestAssassin();
 		test.test1();
-		//test.test2();
+		test.test2();
 	}
 	
 	public void test1() {
@@ -29,7 +30,10 @@ public class TestAssassin {
 		PlateauDeJeu plateau = new PlateauDeJeu();
 		Roi roi = new Roi();
 		plateau.ajouterPersonnage(roi);
+
+		Joueur joueur = new Joueur("Billy");
 		Assassin assassin = new Assassin();
+		assassin.setJoueur(joueur);
 		plateau.ajouterPersonnage(assassin);
 		
 		// on utilise le pouvoir de l'assassin
