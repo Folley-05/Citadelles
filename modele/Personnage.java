@@ -39,7 +39,7 @@ public abstract class Personnage {
     }
 
     public void setJoueur(Joueur joueur) {
-        this.joueur = joueur;
+        this.joueur= joueur;
     }
     public void setAssassine() {
         this.assassine = true;
@@ -76,6 +76,7 @@ public abstract class Personnage {
         this.joueur=null;
         this.vole=false;
         this.assassine=false;
+        this.joueur.monPersonnage=null;
     }
 
     public boolean isValid() {
