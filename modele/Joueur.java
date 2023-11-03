@@ -65,7 +65,7 @@ public class Joueur {
     public boolean quartierPresentDansCite(String nom){
         boolean witness=false;
         for (int i = 0; i < cite.length; i++) {
-            if(cite[i]!=null && cite[i].getNom()==nom) witness=true;
+            if(cite[i]!=null && cite[i].getNom().equals(nom)) witness=true;
         }
         return witness;
     }
@@ -73,7 +73,7 @@ public class Joueur {
         Quartier q=null;
         int index=-1;
         for (int i = 0; i < cite.length; i++) {
-            if(this.cite[i]!=null && cite[i].getNom()==nom) {
+            if(this.cite[i]!=null && cite[i].getNom().equals(nom)) {
                 q=this.cite[i];
                 this.cite[i]=null;
                 index=i;
