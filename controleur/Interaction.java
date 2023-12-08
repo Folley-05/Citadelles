@@ -71,4 +71,9 @@ public class Interaction {
         return retour;
     }
 
+    // generate an integer lower than a number
+    public static int randomInt(int a) {
+        return (int) (Math.random() * a);
+    }
+
 }

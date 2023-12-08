@@ -25,6 +25,10 @@ public class Joueur {
     public Personnage getPersonnage() {
 		return monPersonnage;
 	}
+
+    public void setMonPersonnage(Personnage p) {
+        this.monPersonnage=p;
+    }
     
 	public String getNom() {
         return nom;

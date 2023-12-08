@@ -14,16 +14,7 @@ public class Configuration {
     static String typeMerveille = Quartier.TYPE_QUARTIERS[4];
 
     public static Pioche nouvellePioche(){
-        Pioche pioche = null;
-/*
-        Random random = new Random();
-        int index = random.nextInt(Quartier.TYPE_QUARTIERS.length);
-        String type = Quartier.TYPE_QUARTIERS[index];
-        int cout = random.nextInt(9) + 2;
-        cout*=5;*/
-
-
-
+        Pioche pioche = new Pioche();
 
         for(int rang=2; rang<=5; rang++){
 

@@ -26,30 +26,30 @@ public class Condottiere extends Personnage {
         choix=Interaction.lireOuiOuNon();
         if (choix) {
             do {
-                System.out.println("Voici la liste des joueurs et le contenu de leur cité :");
+                System.out.println("Voici la liste des joueurs et le contenu de leur citï¿½ :");
                 for(int i=0; i<listePersonnage.size(); i++) {
                     System.out.print("\n"+ (i+1) + " " + listePersonnage.get(i).getNom() + ": ");
                     for (int j = 0; j < listePersonnage.get(i).getJoueur().nbQuartiersDansCite(); j++) {
-                        System.out.print(j + 1 + " " + listePersonnage.get(i).getJoueur().getCite()[j].getNom() + "(coût "+ listePersonnage.get(i).getJoueur().getCite()[j].getCout() + "), ");
+                        System.out.print(j + 1 + " " + listePersonnage.get(i).getJoueur().getCite()[j].getNom() + "(coï¿½t "+ listePersonnage.get(i).getJoueur().getCite()[j].getCout() + "), ");
                     }
                 }
-                System.out.println("\n\nPour Information, vous avez "+getJoueur().nbPieces()+" pièces d'or dans votre trésor");
+                System.out.println("\n\nPour Information, vous avez "+getJoueur().nbPieces()+" piï¿½ces d'or dans votre trï¿½sor");
                 System.out.println("\nQuel joueur choississez-vous ?( 0 pour annuler )");
                 choixPersonnage = Interaction.lireUnEntier(0, listePersonnage.size()+1);
                 if(choixPersonnage==0) {
                     System.out.println("Vous n'utilisez pas votre pouvoir de destruction");
                     break;
                 }else if(listePersonnage.get(choixPersonnage-1).getNom().equals("Eveque") && !listePersonnage.get(choixPersonnage-1).getAssassine()){
-                    System.out.println("L'évêque est vivant vous ne pouvez pas le selectionner");
+                    System.out.println("L'ï¿½vï¿½que est vivant vous ne pouvez pas le selectionner");
                 }else {
                     do {
                         System.out.println("Quel quartier choisissez-vous ? (0 pour annuler)");
                         choixQuartier = Interaction.lireUnEntier(0,listePersonnage.get(choixPersonnage-1).getJoueur().nbQuartiersDansCite()+1);
-                        if(choixQuartier==0) { // L'index 0 correspond à la liberté de ne pas continuer
+                        if(choixQuartier==0) { // L'index 0 correspond ï¿½ la libertï¿½ de ne pas continuer
                             System.out.println("Vous annulez le choix du quartier");
                             break;
                         }else if((listePersonnage.get(choixPersonnage-1).getJoueur().getCite()[choixQuartier-1].getCout() - 1) > this.getJoueur().nbPieces()) {
-                            System.out.println("Pas assez d'argent pour détruire ce quartier");
+                            System.out.println("Pas assez d'argent pour dï¿½truire ce quartier");
                         }else if(listePersonnage.get(choixPersonnage-1).getJoueur().getCite()[choixQuartier-1].getNom().equals("Donjon")) {
                             System.out.println("Le Donjon n'est pas destructible");
                         }
@@ -60,7 +60,7 @@ public class Condottiere extends Personnage {
                                 nomQuartier = this.getPlateau().getPersonnage(i).getJoueur().getCite()[choixQuartier-1].getNom();
                                 this.getJoueur().retirerPieces(this.getPlateau().getPersonnage(i).getJoueur().getCite()[choixQuartier-1].getCout() - 1);
                                 this.getPlateau().getPersonnage(i).getJoueur().retirerQuartierDansCite(nomQuartier);
-                                System.out.println(this.getPlateau().getPersonnage(i).getJoueur().getNom()+" votre quartier : " + nomQuartier + " à  été détruit par le Condottiere");
+                                System.out.println(this.getPlateau().getPersonnage(i).getJoueur().getNom()+" votre quartier : " + nomQuartier + " ï¿½  ï¿½tï¿½ dï¿½truit par le Condottiere");
                             }
                         }
                     }
@@ -73,7 +73,7 @@ public class Condottiere extends Personnage {
 
 
 
-    // Perception des ressources spécifiques
+    // Perception des ressources spï¿½cifiques
     public void percevoirRessourcesSpecifiques() {
         int nbQuartierMilitaire = 0;
         super.percevoirRessourcesSpecifiques();
@@ -93,7 +93,7 @@ public class Condottiere extends Personnage {
             }
 
             this.getJoueur().ajouterPieces(nbQuartierMilitaire);
-            System.out.println("[" + nbQuartierMilitaire + "]" + "pieces en plus dans votre trésor");
+            System.out.println("[" + nbQuartierMilitaire + "]" + "pieces en plus dans votre trï¿½sor");
         }
     }
 
