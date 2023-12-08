@@ -21,6 +21,7 @@ public class Magicienne extends Personnage {
                         System.out.println((i + 1) + " " + this.getPlateau().getJoueur(i).getNom() + " : " + this.getPlateau().getJoueur(i).nbQuartiersDansMain() + " cartes");
                     }
                 }
+
                 // choix du joueur
                 int choix = 0;
                 do{
