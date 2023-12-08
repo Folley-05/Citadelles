@@ -22,7 +22,14 @@ public class Magicienne extends Personnage {
                     }
                 }
                 // choix du joueur
-                int choix = Interaction.lireUnEntier(1, this.getPlateau().getNombreJoueurs()+1);
+                int choix = 0;
+                do{
+                     choix = Interaction.lireUnEntier(1, this.getPlateau().getNombreJoueurs()+1);
+                     if(this.getJoueur()==this.getPlateau().getJoueur(choix - 1)){
+                         System.out.println("Vous ne pouvez pas vous choisir");
+                     }
+                }while(this.getJoueur()==this.getPlateau().getJoueur(choix - 1));
+
                 // copies des mains des deux joueurs
                 ArrayList<Quartier> copieMainMagicienne = new ArrayList<>(this.getJoueur().getMain());
                 ArrayList<Quartier> copieMainCible = new ArrayList<>(this.getPlateau().getJoueur(choix - 1).getMain());
