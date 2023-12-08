@@ -6,5 +6,7 @@ public class Magicienne extends Personnage {
         super("Magicienne", 3, Caracteristiques.MAGICIENNE);
     }
     @Override
-    public void utiliserPouvoir() {}
+    public void utiliserPouvoir() {
+        System.out.println("Voulez-vous échanger vos cartes avec celles d'un autre joueur? (o/n)");
+    }
 }
