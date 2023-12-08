@@ -76,7 +76,6 @@ public abstract class Personnage {
         this.joueur=null;
         this.vole=false;
         this.assassine=false;
-        this.joueur.monPersonnage=null;
     }
 
     public boolean isValid() {
