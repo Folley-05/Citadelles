@@ -39,7 +39,7 @@ public class TestMagicienne {
 		System.out.println("TEST DU POUVOIR DE LA MAGICIENNE");
 		PlateauDeJeu plateau = new PlateauDeJeu();
 		
-		// création de quatre personnages
+		// création de tois personnages
 		Roi roi = new Roi();
 		plateau.ajouterPersonnage(roi);
 		Assassin assassin = new Assassin();
