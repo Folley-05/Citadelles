@@ -14,7 +14,7 @@ public class Configuration {
     static String typeMerveille = Quartier.TYPE_QUARTIERS[4];
 
     public static Pioche nouvellePioche(){
-        Pioche pioche = null;
+        Pioche pioche = new Pioche();
 /*
         Random random = new Random();
         int index = random.nextInt(Quartier.TYPE_QUARTIERS.length);
