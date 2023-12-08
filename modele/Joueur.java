@@ -22,7 +22,7 @@ public class Joueur {
         this.monPersonnage=null;
     }
 
-    public Personnage getMonPersonnage() {
+    public Personnage getPersonnage() {
 		return monPersonnage;
 	}
 
@@ -105,8 +105,10 @@ public class Joueur {
         Random generateur = new Random();
         int numeroHasard = generateur.nextInt(this.nbQuartiersDansMain());
         return main.remove(numeroHasard);
-    } 
-
+    }
+    public void viderMain(){
+        this.main.clear();
+    }
     public void reinitialiser(){
         this.tresor=0;
         this.main.clear();

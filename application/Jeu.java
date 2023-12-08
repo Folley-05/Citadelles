@@ -102,7 +102,7 @@ public class Jeu {
 
         for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
             Joueur player=plateauDeJeu.getJoueur(i);
-            System.out.println(player.getNom()+" --> "+player.getMonPersonnage());
+            System.out.println(player.getNom()+" --> "+player.getPersonnage().getNom());
         }
     }
 
