@@ -97,10 +97,17 @@ public class Configuration {
 
         //We add players
         for (int i = 0; i < 4; i++) {
-            System.out.println("Entrez le nom du joueur "+(i+1)+" ");
-            String name= Interaction.lireUneChaine();
-            Joueur j=new Joueur(name);
+            // @audit active this to allow player to enter his name
+            // System.out.println("Entrez le nom du joueur "+(i+1)+" ");
+            // String name= Interaction.lireUneChaine();
+            // Joueur j=new Joueur(name);
+            // plateau.ajouterJoueur(j);
+
+
+            
+            Joueur j=new Joueur("JOUEUR "+(i+1));
             plateau.ajouterJoueur(j);
+
         }
 
         //We add the 14 Marvels

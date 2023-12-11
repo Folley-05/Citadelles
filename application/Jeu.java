@@ -16,11 +16,13 @@ public class Jeu {
     private PlateauDeJeu plateauDeJeu;
     private int numeroConfiguration;
     private Random generator;
+    private Joueur JoueurPerso[];
     
     public Jeu(PlateauDeJeu p, int config, Random gen) {
         plateauDeJeu = p;
         numeroConfiguration = config;
         generator = gen;
+        JoueurPerso = new Joueur[8];
     }
     public static void main(String[] args) {
         
@@ -99,11 +101,34 @@ public class Jeu {
 
     private void tourDeJeu() {
         choixPersonnages();
-
         for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
             Joueur player=plateauDeJeu.getJoueur(i);
+            // associé les personnages aux joueurs
+            JoueurPerso[player.getPersonnage().getRang()-1]=player;
             System.out.println(player.getNom()+" --> "+player.getPersonnage().getNom());
         }
+
+        System.out.println("NOW WE CALL THE PLAYERS");
+        // call character and play their turn
+        for (int i = 0; i < 8; i++) {
+            System.out.println("PERSONNAGE AVEC LE RANG "+(i+1));
+            Joueur joueurActif=JoueurPerso[i];
+            if(joueurActif!=null) {
+                System.out.println("Joueur Actif : "+joueurActif.getNom());
+                tourJoueur(joueurActif);
+            }
+            else System.out.println("IL N'Y A PAS DE PERSONNAGE AVEC LE RANG "+(i+1));
+            
+            // code that pause the program 5 seconds
+            try {
+                Thread.sleep(2  * 1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println();
+        }
+
+
     }
 
     private void choixPersonnages() {
@@ -130,7 +155,8 @@ public class Jeu {
                 System.out.println(j+"  "+ selectable.get(j).getNom());
             }
             System.out.println("choisissez votre personnage ");
-            choixPerso=Interaction.lireUnEntier(0, 5);
+            // choixPerso=Interaction.lireUnEntier(0, 5); @audit active this to allow player to select his character
+            choixPerso=Interaction.randomInt(selectable.size());
             // selectable.remove(choixPerso);
             plateauDeJeu.getJoueur(i).setMonPersonnage(selectable.remove(choixPerso));
             System.out.println("\n");
@@ -158,6 +184,57 @@ public class Jeu {
         System.out.println(menu);
 
         return Interaction.lireUnEntier(0, 4);
+    }
+
+    private void appelerPersonnage() {
+
+    }
+
+    private void tourJoueur(Joueur j) {
+        switch (j.getPersonnage().getNom()) {
+            case "Assassin":
+                System.out.println("the player has : ASSASSIN");
+                // reçoit les ressources
+
+                // reçoit les ressources specifiques liées à son pouvoir et à ses merveilles
+
+                // utilise son pouvoir
+
+                // construit
+                
+            break;
+            case "Voleur":
+                System.out.println("the player has : VOLEUR");
+                
+            break;
+            case "Magicienne":
+                System.out.println("the player has : MAGICIENNE");
+                
+            break;
+            case "Roi":
+                System.out.println("the player has : ROI");
+                
+            break;
+            case "Eveque":
+                System.out.println("the player has : EVEQUE");
+                
+            break;
+            case "Marchande":
+                System.out.println("the player has : MARCHANDE");
+                
+            break;
+            case "Architecte":
+                System.out.println("the player has : ACHITECTE");
+                
+            break;
+            case "Condotierre":
+                System.out.println("the player has : CONDOTIERE");
+                
+            break;
+        
+            default:
+                break;
+        }
     }
 
 
