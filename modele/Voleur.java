@@ -37,4 +37,7 @@ public class Voleur extends Personnage{
             } */
         }
     }
+    public void utiliserPouvoirAvatar() {
+
+    }
 }

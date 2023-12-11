@@ -29,4 +29,7 @@ public class Roi extends Personnage {
             } else System.out.println("le nombre de pieces ajoutées est 0");
         }
     }
+    public void utiliserPouvoirAvatar() {
+
+    }
 }

@@ -96,4 +96,7 @@ public class Magicienne extends Personnage {
             System.out.println("Vous ne pouvez pas utiliser votre pouvoir car votre main est vide");
         }
     }
+    public void utiliserPouvoirAvatar() {
+
+    }
 }
