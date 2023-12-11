@@ -18,5 +18,16 @@ public class Architecte extends Personnage {
 		}
 		
 	}
+	public void utiliserPouvoirAvatar() {
+		if(this.getJoueur()!=null) {
+			for(int i=1; i < 3 ; i++) {
+				if(this.getPlateau().getPioche().nombreElements() != 0) {
+					this.getJoueur().ajouterQuartierDansMain(this.getPlateau().getPioche().piocher());
+				}
+			}
+		}
+	}
+
+
 
 }
