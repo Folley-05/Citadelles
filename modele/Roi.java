@@ -30,6 +30,9 @@ public class Roi extends Personnage {
         }
     }
     public void utiliserPouvoirAvatar() {
-
+        if(this.isValid()) {
+            System.out.println("Je prends la couronne");
+            this.getJoueur().setPossedeCouronne(true);
+        }
     }
 }

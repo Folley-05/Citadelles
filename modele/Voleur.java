@@ -2,6 +2,8 @@ package modele;
 
 import controleur.Interaction;
 
+import java.util.Random;
+
 public class Voleur extends Personnage{
     public Voleur() { super("Voleur", 2, Caracteristiques.VOLEUR); }
 
@@ -35,9 +37,20 @@ public class Voleur extends Personnage{
                 this.getPlateau().getPersonnage(choix - 1).getJoueur().retirerPieces(piece);
                 this.getJoueur().ajouterPieces(piece);
             } */
+
+            System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix - 1).getNom() + "a été volé.");
         }
     }
     public void utiliserPouvoirAvatar() {
-
+        if(this.isValid()){
+            int choix;
+            Random r = new Random();
+            do {
+                choix = r.nextInt(this.getPlateau().getNombrePersonnages());
+            } while (this.getPlateau().getPersonnage(choix -1).getNom().equals("Voleur") ||
+                    this.getPlateau().getPersonnage(choix -1).getRang()==1);
+            this.getPlateau().getPersonnage(choix).setAssassine();
+            System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix).getNom() + "a été volé.");
+        }
     }
 }

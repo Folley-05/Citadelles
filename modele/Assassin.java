@@ -32,12 +32,14 @@ public class Assassin extends Personnage{
 
     @Override
     public void utiliserPouvoirAvatar() {
-        int choix;
-        Random r = new Random();
-        do {
-            choix = r.nextInt(this.getPlateau().getNombrePersonnages());
-        } while (this.getPlateau().getPersonnage(choix).getNom().equals("Assassin"));
-        this.getPlateau().getPersonnage(choix).setAssassine();
-        System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix).getNom() + "a été assassiné.");
+        if(this.isValid()) {
+            int choix;
+            Random r = new Random();
+            do {
+                choix = r.nextInt(this.getPlateau().getNombrePersonnages());
+            } while (this.getPlateau().getPersonnage(choix).getNom().equals("Assassin"));
+            this.getPlateau().getPersonnage(choix).setAssassine();
+            System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix).getNom() + "a été assassiné.");
+        }
     }
 }
