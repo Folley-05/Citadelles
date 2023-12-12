@@ -191,6 +191,41 @@ public class Jeu {
         return Interaction.lireUnEntier(0, 4);
     }
 
+    private void afficherDetailsPartie(int [] scores) {
+        for(int i=0; i<this.plateauDeJeu.getNombreJoueurs(); i++){
+            System.out.println("JOUEUR "+ (i+1) +" : "+ this.plateauDeJeu.getJoueur(i).getNom());
+            System.out.println("Nombre de pieces : "+ this.plateauDeJeu.getJoueur(i).nbPieces());
+            System.out.println("Score : "+ scores[i]);
+            this.plateauDeJeu.getJoueur(i).afficherQuartierDansCite();
+            System.out.println("\n");
+        }
+    }
+
+    protected Boolean bibliotheque(Joueur joueur) {
+        if (joueur.quartierPresentDansCite("Bibliotheque")) {
+            for (int i = 0; i < 2; i++) {
+                Quartier quartier = this.plateauDeJeu.getPioche().piocher();
+                if (quartier != null) {
+                    System.out.println(i+1 + "- " + quartier.getNom() + " (coût " + quartier.getCout() + ")");
+                    joueur.getPersonnage().ajouterQuartier(quartier);
+                }
+            }
+            return true;
+        }else {
+            return false;
+        }
+    }
+    protected Boolean carriere(Joueur joueur, Quartier quartier) {
+        if(joueur.quartierPresentDansCite(quartier.getNom()) && joueur.quartierPresentDansCite("Carriere")) {
+            return true;
+        }else if(!joueur.quartierPresentDansCite(quartier.getNom())) {
+            return true;
+        }else {
+            System.out.println("Impossible de construire ce quartier");
+            return false;
+        }
+    }
+
     private void appelerPersonnage() {
         for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
             if(!plateauDeJeu.getJoueur(i).getPersonnage().isValid()) {
@@ -482,9 +517,12 @@ public class Jeu {
         }
         System.out.println("\nLE VAINQUEUR DE LA PARTIE EST "+winner);
         System.out.println("\nLA PARTIE A DUREE "+nbTours+" tours de jeu");
-
+        System.out.print("\nVOULEZ VOUS PLUS DE DETAILS ?");
+        Boolean details = Interaction.lireOuiOuNon();
+        if(details){
+            afficherDetailsPartie(scores);
+        }
     }
-
     
 // @audit found an infinite loop in the program try to check what causes it
 

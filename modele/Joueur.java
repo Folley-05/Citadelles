@@ -65,6 +65,12 @@ public class Joueur {
             }
         }
     }
+    public void afficherQuartierDansCite(){
+        System.out.println("Listes des quartiers dans la cité :");
+        for(int i=0; i<nbQuartier; i++){
+            System.out.println(" - "+ this.cite[i].getNom());
+        }
+    }
     public void ajouterQuartierDansCite(Quartier q) {
         if(nbQuartier<cite.length) {
             this.cite[nbQuartier]=q;
