@@ -19,16 +19,18 @@ public class Assassin extends Personnage{
                 }
             }
             //choix de la cible
+            boolean goon=true;
             do {
                 System.out.print("Votre vhoix : ");
                 // choix = Interaction.lireUnEntier(1, plateau.getNombrePersonnages()+1);
                 choix=Interaction.automatedChoice(plateau.getNombreJoueurs(), true);
-                if(plateau.getPersonnage(choix -1).getNom().equals("Assassin"))
+                if(plateau.getPersonnage(choix).getNom().equals("Assassin"))
                     System.out.println("Vous ne pouvez pas vous assassiner !!");
-            } while (plateau.getPersonnage(choix -1).getNom().equals("Assassin"));
+                else goon=false;
+            } while (goon);
             // assassinat de la cible
-            this.getPlateau().getPersonnage(choix - 1).setAssassine();
-            System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix - 1).getNom() + "a �t� assassin�.");
+            this.getPlateau().getPersonnage(choix).setAssassine();
+            System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix).getNom() + " a �t� assassin�.");
         }
     }
 

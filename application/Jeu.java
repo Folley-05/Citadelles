@@ -118,7 +118,9 @@ public class Jeu {
     private void tourDeJeu() {
         do {
             nbTours++;
-            JoueurPerso=new Joueur[8];
+            if(nbTours>1)reinitialisationPersonnages();
+            System.out.println("\n-------------------------------------------------------------------------------------");
+            System.out.println("-------------------------------------------------------------------------------------");
             System.out.println("\n ------------------------   TOUR DE JEU : "+nbTours);
             choixPersonnages();
             for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
@@ -160,20 +162,20 @@ public class Jeu {
                 "Le personnage  "+ plateauDeJeu.getPersonnage(c2).getNom()+" est posé face visible\n"+
                 "Un personnage  est posé face cachée \n"+
                 "Liste des personnages disponibles";
-            System.out.println(textToPrint);
+            // System.out.println(textToPrint);
         
             for (int j = 0; j < selectable.size(); j++) {
                 System.out.println((j+1)+"  "+ selectable.get(j).getNom());
             }
             System.out.println(plateauDeJeu.getJoueur(correctIndice).getNom()+" choisissez votre personnage ");
             // choixPerso=Interaction.lireUnEntier(0, 5); @audit active this to allow player to select his character
-            // choixPerso=Interaction.randomInt(selectable.size());
             choixPerso=Interaction.automatedChoice(selectable.size(), true);
-            plateauDeJeu.getJoueur(correctIndice).setMonPersonnage(selectable.remove(choixPerso));
+            Personnage perso=selectable.remove(choixPerso);
+            perso.setJoueur(plateauDeJeu.getJoueur(correctIndice));
+            plateauDeJeu.getJoueur(correctIndice).setMonPersonnage(perso);
+            // plateauDeJeu.getJoueur(correctIndice).getPersonnage().setJoueur(null);
             System.out.println("\n");
         }
-
-
         
     }
 
@@ -190,6 +192,15 @@ public class Jeu {
     }
 
     private void appelerPersonnage() {
+        for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
+            if(!plateauDeJeu.getJoueur(i).getPersonnage().isValid()) {
+                System.out.println("MORT AVANT LE DEBUT DU TOUR "+nbTours);
+                System.out.println("PERSONNAGE JOUEUR "+plateauDeJeu.getJoueur(i).getPersonnage().getJoueur());
+                System.out.println("PERSONNAGE ASSASSINE "+plateauDeJeu.getJoueur(i).getPersonnage().getAssassine());
+                System.out.println(plateauDeJeu.getJoueur(i).getNom()+"  "+plateauDeJeu.getJoueur(i).getPersonnage().getNom());
+                System.exit(0);
+            }
+        }
         for (int i = 0; i < 8; i++) {
             System.out.println("\nPERSONNAGE AVEC LE RANG "+(i+1));
             Joueur joueurActif=JoueurPerso[i];
@@ -201,7 +212,7 @@ public class Jeu {
                 System.out.printf(". . . . . . . . . . . . . . . . . ");
             // code that pause the program 5 seconds
             try {
-                Thread.sleep(500);
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -219,7 +230,8 @@ public class Jeu {
                 // reçoit les ressources specifiques liées à son pouvoir et à ses merveilles
 
                 // utilise son pouvoir
-
+                System.out.println("+++++++++++++++++++++++++++  utilisation de pouvoir ++++++++++++++++++++++");
+                j.getPersonnage().utiliserPouvoir();
                 // construire
                 construireQuartier(j);
                 
@@ -227,7 +239,10 @@ public class Jeu {
             case "Voleur":
                 System.out.println("Le personnage a le joueur : VOLEUR");
                 percevoirRessource(j);
-
+                if(!j.getPersonnage().isValid()) {
+                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    break;
+                }
 
                 construireQuartier(j);
                 
@@ -235,6 +250,10 @@ public class Jeu {
             case "Magicienne":
                 System.out.println("Le personnage a le joueur : MAGICIENNE");
                 percevoirRessource(j);
+                if(!j.getPersonnage().isValid()) {
+                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    break;
+                }
                 
                 construireQuartier(j);
                 
@@ -242,6 +261,10 @@ public class Jeu {
             case "Roi":
                 System.out.println("Le personnage a le joueur : ROI");
                 percevoirRessource(j);
+                if(!j.getPersonnage().isValid()) {
+                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    break;
+                }
                 
                 construireQuartier(j);
                 
@@ -249,6 +272,10 @@ public class Jeu {
             case "Eveque":
                 System.out.println("Le personnage a le joueur : EVEQUE");
                 percevoirRessource(j);
+                if(!j.getPersonnage().isValid()) {
+                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    break;
+                }
                 
                 construireQuartier(j);
                 
@@ -256,6 +283,10 @@ public class Jeu {
             case "Marchande":
                 System.out.println("Le personnage a le joueur : MARCHANDE");
                 percevoirRessource(j);
+                if(!j.getPersonnage().isValid()) {
+                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    break;
+                }
                 
                 construireQuartier(j);
                 
@@ -263,13 +294,21 @@ public class Jeu {
             case "Architecte":
                 System.out.println("Le personnage a le joueur : ACHITECTE");
                 percevoirRessource(j);
+                if(!j.getPersonnage().isValid()) {
+                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    break;
+                }
                 
                 construireQuartier(j);
                 
             break;
             case "Condotierre":
-                System.out.println("Le personnage a le joueur : CONDOTIERE");
+                System.out.println("Le personnage a le joueur : CONDOTIERRE");
                 percevoirRessource(j);
+                if(!j.getPersonnage().isValid()) {
+                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    break;
+                }
                 
                 construireQuartier(j);
                 
@@ -287,7 +326,7 @@ public class Jeu {
         String optionsText="1. Recevoir deux pieces d'or \n"+
             "2. Piocher deux cartes \n"+
             "choisissez une option ";
-        System.out.println(optionsText);
+        // System.out.println(optionsText);
         int choix=Interaction.automatedChoice(2, true);
         if(choix<1) { // @audit do not forget do manage that part
             System.out.println("\nVOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR");
@@ -297,9 +336,9 @@ public class Jeu {
         else {
             System.out.println("\nVOUS AVEZ CHOISI DE PIOCHER DEUX CARTES");
             Quartier q1=plateauDeJeu.getPioche().piocher(), q2=plateauDeJeu.getPioche().piocher();
-            System.out.println("voici les cartes que vous avez piocher");
-            System.out.println("1. "+q1.getNom()+ " de type "+q1.getType()+" coutant "+q1.getCout()+" pieces d'or");
-            System.out.println("1. "+q2.getNom()+ " de type "+q2.getType()+" coutant "+q2.getCout()+" pieces d'or");
+            // System.out.println("voici les cartes que vous avez piocher");
+            // System.out.println("1. "+q1.getNom()+ " de type "+q1.getType()+" coutant "+q1.getCout()+" pieces d'or");
+            // System.out.println("1. "+q2.getNom()+ " de type "+q2.getType()+" coutant "+q2.getCout()+" pieces d'or");
             System.out.println("choisissez celle que vous souhaitez conserver ");
             choix=Interaction.automatedChoice(2, true);
             if(choix<1) {
@@ -310,7 +349,7 @@ public class Jeu {
                 plateauDeJeu.getPioche().ajouter(q1);
                 j.ajouterQuartierDansMain(q2);
             }
-            afficherQuartierDansLaMain(j);
+            // afficherQuartierDansLaMain(j);
             
         }
     }
@@ -348,7 +387,7 @@ public class Jeu {
                 boolean witness=true;
                 do {
                 System.out.println("vous avez "+j.nbPieces()+" pieces d'or");
-                afficherQuartierDansLaMain(j);
+                // afficherQuartierDansLaMain(j);
                 String reason=j.peutConstruire();
                 if(!reason.equals("")) {
                     System.out.println(reason+" \n Votre tour se termine");
@@ -362,7 +401,7 @@ public class Jeu {
                     j.ajouterQuartierDansCite(aConstruire);
                     j.retirerLeQuartierDansMain(choix);
                     j.retirerPieces(aConstruire.getCout());
-                    afficherQuartierDansLaCite(j);
+                    // afficherQuartierDansLaCite(j);
                     witness=false;
                 }
             } while (witness);
@@ -370,7 +409,11 @@ public class Jeu {
     }
 
     private void reinitialisationPersonnages() {
-        
+        System.out.println("reinitialiation des personnages ");
+        JoueurPerso=new Joueur[8];
+        for (int i = 0; i < plateauDeJeu.getNombrePersonnages(); i++) {
+            plateauDeJeu.getPersonnage(i).reinitialiser();
+        }
     }
 
     private void partieFinie() {
@@ -444,4 +487,6 @@ public class Jeu {
 
     
 // @audit found an infinite loop in the program try to check what causes it
+
+// @audit handle the case where there is no more quartier in the pioche
 }
