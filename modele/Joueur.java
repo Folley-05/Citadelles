@@ -48,7 +48,6 @@ public class Joueur {
     public boolean getPossedeCouronne(){
         return possedeCouronne;
     }
-
     public void setPossedeCouronne(boolean possedeCouronne) {
         this.possedeCouronne = possedeCouronne;
     }

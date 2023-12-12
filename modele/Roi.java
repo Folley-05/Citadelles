@@ -29,4 +29,10 @@ public class Roi extends Personnage {
             } else System.out.println("le nombre de pieces ajoutées est 0");
         }
     }
+    public void utiliserPouvoirAvatar() {
+        if(this.isValid()) {
+            System.out.println("Je prends la couronne");
+            this.getJoueur().setPossedeCouronne(true);
+        }
+    }
 }
