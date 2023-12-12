@@ -140,6 +140,9 @@ public class Configuration {
         Quartier Tripot = new Quartier("Tripot", typeMerveille, 6);
         pioche.ajouter(Tripot);
 
+        // add pioche to plateau
+        plateau.setPioche(pioche);
+
         return plateau;
 
     }

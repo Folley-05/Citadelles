@@ -1,7 +1,6 @@
 package application;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
@@ -14,9 +13,11 @@ import modele.Quartier;
 public class Jeu {
 
     private PlateauDeJeu plateauDeJeu;
-    private int numeroConfiguration;
+    private int numeroConfiguration, nbTours;
     private Random generator;
     private Joueur JoueurPerso[];
+    private String firstPlayer;
+    private boolean lastTurn;
     
     public Jeu(PlateauDeJeu p, int config, Random gen) {
         plateauDeJeu = p;
@@ -33,7 +34,6 @@ public class Jeu {
     public void jouer() {
         int choix=-1;
         System.out.println("BIENVENUE SUR CITADELLES \n\n");
-        System.out.println("vous avez choisi l'option "+choix);
         do {
             choix=afficherMenu();
             switch (choix) {
@@ -44,7 +44,7 @@ public class Jeu {
                     jouerPartie();
                     break;
                 case 2:
-                    
+                    System.out.println("\nFERMETURE DU PROGRAMME\n\nREVENEZ QUAND VOUS VOUDREZ :)");
                     break;
             
                 default:
@@ -54,23 +54,27 @@ public class Jeu {
     }
 
     private void afficherLesRegles() {
-        System.out.println("CONTINUEZ DE PATIENTER LES RÈGLES ARRIVENT BIENTÔT");
+        System.out.println("\nCONTINUEZ DE PATIENTER LES RÈGLES ARRIVENT BIENTÔT");
     }
 
     private void jouerPartie() {
-        System.out.println("LANCEMENT DE LA PARTIE \n");
+        System.out.println("\nLANCEMENT DE LA PARTIE \n");
 
         initialisation();
 
         tourDeJeu();
+        
+        afficherScores(calculDesPoints());
 
-        gestionCouronne();
 
-        System.out.println("FIN DE PARTIE \n");
+        System.out.println("\n FIN DE PARTIE \n");
     }
 
     private void initialisation() {
-        System.out.println("INITIALISATION DU JEU");
+        System.out.println("\nINITIALISATION DU JEU");
+        lastTurn=false;
+        firstPlayer=null;
+        nbTours=0;
         plateauDeJeu=Configuration.configurationDeBase(Configuration.nouvellePioche());
         for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
             // add two pieces of gold
@@ -82,6 +86,7 @@ public class Jeu {
             }
 
         }
+        System.out.println("nombre de cartes dans la pioche "+ plateauDeJeu.getPioche().nombreElements());
         plateauDeJeu.getJoueur(0).setPossedeCouronne(true);
 
     }
@@ -90,49 +95,28 @@ public class Jeu {
         
     }
 
-    private void reinitialisationPersonnages() {
-        
-    }
-
-    private Boolean partieFinie() {
-        
-        return true;
-    }
-
     private void tourDeJeu() {
-        choixPersonnages();
-        for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
-            Joueur player=plateauDeJeu.getJoueur(i);
-            // associé les personnages aux joueurs
-            JoueurPerso[player.getPersonnage().getRang()-1]=player;
-            System.out.println(player.getNom()+" --> "+player.getPersonnage().getNom());
-        }
-
-        System.out.println("NOW WE CALL THE PLAYERS");
-        // call character and play their turn
-        for (int i = 0; i < 8; i++) {
-            System.out.println("PERSONNAGE AVEC LE RANG "+(i+1));
-            Joueur joueurActif=JoueurPerso[i];
-            if(joueurActif!=null) {
-                System.out.println("Joueur Actif : "+joueurActif.getNom());
-                tourJoueur(joueurActif);
+        do {
+            nbTours++;
+            System.out.println("\n ------------------------   TOUR DE JEU "+nbTours);
+            choixPersonnages();
+            for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
+                Joueur player=plateauDeJeu.getJoueur(i);
+                // associé les personnages aux joueurs
+                JoueurPerso[player.getPersonnage().getRang()-1]=player;
+                System.out.println(player.getNom()+" --> "+player.getPersonnage().getNom());
             }
-            else System.out.println("IL N'Y A PAS DE PERSONNAGE AVEC LE RANG "+(i+1));
-            
-            // code that pause the program 5 seconds
-            try {
-                Thread.sleep(2  * 1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            System.out.println();
-        }
 
+            System.out.println("\nNOW WE CALL THE PLAYERS");
+            // call character and play their turn
+            this.appelerPersonnage();
+            partieFinie();
+        } while (!lastTurn);
 
     }
 
     private void choixPersonnages() {
-        System.out.println("CHOIX DE PERSONNAGE");
+        System.out.println("\nCHOIX DE PERSONNAGE");
         int nPerso=plateauDeJeu.getNombrePersonnages();
         int c1=Interaction.randomInt(nPerso), c2=(c1+1)%nPerso, c3=(c2+1)%nPerso;
         // declare an empty int table of 5 elements
@@ -166,14 +150,6 @@ public class Jeu {
         
     }
 
-    private void percevoirRessource() {
-        
-    }
-
-    private void calculDesPoints() {
-        
-    }
-
     private int afficherMenu() {
         String menu="\n\t MENU \n\n"+
             "0. AFFICHER LES RÈGLES \n"+
@@ -187,6 +163,23 @@ public class Jeu {
     }
 
     private void appelerPersonnage() {
+        for (int i = 0; i < 8; i++) {
+            System.out.println("\nPERSONNAGE AVEC LE RANG "+(i+1));
+            Joueur joueurActif=JoueurPerso[i];
+            if(joueurActif!=null) {
+                System.out.println("Joueur Actif : "+joueurActif.getNom());
+                tourJoueur(joueurActif);
+            }
+            else System.out.println("IL N'Y A PAS DE PERSONNAGE AVEC LE RANG "+(i+1));
+            
+            // code that pause the program 5 seconds
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println();
+        }
 
     }
 
@@ -195,40 +188,63 @@ public class Jeu {
             case "Assassin":
                 System.out.println("the player has : ASSASSIN");
                 // reçoit les ressources
-
+                percevoirRessource(j);
                 // reçoit les ressources specifiques liées à son pouvoir et à ses merveilles
 
                 // utilise son pouvoir
 
-                // construit
+                // construire
+                construireQuartier(j);
                 
             break;
             case "Voleur":
                 System.out.println("the player has : VOLEUR");
+                percevoirRessource(j);
+
+
+                construireQuartier(j);
                 
             break;
             case "Magicienne":
                 System.out.println("the player has : MAGICIENNE");
+                percevoirRessource(j);
+                
+                construireQuartier(j);
                 
             break;
             case "Roi":
                 System.out.println("the player has : ROI");
+                percevoirRessource(j);
+                
+                construireQuartier(j);
                 
             break;
             case "Eveque":
                 System.out.println("the player has : EVEQUE");
+                percevoirRessource(j);
+                
+                construireQuartier(j);
                 
             break;
             case "Marchande":
                 System.out.println("the player has : MARCHANDE");
+                percevoirRessource(j);
+                
+                construireQuartier(j);
                 
             break;
             case "Architecte":
                 System.out.println("the player has : ACHITECTE");
+                percevoirRessource(j);
+                
+                construireQuartier(j);
                 
             break;
             case "Condotierre":
                 System.out.println("the player has : CONDOTIERE");
+                percevoirRessource(j);
+                
+                construireQuartier(j);
                 
             break;
         
@@ -238,4 +254,167 @@ public class Jeu {
     }
 
 
+    private void percevoirRessource(Joueur j) {
+        System.out.println("\nPHASE 1 DU TOUR \n");
+        System.out.println("vous pouvez choisir l'une des option suivantes");
+        String optionsText="1. Recevoir deux pieces d'or \n"+
+            "2. Piocher deux cartes \n"+
+            "choisissez une option ";
+        System.out.println(optionsText);
+        int choix=Interaction.automatedChoice(2, true);
+        if(choix<1) { // @audit do not forget do manage that part
+            System.out.println("\nVOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR");
+            j.ajouterPieces(10); // @audit set 2 here
+            System.out.println("votre tresor est maintenant de "+j.nbPieces()+" pieces d'or");
+        }
+        else {
+            System.out.println("\nVOUS AVEZ CHOISI DE PIOCHER DEUX CARTES");
+            Quartier q1=plateauDeJeu.getPioche().piocher(), q2=plateauDeJeu.getPioche().piocher();
+            System.out.println("voici les cartes que vous avez piocher");
+            System.out.println("1. "+q1.getNom()+ " de type "+q1.getType()+" coutant "+q1.getCout()+" pieces d'or");
+            System.out.println("1. "+q2.getNom()+ " de type "+q2.getType()+" coutant "+q2.getCout()+" pieces d'or");
+            System.out.println("choisissez celle que vous souhaitez conserver ");
+            choix=Interaction.automatedChoice(2, true);
+            if(choix<1) {
+                plateauDeJeu.getPioche().ajouter(q2);
+                j.ajouterQuartierDansMain(q1);
+            }
+            else {
+                plateauDeJeu.getPioche().ajouter(q1);
+                j.ajouterQuartierDansMain(q2);
+            }
+            afficherQuartierDansLaMain(j);
+            
+        }
+    }
+
+    private void afficherQuartierDansLaMain(Joueur j) {
+            System.out.println("voici les quartiers de votre main");
+            ArrayList<Quartier> main=j.retournerMain();
+            for (int i = 0; i < main.size(); i++) {
+                System.out.println((i+1)+". "+main.get(i).getNom()+" de type "+main.get(i).getType()+" : "+main.get(i).getCout()+" pieces d'or");
+            }
+    }
+    private void afficherQuartierDansLaCite(Joueur j) {
+            System.out.println("voici les quartiers de votre cite");
+            Quartier[] cite=j.retounerCite();
+            System.out.println("nombre de quartiers dans la cite : "+j.nbQuartiersDansCite());
+            for (int i = 0; i < j.nbQuartiersDansCite(); i++) {
+                System.out.println((i+1)+". "+cite[i].getNom()+" de type "+cite[i].getType()+" : "+cite[i].getCout()+" pieces d'or");
+            }
+    }
+
+    private void construireQuartier(Joueur j){
+        System.out.println("\nPHASE 4 DU TOUR \n");
+        System.out.println("souhaitez vous construire un quartier dans votre cite ?");
+        String optionText="1. OUI je souhaite construire un quartier \n"+
+            "2. NON je ne le souhaite pas \n"+
+            "choisissez une option ";
+        System.out.println(optionText);
+        int choix=Interaction.automatedChoice(2, true);
+            if(choix<1) {
+            // if(false) { // @audit remove this
+                
+            }
+            else {
+                System.out.println("--------    Arrete toi ici      -----------");
+                boolean witness=true;
+                do {
+                System.out.println("vous avez "+j.nbPieces()+" pieces d'or");
+                afficherQuartierDansLaMain(j);
+                String reason=j.peutConstruire();
+                if(!reason.equals("")) {
+                    System.out.println(reason+" \n Votre tour se termine");
+                    return;
+                }
+                System.out.println("quel est le quartier que vous voulez construire ? ");
+                choix=Interaction.automatedChoice(j.getMain().size(), true);
+                Quartier aConstruire=j.getMain().get(choix);
+                if(aConstruire.getCout()>j.nbPieces()) System.out.println("vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre");
+                else {
+                    j.ajouterQuartierDansCite(aConstruire);
+                    j.retirerLeQuartierDansMain(choix);
+                    j.retirerPieces(aConstruire.getCout());
+                    afficherQuartierDansLaCite(j);
+                    witness=false;
+                }
+            } while (witness);
+            }
+    }
+
+    private void reinitialisationPersonnages() {
+        
+    }
+
+    private void partieFinie() {
+        /**
+         * @audit variantes de fin 
+         * Les tours se succèdent jusqu’à ce qu’un des joueurs possède une cité complète : c’est à dire une
+            cité de 7 quartiers ou plus pour les parties de 4 à 7 joueurs, ou une cité de 8 quartiers pour les
+            parties à 2, 3 ou 8 joueurs. On achève alors le tour et la partie est terminée.
+         */
+
+        //  @audit use plateauDeJeu.getNombreJoueurs() to get the number of player commited
+
+        for (int i = 0; i <plateauDeJeu.getNombreJoueurs() ; i++) {
+            if(!lastTurn && plateauDeJeu.getJoueur(i).nbQuartiersDansCite()>=7) {
+                firstPlayer=plateauDeJeu.getJoueur(i).getNom();
+                lastTurn=true;
+            }
+        }
+    }
+    private int[] calculDesPoints() {
+        /**
+         * À l’issue de la partie, chaque joueur calcule ses points en additionnant :
+            • la somme totale des coûts de contruction des quartiers de sa cité,
+            • 3 points supplémentaires si la cité comprend au moins un quartier de cinq types différents
+            (Noble, Commerçant, Religieux, Militaire et Merveille),
+            • 4 points supplémentaires s’il est le premier joueur ayant complété sa cité, @audit implement this
+            • 2 points supplémentaires si sa cité est complète mais qu’il n’a pas été le premier à la compléter, @audit implement this
+            • et enfin la somme des différents bonus éventuels des Merveilles de sa cité.
+            Le joueur qui a le score le plus élevé est vainqueur. En cas d’égalité, la victoire revient à celui
+            qui a révélé le personnage de rang le plus élevé au dernier tour.
+         */
+
+        //  first phase of calcul
+        System.out.println("\nCALCUL DES POINTS\n");
+        int[] scores=new int[plateauDeJeu.getNombreJoueurs()];
+        for (int i = 0; i <plateauDeJeu.getNombreJoueurs() ; i++) {
+            ArrayList<String> typesQuartier = new ArrayList<>();
+            int s=0;
+            Joueur j=plateauDeJeu.getJoueur(i);
+            Quartier[] cite=j.getCite();
+            for (int c = 0; c < j.nbQuartiersDansCite(); c++) {
+                s+=cite[c].getCout();
+                if(!typesQuartier.contains(cite[c].getType())) typesQuartier.add(cite[c].getType());
+                
+            }
+            if(typesQuartier.size()==5) s+=3;
+            if(j.nbQuartiersDansCite()>=7) {
+                if(firstPlayer==j.getNom()) s+=4;
+                else s+=2;
+            }
+            scores[i]=s;
+        }
+        return scores;
+    }
+
+    private void afficherScores(int[] scores) {
+        int max=0;
+        String winner=null;
+        System.out.println("\nTABLEAU DE SCORES \n");
+        for (int i = 0; i <plateauDeJeu.getNombreJoueurs() ; i++) {
+            System.out.println(plateauDeJeu.getJoueur(i).getNom()+"\t --------------- \t : "+scores[i]);
+            if(scores[i]>max) { // @audit do not forget to manage this
+                max=scores[i];
+                winner=plateauDeJeu.getJoueur(i).getNom();
+            }
+        }
+        System.out.println("\n LE VAINQUEUR DE LA PARTIE EST "+winner);
+        System.out.println("\n LA PARTIE A DUREE "+nbTours+" tours de jeu");
+
+    }
+
+    
+// @audit found an infinite loop in the program try to check what causes it
 }
