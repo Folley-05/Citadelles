@@ -8,9 +8,11 @@ public class Marchande extends Personnage {
 
 	    @Override
 	    public void utiliserPouvoir() {
+			System.out.println("\nMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM nombre de pieces avant "+this.getJoueur().nbPieces());
 			if(this.isValid()) {
 				this.getJoueur().ajouterPieces(1);
 			}
+			System.out.println("\nMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM nombre de pieces aprs "+this.getJoueur().nbPieces());
 		}
 	// Utilisation du pouvoir par un avatar
 	public void utiliserPouvoirAvatar() {

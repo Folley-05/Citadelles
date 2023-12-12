@@ -5,7 +5,7 @@ public class Eveque extends Personnage{
 
     @Override
     public void utiliserPouvoir() {
-
+        // @audit implement capacity of this
     }
     public void percevoirRessourcesSpecifiques() {
         int nbQuartierReligieux=0;

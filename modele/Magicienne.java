@@ -12,7 +12,7 @@ public class Magicienne extends Personnage {
     @Override
     public void utiliserPouvoir() {
         if(this.isValid() && this.getJoueur().nbQuartiersDansMain()!=0) {
-            System.out.println("Voulez-vous échanger vos cartes avec :\n1 - un autre joueur\n2 - la pioche");
+            System.out.println("Voulez-vous ï¿½changer vos cartes avec :\n1 - un autre joueur\n2 - la pioche");
             int echangeAvecJoueur = Interaction.lireUnEntier(1,3);
             if (echangeAvecJoueur==1) {
                 // affichage de tous les joueurs sur le plateau
@@ -44,20 +44,20 @@ public class Magicienne extends Personnage {
                 // ajouter la main du joueur choisi dans celle de la magicienne
                 for (int i = 0; i < copieMainCible.size(); i++) { this.getJoueur().ajouterQuartierDansMain(copieMainCible.get(i)); }
 
-                System.out.println("Echange éffectué par la magicienne avec " + this.getPlateau().getJoueur(choix - 1).getNom());
+                System.out.println("Echange ï¿½ffectuï¿½ par la magicienne avec " + this.getPlateau().getJoueur(choix - 1).getNom());
             }
             else{
                 System.out.println("Combien de cartes voulez-vous prendre dans la pioche : ");
                 int nb = Interaction.lireUnEntier(0, this.getJoueur().nbQuartiersDansMain()+1);
                 if(nb==0){
-                    System.out.println("La magicienne n'effectue aucun changement n'a été éffectué");
+                    System.out.println("La magicienne n'effectue aucun changement n'a ï¿½tï¿½ ï¿½ffectuï¿½");
                 }
                 else if (nb==this.getJoueur().nbQuartiersDansMain()){
                     // copie de la main
                     ArrayList<Quartier> copieMainMagicienne = new ArrayList<>(this.getJoueur().getMain());
                     // vider la main
                     this.getJoueur().viderMain();
-                    // rajouter les cartes à la pioche
+                    // rajouter les cartes ï¿½ la pioche
                     for (int i = 0; i < copieMainMagicienne.size(); i++){
                         this.getPlateau().getPioche().ajouter(copieMainMagicienne.get(i));
                     }
@@ -71,7 +71,7 @@ public class Magicienne extends Personnage {
                     ArrayList<Quartier> copieMainMagicienne = new ArrayList<>(this.getJoueur().getMain());
                     System.out.println("Liste des quartiers :");
                     for (int j = 0; j<nb; j++) {
-                        // afficher toutes le cartes de la main à chaque iteration
+                        // afficher toutes le cartes de la main ï¿½ chaque iteration
                         for (int i = 0; i < copieMainMagicienne.size(); i++) {
                             System.out.println((i + 1) + " " + copieMainMagicienne.get(i).getNom());
                         }
@@ -110,34 +110,34 @@ public class Magicienne extends Personnage {
                 } while (this.getJoueur() == this.getPlateau().getJoueur(choix));
                 // copies des mains des deux joueurs
                 ArrayList<Quartier> copieMainMagicienne = new ArrayList<>(this.getJoueur().getMain());
-                ArrayList<Quartier> copieMainCible = new ArrayList<>(this.getPlateau().getJoueur(choix - 1).getMain());
+                ArrayList<Quartier> copieMainCible = new ArrayList<>(this.getPlateau().getJoueur(choix).getMain());
                 // vider les mains des personnages
                 this.getJoueur().viderMain();
-                this.getPlateau().getJoueur(choix - 1).viderMain();
+                this.getPlateau().getJoueur(choix).viderMain();
                 // Permuter le contenu des mains
                 // ajouter la main de la magicienne dans celle du joueur choisi
                 for (int i = 0; i < copieMainMagicienne.size(); i++) {
-                    this.getPlateau().getJoueur(choix - 1).ajouterQuartierDansMain(copieMainMagicienne.get(i));
+                    this.getPlateau().getJoueur(choix).ajouterQuartierDansMain(copieMainMagicienne.get(i));
                 }
                 // ajouter la main du joueur choisi dans celle de la magicienne
                 for (int i = 0; i < copieMainCible.size(); i++) {
                     this.getJoueur().ajouterQuartierDansMain(copieMainCible.get(i));
                 }
 
-                System.out.println("Echange éffectué par la magicienne avec " + this.getPlateau().getJoueur(choix - 1).getNom());
+                System.out.println("Echange ï¿½ffectuï¿½ par la magicienne avec " + this.getPlateau().getJoueur(choix).getNom());
             }
             else if (choix==1) {
                 // echange avec pioche
                 int nb = r.nextInt(this.getJoueur().nbQuartiersDansMain()+1);
                 if(nb==0){
-                    System.out.println("La magicienne n'effectue aucun changement n'a été éffectué");
+                    System.out.println("La magicienne n'effectue aucun changement n'a ï¿½tï¿½ ï¿½ffectuï¿½");
                 }
                 else if (nb==this.getJoueur().nbQuartiersDansMain()){
                     // copie de la main
                     ArrayList<Quartier> copieMainMagicienne = new ArrayList<>(this.getJoueur().getMain());
                     // vider la main
                     this.getJoueur().viderMain();
-                    // rajouter les cartes à la pioche
+                    // rajouter les cartes ï¿½ la pioche
                     for (int i = 0; i < copieMainMagicienne.size(); i++){
                         this.getPlateau().getPioche().ajouter(copieMainMagicienne.get(i));
                     }
