@@ -199,13 +199,13 @@ public class Jeu {
         }
     }
 
-    protected Boolean bibliotheque(Personnage p) {
-        if (p.getJoueur().quartierPresentDansCite("Bibliotheque")) {
+    protected Boolean bibliotheque(Joueur joueur) {
+        if (joueur.quartierPresentDansCite("Bibliotheque")) {
             for (int i = 0; i < 2; i++) {
                 Quartier quartier = this.plateauDeJeu.getPioche().piocher();
                 if (quartier != null) {
                     System.out.println(i+1 + "- " + quartier.getNom() + " (coût " + quartier.getCout() + ")");
-                    p.ajouterQuartier(quartier);
+                    joueur.getPersonnage().ajouterQuartier(quartier);
                 }
             }
             return true;
@@ -213,11 +213,10 @@ public class Jeu {
             return false;
         }
     }
-
-    protected Boolean carriere(Personnage p, Quartier quartier) {
-        if(p.getJoueur().quartierPresentDansCite(quartier.getNom()) && p.getJoueur().quartierPresentDansCite("Carriere")) {
+    protected Boolean carriere(Joueur joueur, Quartier quartier) {
+        if(joueur.quartierPresentDansCite(quartier.getNom()) && joueur.quartierPresentDansCite("Carriere")) {
             return true;
-        }else if(!p.getJoueur().quartierPresentDansCite(quartier.getNom())) {
+        }else if(!joueur.quartierPresentDansCite(quartier.getNom())) {
             return true;
         }else {
             System.out.println("Impossible de construire ce quartier");

@@ -12,9 +12,9 @@ public class Magicienne extends Personnage {
     @Override
     public void utiliserPouvoir() {
         if(this.isValid() && this.getJoueur().nbQuartiersDansMain()!=0) {
-            System.out.println("Voulez-vous échanger vos cartes avec celles d'un autre joueur? (o/n)");
-            boolean echangeAvecJoueur = Interaction.lireOuiOuNon();
-            if (echangeAvecJoueur) {
+            System.out.println("Voulez-vous échanger vos cartes avec :\n1 - un autre joueur\n2 - la pioche");
+            int echangeAvecJoueur = Interaction.lireUnEntier(1,3);
+            if (echangeAvecJoueur==1) {
                 // affichage de tous les joueurs sur le plateau
                 System.out.println("Choisissez un joueur avec qui echanger : ");
                 for (int i = 0; i < this.getPlateau().getNombreJoueurs(); i++) {
