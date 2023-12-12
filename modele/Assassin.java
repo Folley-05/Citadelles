@@ -2,6 +2,8 @@ package modele;
 
 import controleur.Interaction;
 
+import java.util.Random;
+
 public class Assassin extends Personnage{
     public Assassin() { super("Assassin", 1, Caracteristiques.ASSASSIN); }
 
@@ -25,7 +27,21 @@ public class Assassin extends Personnage{
                     System.out.println("Vous ne pouvez pas vous assassiner !!");
             } while (plateau.getPersonnage(choix -1).getNom().equals("Assassin"));
             // assassinat de la cible
-            plateau.getPersonnage(choix - 1).setAssassine();
+            this.getPlateau().getPersonnage(choix - 1).setAssassine();
+            System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix - 1).getNom() + "a �t� assassin�.");
+        }
+    }
+
+    @Override
+    public void utiliserPouvoirAvatar() {
+        if(this.isValid()) {
+            int choix;
+            Random r = new Random();
+            do {
+                choix = r.nextInt(this.getPlateau().getNombrePersonnages());
+            } while (this.getPlateau().getPersonnage(choix).getNom().equals("Assassin"));
+            this.getPlateau().getPersonnage(choix).setAssassine();
+            System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix).getNom() + "a �t� assassin�.");
         }
     }
 }
