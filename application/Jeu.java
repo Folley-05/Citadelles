@@ -53,32 +53,35 @@ public class Jeu {
 
     private void afficherLesRegles() {
         int choixregle=-1;
-        System.out.println("\n1. Objectif du jeu\n2.Personnages \n3.Tour des Joueurs \n4.Fin du jeu \n5.Retour au menu ");
-        choixregle=Interaction.lireUnEntier();
-        switch(choixregle){
-            case 1:
-                System.out.println("\nObjectif du jeu\n");
-                System.out.println(Caracteristiques.OBJECTIF);
-                break;
-            case 2:
-                System.out.println("\nPersonnage\n");
-                System.out.println(Caracteristiques.PERSONNAGE);
-                break;
-            case 3:
-                System.out.println("\nTour des joueurs\n");
-                System.out.println(Caracteristiques.TOUR);
-                break;
-            case 4:
-                System.out.println("\nFin de la partie\n");
-                System.out.println(Caracteristiques.FIN);
-                break;
-            case 5:
-                System.out.println("\nFERMETURE \n\n");
-                afficherMenu();
-                break;
-            default:
-                break;
-        }
+        do {
+            System.out.println("REGLES\n");
+            System.out.println("\n1. Objectif du jeu\n2.Personnages \n3.Tour des Joueurs \n4.Fin du jeu \n5.Retour au menu ");
+            choixregle=Interaction.lireUnEntier(1,6);
+            switch (choixregle) {
+                case 1:
+                    System.out.println("\nObjectif du jeu\n");
+                    System.out.println(Caracteristiques.OBJECTIF);
+                    break;
+                case 2:
+                    System.out.println("\nPersonnage\n");
+                    System.out.println(Caracteristiques.PERSONNAGE);
+                    break;
+                case 3:
+                    System.out.println("\nTour des joueurs\n");
+                    System.out.println(Caracteristiques.TOUR);
+                    break;
+                case 4:
+                    System.out.println("\nFin de la partie\n");
+                    System.out.println(Caracteristiques.FIN);
+                    break;
+                case 5:
+                    System.out.println("\nFERMETURE \n\n");
+                    afficherMenu();
+                    break;
+                default:
+                    break;
+            }
+        }while (choixregle!=5);
     }
 
     private void jouerPartie() {
