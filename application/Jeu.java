@@ -53,32 +53,35 @@ public class Jeu {
 
     private void afficherLesRegles() {
         int choixregle=-1;
-        System.out.println("\n1. Objectif du jeu\n2.Personnages \n3.Tour des Joueurs \n4.Fin du jeu \n5.Retour au menu ");
-        choixregle=Interaction.lireUnEntier(1, 6);
-        switch(choixregle){
-            case 1:
-                System.out.println("\nObjectif du jeu\n");
-                System.out.println(Caracteristiques.OBJECTIF);
-                break;
-            case 2:
-                System.out.println("\nPersonnage\n");
-                System.out.println(Caracteristiques.PERSONNAGE);
-                break;
-            case 3:
-                System.out.println("\nTour des joueurs\n");
-                System.out.println(Caracteristiques.TOUR);
-                break;
-            case 4:
-                System.out.println("\nFin de la partie\n");
-                System.out.println(Caracteristiques.FIN);
-                break;
-            case 5:
-                System.out.println("\nFERMETURE \n\n");
-                afficherMenu();
-                break;
-            default:
-                break;
-        }
+        do {
+            System.out.println("REGLES\n");
+            System.out.println("\n1. Objectif du jeu\n2.Personnages \n3.Tour des Joueurs \n4.Fin du jeu \n5.Retour au menu ");
+            choixregle=Interaction.lireUnEntier(1,6);
+            switch (choixregle) {
+                case 1:
+                    System.out.println("\nObjectif du jeu\n");
+                    System.out.println(Caracteristiques.OBJECTIF);
+                    break;
+                case 2:
+                    System.out.println("\nPersonnage\n");
+                    System.out.println(Caracteristiques.PERSONNAGE);
+                    break;
+                case 3:
+                    System.out.println("\nTour des joueurs\n");
+                    System.out.println(Caracteristiques.TOUR);
+                    break;
+                case 4:
+                    System.out.println("\nFin de la partie\n");
+                    System.out.println(Caracteristiques.FIN);
+                    break;
+                case 5:
+                    System.out.println("\nFERMETURE \n\n");
+                    afficherMenu();
+                    break;
+                default:
+                    break;
+            }
+        }while (choixregle!=5);
     }
 
     private void jouerPartie() {
@@ -121,15 +124,13 @@ public class Jeu {
         int nbJoueurs=plateauDeJeu.getNombreJoueurs();
         if(crown==-1) {
             System.out.println("Quel joueur aura la couronne pour le premier tour ?");
-            for (int i = 0; i < nbJoueurs; i++) {
-                System.out.println((i+1)+". "+ plateauDeJeu.getJoueur(i).getNom());
-            }
-            System.out.println("choisissez une option ");
-            int choix=Interaction.automatedChoice(nbJoueurs, false);
-            crown=choix;
-            plateauDeJeu.getJoueur(crown).setPossedeCouronne(true);
-        } else {
-            if(!nextKing.equals("")) {
+            for (int i = 0; i < nbJoueurs; i++) {if(j.getPersonnage().getVole()) {
+                    recupererPiece(j);
+                    if(!j.getAutomated()) {
+                        System.out.println("\n VOTRE PERSONNAGE A ÉTÉ VOLE \n Entrez o pour continuer");
+                        Interaction.lireOuiOuNon();
+                    }
+                }
                 for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
                     if(plateauDeJeu.getJoueur(i).getNom()==nextKing) crown=i;
                 }
@@ -495,9 +496,9 @@ public class Jeu {
             "choisissez une option ";
         System.out.println(optionsText);
         int choix=Interaction.automatedChoice(2, j.getAutomated());
-        if(choix<1) { // @audit do not forget do manage that part
+        if(choix<1) {
             System.out.println("\nVOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR");
-            j.ajouterPieces(10); // @audit set 2 here
+            j.ajouterPieces(2);
             System.out.println("votre tresor est maintenant de "+j.nbPieces()+" pieces d'or");
         }
         else {
