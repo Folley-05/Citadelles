@@ -76,6 +76,9 @@ public class Joueur {
             this.cite[nbQuartier]=q;
             this.nbQuartier++;
         }
+        else{
+            System.out.println("Vous n'avez plus d'espace dans votre cité");
+        }
         
     }
     public boolean quartierPresentDansCite(String nom){
@@ -142,6 +145,14 @@ public class Joueur {
             }
             if (witness) return "";
             else return "Votre trÃ©sor ne peut construire aucun quartier de votre main";
+        }
+    }
+
+    public void ConstruireQuartier(int i){
+        if(this.main.get(i).getCout()<=this.nbPieces()){
+            this.retirerPieces(this.main.get(i).getCout());
+            System.out.println(this.getNom() +"a construit le quartier " + this.main.get(i).getNom());
+            this.ajouterQuartierDansCite(this.retirerLeQuartierDansMain(i));
         }
     }
 }
