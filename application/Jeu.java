@@ -59,7 +59,7 @@ public class Jeu {
         int choixregle=-1;
         System.out.println("\n1. Objectif du jeu\n2.Personnages \n3.Tour des Joueurs \n4.Fin du jeu \n5.Retour au menu ");
         choixregle=Interaction.lireUnEntier();
-        do{switch(choixregle){
+        switch(choixregle){
             case 1:
                 System.out.println("\nObjectif du jeu\n");
                 System.out.println("Deux \u0012a huit joueurs s'a\u000Brontent pour construire le plus rapidement possible la plus prestigieuse\n" +
@@ -174,7 +174,6 @@ public class Jeu {
 
 
         }
-        }while(choixregle!=5);
 
 
     }
