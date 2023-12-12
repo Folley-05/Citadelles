@@ -9,6 +9,7 @@ import modele.Joueur;
 import modele.Personnage;
 import modele.PlateauDeJeu;
 import modele.Quartier;
+import modele.Voleur;
 
 public class Jeu {
 
@@ -88,7 +89,6 @@ public class Jeu {
             }
 
         }
-        System.out.println("nombre de cartes dans la pioche "+ plateauDeJeu.getPioche().nombreElements());
         plateauDeJeu.getJoueur(0).setPossedeCouronne(true);
 
     }
@@ -230,7 +230,7 @@ public class Jeu {
                 // reçoit les ressources specifiques liées à son pouvoir et à ses merveilles
 
                 // utilise son pouvoir
-                System.out.println("+++++++++++++++++++++++++++  utilisation de pouvoir ++++++++++++++++++++++");
+                System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP+");
                 j.getPersonnage().utiliserPouvoir();
                 // construire
                 construireQuartier(j);
@@ -240,10 +240,11 @@ public class Jeu {
                 System.out.println("Le personnage a le joueur : VOLEUR");
                 percevoirRessource(j);
                 if(!j.getPersonnage().isValid()) {
-                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXX  personnage mort");
                     break;
                 }
-
+                System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
+                j.getPersonnage().utiliserPouvoir();
                 construireQuartier(j);
                 
             break;
@@ -251,10 +252,11 @@ public class Jeu {
                 System.out.println("Le personnage a le joueur : MAGICIENNE");
                 percevoirRessource(j);
                 if(!j.getPersonnage().isValid()) {
-                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXX  personnage mort");
                     break;
                 }
-                
+                if(j.getPersonnage().getVole()) recupererPiece(j);
+                j.getPersonnage().utiliserPouvoirAvatar();
                 construireQuartier(j);
                 
             break;
@@ -262,9 +264,10 @@ public class Jeu {
                 System.out.println("Le personnage a le joueur : ROI");
                 percevoirRessource(j);
                 if(!j.getPersonnage().isValid()) {
-                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXX  personnage mort");
                     break;
                 }
+                if(j.getPersonnage().getVole()) recupererPiece(j);
                 
                 construireQuartier(j);
                 
@@ -273,10 +276,11 @@ public class Jeu {
                 System.out.println("Le personnage a le joueur : EVEQUE");
                 percevoirRessource(j);
                 if(!j.getPersonnage().isValid()) {
-                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXX  personnage mort");
                     break;
                 }
-                
+                if(j.getPersonnage().getVole()) recupererPiece(j);
+                j.getPersonnage().utiliserPouvoir();
                 construireQuartier(j);
                 
             break;
@@ -284,10 +288,12 @@ public class Jeu {
                 System.out.println("Le personnage a le joueur : MARCHANDE");
                 percevoirRessource(j);
                 if(!j.getPersonnage().isValid()) {
-                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXX  personnage mort");
                     break;
                 }
-                
+                if(j.getPersonnage().getVole()) recupererPiece(j);
+                System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
+                j.getPersonnage().utiliserPouvoirAvatar();
                 construireQuartier(j);
                 
             break;
@@ -295,10 +301,11 @@ public class Jeu {
                 System.out.println("Le personnage a le joueur : ACHITECTE");
                 percevoirRessource(j);
                 if(!j.getPersonnage().isValid()) {
-                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXX  personnage mort");
                     break;
                 }
-                
+                if(j.getPersonnage().getVole()) recupererPiece(j);
+                // j.getPersonnage().utiliserPouvoir(); @audit
                 construireQuartier(j);
                 
             break;
@@ -306,10 +313,12 @@ public class Jeu {
                 System.out.println("Le personnage a le joueur : CONDOTIERRE");
                 percevoirRessource(j);
                 if(!j.getPersonnage().isValid()) {
-                    System.out.println("+++++++++++++++++++++++++++  personnage mort");
+                    System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXX  personnage mort");
                     break;
                 }
-                
+                if(j.getPersonnage().getVole()) recupererPiece(j);
+                System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
+                j.getPersonnage().utiliserPouvoirAvatar();
                 construireQuartier(j);
                 
             break;
@@ -330,7 +339,7 @@ public class Jeu {
         int choix=Interaction.automatedChoice(2, true);
         if(choix<1) { // @audit do not forget do manage that part
             System.out.println("\nVOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR");
-            j.ajouterPieces(5); // @audit set 2 here
+            j.ajouterPieces(2); // @audit set 2 here
             System.out.println("votre tresor est maintenant de "+j.nbPieces()+" pieces d'or");
         }
         else {
@@ -485,8 +494,18 @@ public class Jeu {
 
     }
 
+    public void recupererPiece(Joueur d){
+        Joueur v=null;  // @audit this can cause error when executing vol function
+        for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
+            if(plateauDeJeu.getJoueur(i).getPersonnage().getNom().equals("Voleur")) v=plateauDeJeu.getJoueur(i);
+        }
+        Voleur.vol(v, d);
+        System.out.println("*******************     VOUS AVEZ ETE VOLE");
+    }
     
 // @audit found an infinite loop in the program try to check what causes it
 
 // @audit handle the case where there is no more quartier in the pioche
+
+// @audit do not forget to implement the fact that we can't steal a player murderd
 }

@@ -19,26 +19,23 @@ public class Voleur extends Personnage{
                 }
             }
             //choix de la cible
+            boolean goon=true;
             do {
                 System.out.print("Votre vhoix : ");
-                choix = Interaction.lireUnEntier(1, this.getPlateau().getNombrePersonnages()+1);
-                if(this.getPlateau().getPersonnage(choix -1).getNom().equals("Voleur"))
+                // choix = Interaction.lireUnEntier(1, this.getPlateau().getNombrePersonnages()+1);
+                choix=Interaction.automatedChoice(this.getPlateau().getNombrePersonnages(), true);
+                if(this.getPlateau().getPersonnage(choix).getNom().equals("Voleur"))
                     System.out.println("Vous ne pouvez pas vous voler !!");
-                if(this.getPlateau().getPersonnage(choix -1).getRang()==1)
+                else if(this.getPlateau().getPersonnage(choix).getRang()==1)
                     System.out.println("Vous ne pouvez pas voler un personnage de rang 1 !!");
-            } while (this.getPlateau().getPersonnage(choix -1).getNom().equals("Voleur") ||
-                    this.getPlateau().getPersonnage(choix -1).getRang()==1);
+                else goon=false;
+            } while (goon);
             // vol de la cible
-            this.getPlateau().getPersonnage(choix - 1).setVole();
+            this.getPlateau().getPersonnage(choix).setVole();
 
-            // récupérer les pièces
-            /* if(this.getPlateau().getPersonnage(choix -1).getJoueur()!=null) {
-                int piece = this.getPlateau().getPersonnage(choix - 1).getJoueur().nbPieces();
-                this.getPlateau().getPersonnage(choix - 1).getJoueur().retirerPieces(piece);
-                this.getJoueur().ajouterPieces(piece);
-            } */
+            
 
-            System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix - 1).getNom() + "a été volé.");
+            System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix).getNom() + "a ï¿½tï¿½ volï¿½.");
         }
     }
     public void utiliserPouvoirAvatar() {
@@ -50,7 +47,13 @@ public class Voleur extends Personnage{
             } while (this.getPlateau().getPersonnage(choix -1).getNom().equals("Voleur") ||
                     this.getPlateau().getPersonnage(choix -1).getRang()==1);
             this.getPlateau().getPersonnage(choix).setAssassine();
-            System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix).getNom() + "a été volé.");
+            System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix).getNom() + "a ï¿½tï¿½ volï¿½.");
         }
+    }
+
+    public static void vol(Joueur v, Joueur d) {
+        v.ajouterPieces(d.nbPieces());
+        System.out.println("******************** nouveau tresor du jour voleur "+v.nbPieces());
+        d.retirerPieces(d.nbPieces());
     }
 }
