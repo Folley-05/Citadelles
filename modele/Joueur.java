@@ -77,6 +77,9 @@ public class Joueur {
             this.cite[nbQuartier]=q;
             this.nbQuartier++;
         }
+        else{
+            System.out.println("Vous n'avez plus d'espace dans votre cit�");
+        }
         
     }
     public boolean quartierPresentDansCite(String nom){

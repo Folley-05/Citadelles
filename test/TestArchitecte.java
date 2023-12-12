@@ -19,7 +19,7 @@ public class TestArchitecte {
 		System.out.println("TEST DU CONSTRUCTEUR");
 		Architecte architecte = new Architecte();
 		Test.test(architecte.getNom().equals("Architecte"),"test du nom du personnage");
-		Test.test(architecte.getRang()== 6,"test du rang du personnage");
+		Test.test(architecte.getRang()== 7,"test du rang du personnage");
 		Test.test(architecte.getCaracteristiques().equals(Caracteristiques.ARCHITECTE),
 				"test des caract�ristiques du personnage");
 		Test.test(architecte.getJoueur()==null, "test de l'initialisation de la variable \"joueur\"");

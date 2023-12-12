@@ -129,4 +129,95 @@ public class Caracteristiques {
 	public static String TRESOR="A la fin de la partie, marquez 1 point supplémentaire par pièce d’or dans votre trésor.";
 	public static String TRIPOT="Vous pouvez payer tout ou partie du coût de construction du Tripot en cartes de votre main,\n"
 			+ "au prix de 1 carte pour 1 pièce d’or. Si le Tripot est confisqué par l’Echevin, le joueur n’est rembours ́e que de l’or qu’il a dépensé, pas des cartes.";
+	public static String OBJECTIF="Deux \u0012a huit joueurs s'a\u000Brontent pour construire le plus rapidement possible la plus prestigieuse\n" +
+			"cit\u0013e. Pour cela, chaque joueur devra construire des quartiers, ayant chacun des co^uts di\u000B\u0013erents.\n" +
+			"Comme dans un jeu de r^ole, chaque joueur doit se mettre dans la peau d'un personnage, \u0012a ceci\n" +
+			"pr\u0012es que les joueurs changent de personnage \u0012a chaque tour de jeu. Ces personnages ont chacun des\n" +
+			"pouvoirs particuliers : la meilleure stat\u0013egie est de choisir un personnage au bon moment du jeu.";
+	public static String PERSONNAGE="Assassin : Annoncez le personnage que vous assassinez. Si un joueur a ce personnage, il ne doit\n" +
+			"pas r\u0013eagir tout de suite, mais lorsque le personnage assassin\u0013e sera appel\u0013e. Le personnage\n" +
+			"assassin\u0013e passe son tour.\n"+
+			"\n"+
+			"Voleur : Annoncez le personnage que vous volez. Si un joueur a ce personnage, il ne doit pas\n" +
+			"r\u0013eagir. Lorsque le personnage vol\u0013e sera appel\u0013e et r\u0013ev\u0013el\u0013e, vous lui prendrez toutes ces pi\u0012eces\n" +
+			"d'or. Vous ne pouvez voler ni le personnage de rang 1 (Assassin, Sorci\u0012ere ou \u0013Echevin), ni le\n" +
+			"personnage assassin\u0013e ou ensorcel\u0013e.\n"+
+			"\n"+
+			"Magicienne: Vous pouvez au choix :\n" +
+			"  soit echanger toutes les cartes de votre main avec celles d'un autre joueur ; si vous n'avez\n" +
+			"aucune carte en main, vous prenez simplement les cartes de l'autre joueur,\n" +
+			"  soit defausser un certain nombre de cartes de votre main, les placer sous la pioche et\n" +
+			"piocher le meme nombre de cartes du dessus de la pioche.\n"+
+			"\n"+
+			"Roi: Recevez une pi\u0012ece d'or pour chaque quartier Noble dans votre cit\u0013e.\n" +
+			"Vous devez prendre la Couronne. C'est d\u0013esormais vous qui appelerez les personnages. En\n" +
+			"outre, au prochain tour, et aux tours suivants jusqu'\u0012a ce qu'un autre joueur r\u0013ev\u0012ele le Roi,\n" +
+			"vous choisirez votre personnage en premier.\n" +
+			"Si vous ^etes assassin\u0013e, vous passez votre tour comme n'importe quel personnage. N\u0013eanmoins,\n" +
+			"apr\u0012es que tous les autres joueurs ont jou\u0013e, vous r\u0013ev\u0013elez que vous aviez choisi le Roi et, en\n" +
+			"tant qu'h\u0013eritier du Roi assassin\u0013e, prenez la Couronne.\n" +
+			"Si vous ^etes ensorcel\u0013e, vous prenez quand m^eme la Couronne.\n" +
+			"Si le Roi est \u0013ecart\u0013e face visible en d\u0013ebut de tour, remplacez-le par le personnage suivant et\n" +
+			"m\u0013elangez-le avec les personnages restants.\n"+
+			"\u0013Ev^eque: Recevez 1 pi\u0012ece d'or pour chaque quartier religieux dans votre cit\u0013e.\n" +
+			"Vos quartiers ne peuvent pas ^etre a\u000Bect\u0013es par les pouvoirs des personnages de rang 8 (Condot-\n" +
+			"tiere, Diplomate, Capitaine).\n" +
+			"Si vous ^etes assassin\u0013e, vous n'^etes plus \u0013Ev^eque ; vous ^etes mort, et vos Quartiers peuvent\n" +
+			"donc ^etre la cible des personnages de rang 8. De m^eme, si vous ^etes ensorcel\u0013e, les quartiers\n" +
+			"de la Sorci\u0012ere sont prot\u0013eg\u0013es contre les personnages de rang 8, mais pas les v^otres.\n"+
+			"\n"+
+			"Ev^eque : Recevez 1 pi\u0012ece d'or pour chaque quartier religieux dans votre cit\u0013e.\n" +
+			"Vos quartiers ne peuvent pas ^etre a\u000Bect\u0013es par les pouvoirs des personnages de rang 8 (Condot-\n" +
+			"tiere, Diplomate, Capitaine).\n" +
+			"Si vous ^etes assassin\u0013e, vous n'^etes plus \u0013Ev^eque ; vous ^etes mort, et vos Quartiers peuvent\n" +
+			"donc ^etre la cible des personnages de rang 8. De m^eme, si vous ^etes ensorcel\u0013e, les quartiers\n"+
+			"\n"+
+			"Marchande :Recevez 1 pi\u0012ece d'or pour chaque quartier Commer\u0018cant dans votre cit\u0013e.\n" +
+			"Recevez 1 pi\u0012ece d'or suppl\u0013ementaire quel que soit le type de ressources (pi\u0012ece d'or ou carte)\n" +
+			"que vous avez prises au d\u0013ebut de votre tour.\n "+
+			"\n"+
+			"Architecte: Piochez 2 cartes Quartier et ajoutez-les \u0012a votre main.\n" +
+			"Vous pouvez b^atir jusqu'\u0012a 3 quartiers durant votre tour.\n"+
+			"\n"+
+			"Condottiere :Recevez 1 pi\u0012ece d'or pour chaque quartier Militaire dans votre cit\u0013e.\n" +
+			"Vous pouvez d\u0013etruire un quartier de votre choix dans une cit\u0013e en payant son co^ut de construc-\n" +
+			"tion moins 1. Vous pouvez donc d\u0013etruire gratuitement un quartier de co^ut 1, ou payer 1 pi\u0012ece\n" +
+			"d'or pour d\u0013etruire un quartier de co^ut 2, etc.\n" +
+			"Vous ne pouvez d\u0013etruire un quartier d'une cit\u0013e d\u0013ej\u0012a compl\u0012ete. Vous pouvez d\u0013etruire l'un de\n" +
+			"vos propres quartiers. Les quartiers d\u0013etruits sont d\u0013efauss\u0013es, face cach\u0013ee, en dessous de la\n" +
+			"pioche.\n"+
+			"\n";
+	public static String TOUR="Les tours des joueurs ne se succ\u0012edent pas dans le sens habituel des aiguilles d'une montre, mais\n" +
+			"dans l'ordre croissant des rangs des Personnages. Dans le jeu de plateau, le joueur qui d\u0013etient\n" +
+			"la Couronne appelle les Personnages les uns apr\u0012es les autres en commen\u0018cant donc par le rang 1\n" +
+			"(Assassin, Sorci\u0012ere ou \u0013Echevin), et ainsi de suite. Dans cette version \u0013electronique, c'est l'application\n" +
+			"qui appelera les Personnages.\n" +
+			"Lorsqu'un Personnage est appel\u0013e, le joueur qui l'a choisi r\u0013ev\u0012ele la carte Personnage et commence\n" +
+			"\u0012a jouer. Chaque joueur :\n" +
+			"1. re\u0018coit des ressources en choisissant :\n" +
+			"| soit de recevoir 2 pi\u0012eces d'or de la banque, ou\n" +
+			"| soit de piocher 2 cartes Quartier, en conserver une et remettre l'autre sous la pioche.\n" +
+			"2. puis (de mani\u0012ere indi\u000B\u0013erente si aucune pr\u0013ecision n'est indiqu\u0013ee) :\n" +
+			"| re\u0018coit les ressources sp\u0013eci\fques \u0012a son Personnage, ainsi que les ressources que lui procure\n" +
+			"les Merveilles de sa cit\u0013e,\n" +
+			"| utilise le pouvoir de son Personnage,\n" +
+			"| et peut b^atir ou non un quartier dans sa cit\u0013e en payant son co^ut de construction.\n" +
+			"Le joueur ne peut utiliser son pouvoir qu'une seule fois par tour. De la m^eme mani\u0012ere, le joueur\n" +
+			"ne peut b^atir qu'un seul quartier par tour (sauf indication contraire) et ne peut pas b^atir deux fois\n" +
+			"le m^eme quartier de m^eme nom (sauf indication contraire).";
+	public static String FIN="Les tours se succ\u0012edent jusqu'\u0012a ce qu'un des joueurs poss\u0012ede une cit\u0013e compl\u0012ete : c'est \u0012a dire une\n" +
+			"cit\u0013e de 7 quartiers ou plus pour les parties de 4 \u0012a 7 joueurs, ou une cit\u0013e de 8 quartiers pour les\n" +
+			"parties a 2, 3 ou 8 joueurs. On ach\u0012eve alors le tour et la partie est termin\u0013ee.\n" +
+			"6 Le calcul des points\n" +
+			"A\n" +
+			"l'issue de la partie, chaque joueur calcule ses points en additionnant :\n" +
+			"la somme totale des co^uts de contruction des quartiers de sa cit\u0013e,\n" +
+			"3 points suppl\u0013ementaires si la cit\u0013e comprend au moins un quartier de cinq types differents\n" +
+			"(Noble, Commer\u0018cant, Religieux, Militaire et Merveille),\n" +
+			"4 points supplementaires s'il est le premier joueur ayant compl\u0013et\u0013e sa cite,\n" +
+			"2 points suppl\u0013ementaires si sa cite est complete mais qu'il n'a pas \u0013et\u0013e le premier \u0012a la completer,\n" +
+			"et enfin la somme des differents bonus eventuels des Merveilles de sa cite.\n" +
+			"Le joueur qui a le score le plus eleve est vainqueur. En cas d'egalite, la victoire revient a celui\n" +
+			"qui a revele le personnage de rang le plus eleve au dernier tour.";
+
 }
