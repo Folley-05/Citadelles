@@ -105,7 +105,7 @@ public class Configuration {
 
 
             
-            Joueur j=new Joueur("JOUEUR "+(i+1));
+            Joueur j=new Joueur("JOUEUR_"+(i+1));
             plateau.ajouterJoueur(j);
 
         }

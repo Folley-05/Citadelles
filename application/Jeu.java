@@ -18,6 +18,7 @@ public class Jeu {
     private Joueur JoueurPerso[];
     private String firstPlayer;
     private boolean lastTurn;
+    private int crown;
     
     public Jeu(PlateauDeJeu p, int config, Random gen) {
         plateauDeJeu = p;
@@ -75,6 +76,7 @@ public class Jeu {
         lastTurn=false;
         firstPlayer=null;
         nbTours=0;
+        crown=-1;
         plateauDeJeu=Configuration.configurationDeBase(Configuration.nouvellePioche());
         for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
             // add two pieces of gold
@@ -92,13 +94,32 @@ public class Jeu {
     }
 
     private void gestionCouronne() {
-        
+        System.out.println("\nGESTION DE LA COURONNE\n");
+        int nbJoueurs=plateauDeJeu.getNombreJoueurs();
+        if(crown==-1) {
+            System.out.println("Quel joueur aura la couronne pour le premier tour ?");
+            for (int i = 0; i < nbJoueurs; i++) {
+                System.out.println((i+1)+". "+ plateauDeJeu.getJoueur(i).getNom());
+            }
+            System.out.println("choisissez une option ");
+            int choix=Interaction.automatedChoice(nbJoueurs, true);
+            crown=choix;
+            plateauDeJeu.getJoueur(crown).setPossedeCouronne(true);
+        } else {
+            crown=(crown+1)%nbJoueurs;
+            for (int i = 0; i < nbJoueurs; i++) {
+                plateauDeJeu.getJoueur(i).setPossedeCouronne(false);
+            }
+            plateauDeJeu.getJoueur(crown).setPossedeCouronne(true);
+        }
+        System.out.println("\nPOUR CE TOUR LE JOUEUR "+plateauDeJeu.getJoueur(crown).getNom()+" AURA LA COURONNE");
     }
 
     private void tourDeJeu() {
         do {
             nbTours++;
-            System.out.println("\n ------------------------   TOUR DE JEU "+nbTours);
+            System.out.println("\n ------------------------   TOUR DE JEU : "+nbTours);
+            // gestionCouronne();
             choixPersonnages();
             for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
                 Joueur player=plateauDeJeu.getJoueur(i);
@@ -112,37 +133,43 @@ public class Jeu {
             this.appelerPersonnage();
             partieFinie();
         } while (!lastTurn);
+        // } while (nbTours<11); 
 
     }
 
     private void choixPersonnages() {
-        System.out.println("\nCHOIX DE PERSONNAGE");
+        System.out.println("\nMELANGE CARTES PERSONNAGE");
         int nPerso=plateauDeJeu.getNombrePersonnages();
+        
         int c1=Interaction.randomInt(nPerso), c2=(c1+1)%nPerso, c3=(c2+1)%nPerso;
         // declare an empty int table of 5 elements
         List<Personnage> selectable = new ArrayList<Personnage>();
         int choixPerso=-1;
-        // Quartier[] selectable=new Quartier[5];
-        for (int i = 0; i < plateauDeJeu.getNombrePersonnages(); i++) {
+        for (int i = 0; i < nPerso; i++) {
             if(i!=c1&&i!=c2&&i!=c3) {
                 Personnage p=plateauDeJeu.getPersonnage(i);
                 selectable.add(p);
-                // System.out.println(i+"  "+ p.getNom());
             }
         }
-        for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
-        System.out.println("Le personnage  "+ plateauDeJeu.getPersonnage(c1).getNom()+" est posé face visible");
-        System.out.println("Le personnage  "+ plateauDeJeu.getPersonnage(c2).getNom()+" est posé face visible");
-        System.out.println("Un personnage  est posé face cachée \n");
+        gestionCouronne();
+        System.out.println("\nCHOIX DE PERSONNAGE "+crown);
+        // for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
+        for (int i = crown; i < (crown+plateauDeJeu.getNombreJoueurs()); i++) {
+            int correctIndice=(i%plateauDeJeu.getNombreJoueurs());
+            String textToPrint="Le personnage  "+ plateauDeJeu.getPersonnage(c1).getNom()+" est posé face visible\n"+
+                "Le personnage  "+ plateauDeJeu.getPersonnage(c2).getNom()+" est posé face visible\n"+
+                "Un personnage  est posé face cachée \n"+
+                "Liste des personnages disponibles";
+            System.out.println(textToPrint);
         
             for (int j = 0; j < selectable.size(); j++) {
-                System.out.println(j+"  "+ selectable.get(j).getNom());
+                System.out.println((j+1)+"  "+ selectable.get(j).getNom());
             }
-            System.out.println("choisissez votre personnage ");
+            System.out.println(plateauDeJeu.getJoueur(correctIndice).getNom()+" choisissez votre personnage ");
             // choixPerso=Interaction.lireUnEntier(0, 5); @audit active this to allow player to select his character
-            choixPerso=Interaction.randomInt(selectable.size());
-            // selectable.remove(choixPerso);
-            plateauDeJeu.getJoueur(i).setMonPersonnage(selectable.remove(choixPerso));
+            // choixPerso=Interaction.randomInt(selectable.size());
+            choixPerso=Interaction.automatedChoice(selectable.size(), true);
+            plateauDeJeu.getJoueur(correctIndice).setMonPersonnage(selectable.remove(choixPerso));
             System.out.println("\n");
         }
 
@@ -167,7 +194,7 @@ public class Jeu {
             System.out.println("\nPERSONNAGE AVEC LE RANG "+(i+1));
             Joueur joueurActif=JoueurPerso[i];
             if(joueurActif!=null) {
-                System.out.println("Joueur Actif : "+joueurActif.getNom());
+                // System.out.println("Joueur Actif : "+joueurActif.getNom());
                 tourJoueur(joueurActif);
             }
             else System.out.println("IL N'Y A PAS DE PERSONNAGE AVEC LE RANG "+(i+1));
@@ -186,7 +213,7 @@ public class Jeu {
     private void tourJoueur(Joueur j) {
         switch (j.getPersonnage().getNom()) {
             case "Assassin":
-                System.out.println("the player has : ASSASSIN");
+                System.out.println("Le joueur a le personnage : ASSASSIN");
                 // reçoit les ressources
                 percevoirRessource(j);
                 // reçoit les ressources specifiques liées à son pouvoir et à ses merveilles
