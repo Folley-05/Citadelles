@@ -1,0 +1,93 @@
+BIENVENUE SUR CITADELLES 
+
+
+
+	MENU 
+
+0. AFFICHER LES RÈGLES 
+1. JOUER UNE PARTIE 
+2. QUITTER LE JEU 
+
+
+Veuillez choisir une option 
+
+LANCEMENT DE LA PARTIE 
+
+
+INITIALISATION DU JEU
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 1
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+Quel joueur aura la couronne pour le premier tour ?
+1. JOUEUR_1
+2. JOUEUR_2
+3. JOUEUR_3
+4. JOUEUR_4
+choisissez une option 
+
+POUR CE TOUR LE JOUEUR JOUEUR_4 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 3
+1  Eveque
+2  Magicienne
+3  Marchande
+4  Roi
+5  Voleur
+JOUEUR_4 choisissez votre personnage 
+
+
+1  Eveque
+2  Magicienne
+3  Roi
+4  Voleur
+JOUEUR_1 choisissez votre personnage 
+
+
+1  Eveque
+2  Magicienne
+3  Roi
+JOUEUR_2 choisissez votre personnage 
+
+
+1  Magicienne
+2  Roi
+JOUEUR_3 choisissez votre personnage 
+
+
+JOUEUR_1 --> Voleur
+JOUEUR_2 --> Eveque
+JOUEUR_3 --> Roi
+JOUEUR_4 --> Marchande
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 2
+Le personnage a le joueur : VOLEUR
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 4 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+Quel personnage voulez-vous voler ?
+1 Architecte
+2 Assassin
+3 Condotierre
+4 Eveque
+5 Magicienne
+6 Marchande
+7 Roi
+8 Voleur
+Votre vhoix : 

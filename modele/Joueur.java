@@ -48,7 +48,6 @@ public class Joueur {
     public boolean getPossedeCouronne(){
         return possedeCouronne;
     }
-
     public void setPossedeCouronne(boolean possedeCouronne) {
         this.possedeCouronne = possedeCouronne;
     }
@@ -64,6 +63,12 @@ public class Joueur {
             if (nb<=this.tresor) {
                 this.tresor-=nb;
             }
+        }
+    }
+    public void afficherQuartierDansCite(){
+        System.out.println("Listes des quartiers dans la citÈ :");
+        for(int i=0; i<nbQuartier; i++){
+            System.out.println(" - "+ this.cite[i].getNom());
         }
     }
     public void ajouterQuartierDansCite(Quartier q) {
@@ -101,6 +106,9 @@ public class Joueur {
     public void ajouterQuartierDansMain(Quartier q) {
         main.add(q);
     }
+    public Quartier retirerLeQuartierDansMain(int i){
+        return main.remove(i);
+    }
     public Quartier retirerQuartierDansMain(){
         Random generateur = new Random();
         int numeroHasard = generateur.nextInt(this.nbQuartiersDansMain());
@@ -114,5 +122,26 @@ public class Joueur {
         this.main.clear();
         this.cite=new Quartier[8];
         this.nbQuartier=0;
+    }
+
+    public ArrayList<Quartier> retournerMain(){
+        return main;
+    }
+
+    public Quartier[] retounerCite(){
+        return cite;
+    }
+
+    public String peutConstruire(){
+        if (tresor==0) return "Vous n'avez pas assez de piece pour construire";
+        else if (main.size()==0) return "Votre main est vide vous ne pouvez pas construire";
+        else {
+            boolean witness=false;
+            for (int i = 0; i < main.size(); i++) {
+                if(tresor>=main.get(i).getCout()) witness=true;
+            }
+            if (witness) return "";
+            else return "Votre tr√©sor ne peut construire aucun quartier de votre main";
+        }
     }
 }

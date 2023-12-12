@@ -2,6 +2,8 @@ package modele;
 
 import controleur.Interaction;
 
+import java.util.Random;
+
 public class Voleur extends Personnage{
     public Voleur() { super("Voleur", 2, Caracteristiques.VOLEUR); }
 
@@ -29,12 +31,32 @@ public class Voleur extends Personnage{
             // vol de la cible
             this.getPlateau().getPersonnage(choix - 1).setVole();
 
-            // récupérer les pièces
+            // rï¿½cupï¿½rer les piï¿½ces
             /* if(this.getPlateau().getPersonnage(choix -1).getJoueur()!=null) {
                 int piece = this.getPlateau().getPersonnage(choix - 1).getJoueur().nbPieces();
                 this.getPlateau().getPersonnage(choix - 1).getJoueur().retirerPieces(piece);
                 this.getJoueur().ajouterPieces(piece);
             } */
+
+            System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix - 1).getNom() + "a ï¿½tï¿½ volï¿½.");
         }
+    }
+    public void utiliserPouvoirAvatar() {
+        if(this.isValid()){
+            int choix;
+            Random r = new Random();
+            do {
+                choix = r.nextInt(this.getPlateau().getNombrePersonnages());
+            } while (this.getPlateau().getPersonnage(choix).getNom().equals("Voleur") ||
+                    this.getPlateau().getPersonnage(choix).getRang()==1);
+            this.getPlateau().getPersonnage(choix).setAssassine();
+            System.out.println("Le personnage " + this.getPlateau().getPersonnage(choix).getNom() + "a ï¿½tï¿½ volï¿½.");
+        }
+    }
+
+    public static void vol(Joueur v, Joueur d) {
+        v.ajouterPieces(d.nbPieces());
+        System.out.println("******************** nouveau tresor du jour voleur "+v.nbPieces());
+        d.retirerPieces(d.nbPieces());
     }
 }
