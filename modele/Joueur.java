@@ -10,6 +10,7 @@ public class Joueur {
     private ArrayList<Quartier> main;
     private boolean possedeCouronne;
     protected Personnage monPersonnage;
+    protected boolean automated;
     
 
     public Joueur(String nom) {
@@ -66,7 +67,7 @@ public class Joueur {
         }
     }
     public void afficherQuartierDansCite(){
-        System.out.println("Listes des quartiers dans la cité :");
+        System.out.println("Listes des quartiers dans la citï¿½ :");
         for(int i=0; i<nbQuartier; i++){
             System.out.println(" - "+ this.cite[i].getNom());
         }
@@ -143,5 +144,12 @@ public class Joueur {
             if (witness) return "";
             else return "Votre trÃ©sor ne peut construire aucun quartier de votre main";
         }
+    }
+
+    public void setAutomated(boolean a){
+        automated=a;
+    }
+    public boolean getAutomated(){
+        return automated;
     }
 }

@@ -80,6 +80,6 @@ public class Interaction {
     // handle automated choice
     public static int automatedChoice(int a, boolean auto){
         if(auto) return randomInt(a);
-        else return lireUnEntier(1, a);
+        else return lireUnEntier(1, a+1)-1;
     }
 }

@@ -95,17 +95,21 @@ public class Configuration {
         plateau.ajouterPersonnage(new Roi());
         plateau.ajouterPersonnage(new Voleur());
 
+
+            System.out.println("Entrez le nom de votre joueur ");
+            String name= Interaction.lireUneChaine();
+            Joueur j=new Joueur(name);
+            j.setAutomated(false);
+            plateau.ajouterJoueur(j);
+
+
         //We add players
-        for (int i = 0; i < 4; i++) {
-            // @audit active this to allow player to enter his name
-            // System.out.println("Entrez le nom du joueur "+(i+1)+" ");
-            // String name= Interaction.lireUneChaine();
-            // Joueur j=new Joueur(name);
-            // plateau.ajouterJoueur(j);
+        for (int i = 0; i < 3; i++) {
 
 
             
-            Joueur j=new Joueur("JOUEUR_"+(i+1));
+            j=new Joueur("JOUEUR_"+(i+1));
+            j.setAutomated(true);
             plateau.ajouterJoueur(j);
 
         }
