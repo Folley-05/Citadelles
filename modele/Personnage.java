@@ -6,6 +6,7 @@ public abstract class Personnage {
     private Joueur joueur;
     private boolean assassine, vole;
     private PlateauDeJeu plateau;
+    public static final String TYPE_PERSONNAGE[]={"Assassin", "Voleur", "Magicienne", "Roi", "Eveque", "Marchande", "Architecte", "Condotierre"};
 
     public Personnage(String nom,int rang,String caracteristiques) {
         this.nom=nom;
@@ -58,6 +59,7 @@ public abstract class Personnage {
         // }
     }
 
+
     public void ajouterQuartier(Quartier q){
         if(this.isValid()) this.joueur.ajouterQuartierDansMain(q);
     }
@@ -72,7 +74,7 @@ public abstract class Personnage {
 
     public abstract void utiliserPouvoir();
 
-    public abstract void utiliserPouvoirAvatar();
+    public abstract void utiliserPouvoirAvatar(); // @audit find how to integrate this to the application behavior
 
     public void reinitialiser() {
         this.joueur=null;

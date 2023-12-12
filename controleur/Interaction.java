@@ -73,7 +73,13 @@ public class Interaction {
 
     // generate an integer lower than a number
     public static int randomInt(int a) {
+        // @audit remember that you doesn't manage the case a > 0
         return (int) (Math.random() * a);
     }
 
+    // handle automated choice
+    public static int automatedChoice(int a, boolean auto){
+        if(auto) return randomInt(a);
+        else return lireUnEntier(1, a);
+    }
 }

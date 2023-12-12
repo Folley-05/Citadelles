@@ -31,6 +31,9 @@ public class PlateauDeJeu {
     public Pioche getPioche() {
         return pioche;
     }
+    public void setPioche(Pioche p) {
+        pioche=p;
+    }
 
     public void ajouterPersonnage(Personnage p){
         if(nombrePersonnages < listePersonnages.length && p!=null) {

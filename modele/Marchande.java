@@ -8,10 +8,16 @@ public class Marchande extends Personnage {
 
 	    @Override
 	    public void utiliserPouvoir() {
-			if(this.getJoueur()!=null) {
+			if(this.isValid()) {
 				this.getJoueur().ajouterPieces(1);
 			}
 		}
+	// Utilisation du pouvoir par un avatar
+	public void utiliserPouvoirAvatar() {
+		if(this.isValid()) {
+			this.getJoueur().ajouterPieces(1);
+		}
+	}
 	    @Override
 	    public void percevoirRessourcesSpecifiques() {
 			int nbQuartierCommercant=0;
@@ -19,7 +25,7 @@ public class Marchande extends Personnage {
 			
 			if(this.getJoueur()!=null) {
 				for(Quartier qs: this.getJoueur().getCite()) {
-				     if(qs!=null&&qs.getType()=="COMMERCANT") {
+				     if(qs!=null&&qs.getType().equals("COMMERCANT")) {
 	 					  nbQuartierCommercant++;
 	 	                     }
 				}
