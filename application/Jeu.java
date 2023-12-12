@@ -17,7 +17,7 @@ public class Jeu {
     private int numeroConfiguration, nbTours;
     private Random generator;
     private Joueur JoueurPerso[];
-    private String firstPlayer;
+    private String firstPlayer, nextKing;
     private boolean lastTurn;
     private int crown;
     
@@ -198,6 +198,7 @@ public class Jeu {
         firstPlayer=null;
         nbTours=0;
         crown=-1;
+        nextKing="";
         plateauDeJeu=Configuration.configurationDeBase(Configuration.nouvellePioche());
         for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
             // add two pieces of gold
@@ -226,7 +227,14 @@ public class Jeu {
             crown=choix;
             plateauDeJeu.getJoueur(crown).setPossedeCouronne(true);
         } else {
-            crown=(crown+1)%nbJoueurs;
+            if(!nextKing.equals("")) {
+                for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
+                    if(plateauDeJeu.getJoueur(i).getNom()==nextKing) crown=i;
+                }
+                nextKing="";
+            } else {
+                crown=(crown+1)%nbJoueurs;
+            }
             for (int i = 0; i < nbJoueurs; i++) {
                 plateauDeJeu.getJoueur(i).setPossedeCouronne(false);
             }
@@ -386,7 +394,7 @@ public class Jeu {
 
                 // utilise son pouvoir
                 System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP+");
-                j.getPersonnage().utiliserPouvoir();
+                j.getPersonnage().utiliserPouvoirAvatar();
                 // construire
                 construireQuartier(j);
                 
@@ -399,7 +407,7 @@ public class Jeu {
                     break;
                 }
                 System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
-                j.getPersonnage().utiliserPouvoir();
+                j.getPersonnage().utiliserPouvoirAvatar();
                 construireQuartier(j);
                 
             break;
@@ -411,7 +419,7 @@ public class Jeu {
                     break;
                 }
                 if(j.getPersonnage().getVole()) recupererPiece(j);
-                j.getPersonnage().utiliserPouvoir();
+                j.getPersonnage().utiliserPouvoirAvatar();
                 construireQuartier(j);
                 
             break;
@@ -423,7 +431,11 @@ public class Jeu {
                     break;
                 }
                 if(j.getPersonnage().getVole()) recupererPiece(j);
-                
+                j.getPersonnage().utiliserPouvoirAvatar();
+                if(j.getPossedeCouronne()) {
+                    nextKing=j.getNom();
+                    System.out.println("LE PROCHAIN ROI SERA "+j.getNom());
+                }
                 construireQuartier(j);
                 
             break;
@@ -435,7 +447,7 @@ public class Jeu {
                     break;
                 }
                 if(j.getPersonnage().getVole()) recupererPiece(j);
-                j.getPersonnage().utiliserPouvoir();
+                j.getPersonnage().utiliserPouvoirAvatar();
                 construireQuartier(j);
                 
             break;
@@ -448,7 +460,7 @@ public class Jeu {
                 }
                 if(j.getPersonnage().getVole()) recupererPiece(j);
                 System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
-                j.getPersonnage().utiliserPouvoir();
+                j.getPersonnage().utiliserPouvoirAvatar();
                 construireQuartier(j);
                 
             break;
@@ -473,7 +485,7 @@ public class Jeu {
                 }
                 if(j.getPersonnage().getVole()) recupererPiece(j);
                 System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
-                j.getPersonnage().utiliserPouvoir();
+                j.getPersonnage().utiliserPouvoirAvatar();
                 construireQuartier(j);
                 
             break;

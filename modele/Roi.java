@@ -9,7 +9,7 @@ public class Roi extends Personnage {
     @Override
     public void utiliserPouvoir() {
         if(this.isValid()) {
-            System.out.println("Je prends la couronne");
+            System.out.println("############################################# Je prends la couronne");
             this.getJoueur().setPossedeCouronne(true);
         }
     }

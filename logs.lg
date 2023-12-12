@@ -32,10 +32,714 @@ Quel joueur aura la couronne pour le premier tour ?
 4. JOUEUR_4
 choisissez une option 
 
+POUR CE TOUR LE JOUEUR JOUEUR_3 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 2
+1  Architecte
+2  Magicienne
+3  Marchande
+4  Roi
+5  Voleur
+JOUEUR_3 choisissez votre personnage 
+
+
+1  Architecte
+2  Magicienne
+3  Roi
+4  Voleur
+JOUEUR_4 choisissez votre personnage 
+
+
+1  Magicienne
+2  Roi
+3  Voleur
+JOUEUR_1 choisissez votre personnage 
+
+
+1  Roi
+2  Voleur
+JOUEUR_2 choisissez votre personnage 
+
+
+JOUEUR_1 --> Magicienne
+JOUEUR_2 --> Roi
+JOUEUR_3 --> Marchande
+JOUEUR_4 --> Architecte
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 2
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 3
+Le personnage a le joueur : MAGICIENNE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 4 pieces d'or
+Echange �ffectu� par la magicienne avec JOUEUR_2
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 4 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 4
+Le personnage a le joueur : ROI
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+Je prends la couronne
+LE PROCHAIN ROI SERA JOUEUR_2
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 5
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 6
+Le personnage a le joueur : MARCHANDE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 4 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 5 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 7
+Le personnage a le joueur : ACHITECTE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 2
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_2 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 1
+1  Condotierre
+2  Eveque
+3  Magicienne
+4  Marchande
+5  Roi
+JOUEUR_2 choisissez votre personnage 
+
+
+1  Eveque
+2  Magicienne
+3  Marchande
+4  Roi
+JOUEUR_3 choisissez votre personnage 
+
+
+1  Eveque
+2  Marchande
+3  Roi
+JOUEUR_4 choisissez votre personnage 
+
+
+1  Eveque
+2  Roi
+JOUEUR_1 choisissez votre personnage 
+
+
+JOUEUR_1 --> Eveque
+JOUEUR_2 --> Condotierre
+JOUEUR_3 --> Magicienne
+JOUEUR_4 --> Marchande
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 2
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 3
+Le personnage a le joueur : MAGICIENNE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+Echange �ffectu� par la magicienne avec JOUEUR_4
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 2 pieces d'or
+quel est le quartier que vous voulez construire ? 
+vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
+vous avez 2 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 4
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 3 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 6
+Le personnage a le joueur : MARCHANDE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 4 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+Le personnage a le joueur : CONDOTIERRE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 4 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+JOUEUR_3 votre quartier : caserne à  été détruit par le Condottiere
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 3
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_3 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 2
+1  Condotierre
+2  Eveque
+3  Magicienne
+4  Marchande
+5  Roi
+JOUEUR_3 choisissez votre personnage 
+
+
+1  Condotierre
+2  Magicienne
+3  Marchande
+4  Roi
+JOUEUR_4 choisissez votre personnage 
+
+
+1  Magicienne
+2  Marchande
+3  Roi
+JOUEUR_1 choisissez votre personnage 
+
+
+1  Marchande
+2  Roi
+JOUEUR_2 choisissez votre personnage 
+
+
+JOUEUR_1 --> Magicienne
+JOUEUR_2 --> Roi
+JOUEUR_3 --> Eveque
+JOUEUR_4 --> Condotierre
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 2
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 3
+Le personnage a le joueur : MAGICIENNE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 3 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 3 pieces d'or
+quel est le quartier que vous voulez construire ? 
+vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
+vous avez 3 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 4
+Le personnage a le joueur : ROI
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+Je prends la couronne
+LE PROCHAIN ROI SERA JOUEUR_2
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 2 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 0 pieces d'or
+Vous n'avez pas assez de piece pour construire 
+ Votre tour se termine
+
+
+PERSONNAGE AVEC LE RANG 6
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+Le personnage a le joueur : CONDOTIERRE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+JOUEUR_1 votre quartier : comptoir à  été détruit par le Condottiere
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 3 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 4
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_2 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 1
+1  Architecte
+2  Assassin
+3  Condotierre
+4  Eveque
+5  Voleur
+JOUEUR_2 choisissez votre personnage 
+
+
+1  Architecte
+2  Condotierre
+3  Eveque
+4  Voleur
+JOUEUR_3 choisissez votre personnage 
+
+
+1  Architecte
+2  Condotierre
+3  Eveque
+JOUEUR_4 choisissez votre personnage 
+
+
+1  Condotierre
+2  Eveque
+JOUEUR_1 choisissez votre personnage 
+
+
+JOUEUR_1 --> Eveque
+JOUEUR_2 --> Assassin
+JOUEUR_3 --> Voleur
+JOUEUR_4 --> Architecte
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+Le personnage a le joueur : ASSASSIN
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP+
+Le personnage Roia �t� assassin�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 2
+Le personnage a le joueur : VOLEUR
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+Le personnage Magiciennea �t� vol�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 0 pieces d'or
+Vous n'avez pas assez de piece pour construire 
+ Votre tour se termine
+
+
+PERSONNAGE AVEC LE RANG 3
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 4
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 2 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 6
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 7
+Le personnage a le joueur : ACHITECTE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 3 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 5
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_3 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 2
+1  Assassin
+2  Condotierre
+3  Eveque
+4  Magicienne
+5  Marchande
+JOUEUR_3 choisissez votre personnage 
+
+
+1  Condotierre
+2  Eveque
+3  Magicienne
+4  Marchande
+JOUEUR_4 choisissez votre personnage 
+
+
+1  Condotierre
+2  Eveque
+3  Marchande
+JOUEUR_1 choisissez votre personnage 
+
+
+1  Condotierre
+2  Marchande
+JOUEUR_2 choisissez votre personnage 
+
+
+JOUEUR_1 --> Eveque
+JOUEUR_2 --> Condotierre
+JOUEUR_3 --> Assassin
+JOUEUR_4 --> Magicienne
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+Le personnage a le joueur : ASSASSIN
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP+
+Le personnage Evequea �t� assassin�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 2
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 3
+Le personnage a le joueur : MAGICIENNE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 4
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+XXXXXXXXXXXXXXXXXXXXXXXXXXX  personnage mort
+
+
+PERSONNAGE AVEC LE RANG 6
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+Le personnage a le joueur : CONDOTIERRE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 2 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+JOUEUR_2 votre quartier : eglise à  été détruit par le Condottiere
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 6
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
 POUR CE TOUR LE JOUEUR JOUEUR_4 AURA LA COURONNE
 
 CHOIX DE PERSONNAGE 3
-1  Eveque
+1  Architecte
 2  Magicienne
 3  Marchande
 4  Roi
@@ -43,10 +747,276 @@ CHOIX DE PERSONNAGE 3
 JOUEUR_4 choisissez votre personnage 
 
 
-1  Eveque
-2  Magicienne
+1  Architecte
+2  Marchande
 3  Roi
 4  Voleur
+JOUEUR_1 choisissez votre personnage 
+
+
+1  Architecte
+2  Roi
+3  Voleur
+JOUEUR_2 choisissez votre personnage 
+
+
+1  Architecte
+2  Roi
+JOUEUR_3 choisissez votre personnage 
+
+
+JOUEUR_1 --> Marchande
+JOUEUR_2 --> Voleur
+JOUEUR_3 --> Roi
+JOUEUR_4 --> Magicienne
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 2
+Le personnage a le joueur : VOLEUR
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+Le personnage Condotierrea �t� vol�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 3
+Le personnage a le joueur : MAGICIENNE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+Echange �ffectu� par la magicienne avec JOUEUR_3
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 4
+Le personnage a le joueur : ROI
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 2 pieces d'or
+Je prends la couronne
+LE PROCHAIN ROI SERA JOUEUR_3
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 2 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 5
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 6
+Le personnage a le joueur : MARCHANDE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 4 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 5 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 7
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_3 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 2
+1  Architecte
+2  Assassin
+3  Condotierre
+4  Eveque
+5  Voleur
+JOUEUR_3 choisissez votre personnage 
+
+
+1  Architecte
+2  Assassin
+3  Condotierre
+4  Eveque
+JOUEUR_4 choisissez votre personnage 
+
+
+1  Assassin
+2  Condotierre
+3  Eveque
+JOUEUR_1 choisissez votre personnage 
+
+
+1  Assassin
+2  Condotierre
+JOUEUR_2 choisissez votre personnage 
+
+
+JOUEUR_1 --> Eveque
+JOUEUR_2 --> Assassin
+JOUEUR_3 --> Voleur
+JOUEUR_4 --> Architecte
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+Le personnage a le joueur : ASSASSIN
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP+
+Le personnage Architectea �t� assassin�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 2
+Le personnage a le joueur : VOLEUR
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 3 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+Le personnage Evequea �t� vol�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 3
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 4
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+XXXXXXXXXXXXXXXXXXXXXXXXXXX  personnage mort
+
+
+PERSONNAGE AVEC LE RANG 6
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 7
+Le personnage a le joueur : ACHITECTE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 5 pieces d'or
+XXXXXXXXXXXXXXXXXXXXXXXXXXX  personnage mort
+
+
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 8
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_4 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 3
+1  Condotierre
+2  Eveque
+3  Magicienne
+4  Marchande
+5  Roi
+JOUEUR_4 choisissez votre personnage 
+
+
+1  Condotierre
+2  Eveque
+3  Magicienne
+4  Roi
 JOUEUR_1 choisissez votre personnage 
 
 
@@ -56,15 +1026,446 @@ JOUEUR_1 choisissez votre personnage
 JOUEUR_2 choisissez votre personnage 
 
 
-1  Magicienne
-2  Roi
+1  Eveque
+2  Magicienne
 JOUEUR_3 choisissez votre personnage 
 
 
-JOUEUR_1 --> Voleur
-JOUEUR_2 --> Eveque
-JOUEUR_3 --> Roi
+JOUEUR_1 --> Condotierre
+JOUEUR_2 --> Roi
+JOUEUR_3 --> Eveque
 JOUEUR_4 --> Marchande
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 2
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 3
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 4
+Le personnage a le joueur : ROI
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+Je prends la couronne
+LE PROCHAIN ROI SERA JOUEUR_2
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 1 pieces d'or
+quel est le quartier que vous voulez construire ? 
+vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
+vous avez 1 pieces d'or
+quel est le quartier que vous voulez construire ? 
+vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
+vous avez 1 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 5 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 5 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 6
+Le personnage a le joueur : MARCHANDE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 6 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+Le personnage a le joueur : CONDOTIERRE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 9
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_2 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 1
+1  Architecte
+2  Assassin
+3  Condotierre
+4  Eveque
+5  Voleur
+JOUEUR_2 choisissez votre personnage 
+
+
+1  Architecte
+2  Condotierre
+3  Eveque
+4  Voleur
+JOUEUR_3 choisissez votre personnage 
+
+
+1  Architecte
+2  Eveque
+3  Voleur
+JOUEUR_4 choisissez votre personnage 
+
+
+1  Architecte
+2  Eveque
+JOUEUR_1 choisissez votre personnage 
+
+
+JOUEUR_1 --> Eveque
+JOUEUR_2 --> Assassin
+JOUEUR_3 --> Condotierre
+JOUEUR_4 --> Voleur
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+Le personnage a le joueur : ASSASSIN
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 2 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP+
+Le personnage Roia �t� assassin�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 2
+Le personnage a le joueur : VOLEUR
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+Le personnage Evequea �t� vol�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 5 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 3
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 4
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 2 pieces d'or
+XXXXXXXXXXXXXXXXXXXXXXXXXXX  personnage mort
+
+
+PERSONNAGE AVEC LE RANG 6
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+Le personnage a le joueur : CONDOTIERRE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+Vous n'utilisez pas votre pouvoir de destruction
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 3 pieces d'or
+quel est le quartier que vous voulez construire ? 
+vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
+vous avez 3 pieces d'or
+quel est le quartier que vous voulez construire ? 
+vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
+vous avez 3 pieces d'or
+quel est le quartier que vous voulez construire ? 
+vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
+vous avez 3 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 10
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_3 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 2
+1  Condotierre
+2  Eveque
+3  Magicienne
+4  Marchande
+5  Roi
+JOUEUR_3 choisissez votre personnage 
+
+
+1  Condotierre
+2  Eveque
+3  Magicienne
+4  Roi
+JOUEUR_4 choisissez votre personnage 
+
+
+1  Condotierre
+2  Eveque
+3  Magicienne
+JOUEUR_1 choisissez votre personnage 
+
+
+1  Condotierre
+2  Magicienne
+JOUEUR_2 choisissez votre personnage 
+
+
+JOUEUR_1 --> Eveque
+JOUEUR_2 --> Magicienne
+JOUEUR_3 --> Marchande
+JOUEUR_4 --> Roi
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 2
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 3
+Le personnage a le joueur : MAGICIENNE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 4 pieces d'or
+Echange �ffectu� par la magicienne avec JOUEUR_1
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 4
+Le personnage a le joueur : ROI
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+Je prends la couronne
+LE PROCHAIN ROI SERA JOUEUR_4
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 4 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 6
+Le personnage a le joueur : MARCHANDE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 11
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_4 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 3
+1  Architecte
+2  Assassin
+3  Marchande
+4  Roi
+5  Voleur
+JOUEUR_4 choisissez votre personnage 
+
+
+1  Architecte
+2  Assassin
+3  Marchande
+4  Roi
+JOUEUR_1 choisissez votre personnage 
+
+
+1  Architecte
+2  Assassin
+3  Marchande
+JOUEUR_2 choisissez votre personnage 
+
+
+1  Architecte
+2  Assassin
+JOUEUR_3 choisissez votre personnage 
+
+
+JOUEUR_1 --> Roi
+JOUEUR_2 --> Marchande
+JOUEUR_3 --> Architecte
+JOUEUR_4 --> Voleur
 
 APPEL DES PERSONNAGES
 
@@ -81,13 +1482,811 @@ vous pouvez choisir l'une des option suivantes
 VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
 votre tresor est maintenant de 4 pieces d'or
 PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
-Quel personnage voulez-vous voler ?
-1 Architecte
-2 Assassin
-3 Condotierre
-4 Eveque
-5 Magicienne
-6 Marchande
-7 Roi
-8 Voleur
-Votre vhoix : 
+Le personnage Condotierrea �t� vol�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 3
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 4
+Le personnage a le joueur : ROI
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+Je prends la couronne
+LE PROCHAIN ROI SERA JOUEUR_1
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 4 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 5
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 6
+Le personnage a le joueur : MARCHANDE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 7
+Le personnage a le joueur : ACHITECTE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 4 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 12
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_1 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 0
+1  Architecte
+2  Assassin
+3  Marchande
+4  Roi
+5  Voleur
+JOUEUR_1 choisissez votre personnage 
+
+
+1  Architecte
+2  Marchande
+3  Roi
+4  Voleur
+JOUEUR_2 choisissez votre personnage 
+
+
+1  Marchande
+2  Roi
+3  Voleur
+JOUEUR_3 choisissez votre personnage 
+
+
+1  Marchande
+2  Roi
+JOUEUR_4 choisissez votre personnage 
+
+
+JOUEUR_1 --> Assassin
+JOUEUR_2 --> Architecte
+JOUEUR_3 --> Voleur
+JOUEUR_4 --> Roi
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+Le personnage a le joueur : ASSASSIN
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 5 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP+
+Le personnage Magiciennea �t� assassin�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 5 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 2
+Le personnage a le joueur : VOLEUR
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+Le personnage Magiciennea �t� vol�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 4 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 3
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 4
+Le personnage a le joueur : ROI
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 6 pieces d'or
+Je prends la couronne
+LE PROCHAIN ROI SERA JOUEUR_4
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 6 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 5
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 6
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 7
+Le personnage a le joueur : ACHITECTE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 5 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 13
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_4 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 3
+1  Assassin
+2  Condotierre
+3  Eveque
+4  Magicienne
+5  Marchande
+JOUEUR_4 choisissez votre personnage 
+
+
+1  Condotierre
+2  Eveque
+3  Magicienne
+4  Marchande
+JOUEUR_1 choisissez votre personnage 
+
+
+1  Condotierre
+2  Eveque
+3  Marchande
+JOUEUR_2 choisissez votre personnage 
+
+
+1  Condotierre
+2  Marchande
+JOUEUR_3 choisissez votre personnage 
+
+
+JOUEUR_1 --> Magicienne
+JOUEUR_2 --> Eveque
+JOUEUR_3 --> Marchande
+JOUEUR_4 --> Assassin
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+Le personnage a le joueur : ASSASSIN
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 6 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP+
+Le personnage Architectea �t� assassin�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 2
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 3
+Le personnage a le joueur : MAGICIENNE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+Echange �ffectu� par la magicienne avec JOUEUR_4
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 4
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 3 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 6
+Le personnage a le joueur : MARCHANDE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 5 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 6 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 14
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_1 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 0
+1  Architecte
+2  Magicienne
+3  Marchande
+4  Roi
+5  Voleur
+JOUEUR_1 choisissez votre personnage 
+
+
+1  Architecte
+2  Magicienne
+3  Marchande
+4  Voleur
+JOUEUR_2 choisissez votre personnage 
+
+
+1  Magicienne
+2  Marchande
+3  Voleur
+JOUEUR_3 choisissez votre personnage 
+
+
+1  Magicienne
+2  Marchande
+JOUEUR_4 choisissez votre personnage 
+
+
+JOUEUR_1 --> Roi
+JOUEUR_2 --> Architecte
+JOUEUR_3 --> Voleur
+JOUEUR_4 --> Magicienne
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 2
+Le personnage a le joueur : VOLEUR
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 3 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+Le personnage Architectea �t� vol�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 3 pieces d'or
+Votre trésor ne peut construire aucun quartier de votre main 
+ Votre tour se termine
+
+
+PERSONNAGE AVEC LE RANG 3
+Le personnage a le joueur : MAGICIENNE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 8 pieces d'or
+La magicienne n'effectue aucun changement n'a �t� �ffectu�
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 8 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 4
+Le personnage a le joueur : ROI
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 2 pieces d'or
+Je prends la couronne
+LE PROCHAIN ROI SERA JOUEUR_1
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 2 pieces d'or
+Votre trésor ne peut construire aucun quartier de votre main 
+ Votre tour se termine
+
+
+PERSONNAGE AVEC LE RANG 5
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 6
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 7
+Le personnage a le joueur : ACHITECTE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 5 pieces d'or
+XXXXXXXXXXXXXXXXXXXXXXXXXXX  personnage mort
+
+
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 15
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_1 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 0
+1  Condotierre
+2  Eveque
+3  Magicienne
+4  Marchande
+5  Roi
+JOUEUR_1 choisissez votre personnage 
+
+
+1  Condotierre
+2  Eveque
+3  Magicienne
+4  Roi
+JOUEUR_2 choisissez votre personnage 
+
+
+1  Condotierre
+2  Eveque
+3  Magicienne
+JOUEUR_3 choisissez votre personnage 
+
+
+1  Condotierre
+2  Magicienne
+JOUEUR_4 choisissez votre personnage 
+
+
+JOUEUR_1 --> Marchande
+JOUEUR_2 --> Roi
+JOUEUR_3 --> Eveque
+JOUEUR_4 --> Magicienne
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 2
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 3
+Le personnage a le joueur : MAGICIENNE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 6 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 4
+Le personnage a le joueur : ROI
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 7 pieces d'or
+Je prends la couronne
+LE PROCHAIN ROI SERA JOUEUR_2
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 5 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 6
+Le personnage a le joueur : MARCHANDE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 3 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
+reinitialiation des personnages 
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ ------------------------   TOUR DE JEU : 16
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_2 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 1
+1  Architecte
+2  Assassin
+3  Condotierre
+4  Roi
+5  Voleur
+JOUEUR_2 choisissez votre personnage 
+
+
+1  Architecte
+2  Assassin
+3  Condotierre
+4  Roi
+JOUEUR_3 choisissez votre personnage 
+
+
+1  Architecte
+2  Condotierre
+3  Roi
+JOUEUR_4 choisissez votre personnage 
+
+
+1  Condotierre
+2  Roi
+JOUEUR_1 choisissez votre personnage 
+
+
+JOUEUR_1 --> Condotierre
+JOUEUR_2 --> Voleur
+JOUEUR_3 --> Assassin
+JOUEUR_4 --> Architecte
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+Le personnage a le joueur : ASSASSIN
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 7 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP+
+Le personnage Evequea �t� assassin�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 7 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 2
+Le personnage a le joueur : VOLEUR
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 9 pieces d'or
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+Le personnage Evequea �t� vol�.
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 9 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 3
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 4
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 5
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 6
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 7
+Le personnage a le joueur : ACHITECTE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 6 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 6 pieces d'or
+quel est le quartier que vous voulez construire ? 
+
+
+PERSONNAGE AVEC LE RANG 8
+Le personnage a le joueur : CONDOTIERRE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+choisissez celle que vous souhaitez conserver 
+PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP
+Vous n'utilisez pas votre pouvoir de destruction
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+CALCUL DES POINTS
+
+
+TABLEAU DE SCORES 
+
+JOUEUR_1	 --------------- 	 : 17
+JOUEUR_2	 --------------- 	 : 6
+JOUEUR_3	 --------------- 	 : 21
+JOUEUR_4	 --------------- 	 : 17
+
+LE VAINQUEUR DE LA PARTIE EST JOUEUR_3
+
+LA PARTIE A DUREE 16 tours de jeu
+
+VOULEZ VOUS PLUS DE DETAILS ?Veuillez rentrer oui (o) ou non (n)  : 
