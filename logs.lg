@@ -30,1029 +30,55 @@ Quel joueur aura la couronne pour le premier tour ?
 4. JOUEUR_4
 choisissez une option 
 
-POUR CE TOUR LE JOUEUR JOUEUR_4 AURA LA COURONNE
-
-CHOIX DE PERSONNAGE 3
-Le personnage  Eveque est posé face visible
-Le personnage  Magicienne est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Condotierre
-4  Roi
-5  Voleur
-JOUEUR_4 choisissez votre personnage 
-
-
-Le personnage  Eveque est posé face visible
-Le personnage  Magicienne est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Condotierre
-4  Voleur
-JOUEUR_1 choisissez votre personnage 
-
-
-Le personnage  Eveque est posé face visible
-Le personnage  Magicienne est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Voleur
-JOUEUR_2 choisissez votre personnage 
-
-
-Le personnage  Eveque est posé face visible
-Le personnage  Magicienne est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Assassin
-2  Voleur
-JOUEUR_3 choisissez votre personnage 
-
-
-JOUEUR_1 --> Condotierre
-JOUEUR_2 --> Architecte
-JOUEUR_3 --> Assassin
-JOUEUR_4 --> Roi
-
-APPEL DES PERSONNAGES
-
-PERSONNAGE AVEC LE RANG 1
-Le personnage a le joueur : ASSASSIN
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. temple de type RELIGIEUX coutant 1 pieces d'or
-1. eglise de type RELIGIEUX coutant 2 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. tour de guet de type MILITAIRE : 1 pieces d'or
-3. prison de type MILITAIRE : 2 pieces d'or
-4. caserne de type MILITAIRE : 3 pieces d'or
-5. eglise de type RELIGIEUX : 2 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 2 pieces d'or
-voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. tour de guet de type MILITAIRE : 1 pieces d'or
-3. prison de type MILITAIRE : 2 pieces d'or
-4. caserne de type MILITAIRE : 3 pieces d'or
-5. eglise de type RELIGIEUX : 2 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 1
-1. prison de type MILITAIRE : 2 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 2
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 3
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 4
-Le personnage a le joueur : ROI
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 7 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 7 pieces d'or
-voici les quartiers de votre main
-1. palais de type NOBLE : 5 pieces d'or
-2. echoppe de type COMMERCANT : 2 pieces d'or
-3. comptoir de type COMMERCANT : 3 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 1
-1. palais de type NOBLE : 5 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 5
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 6
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 7
-Le personnage a le joueur : ACHITECTE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 7 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 7 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. temple de type RELIGIEUX : 1 pieces d'or
-4. eglise de type RELIGIEUX : 2 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 1
-1. eglise de type RELIGIEUX : 2 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 8
-Le personnage a le joueur : CONDOTIERE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. monastère de type RELIGIEUX coutant 3 pieces d'or
-1. tour de guet de type MILITAIRE coutant 1 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. cathédrale de type RELIGIEUX : 5 pieces d'or
-2. forteresse de type MILITAIRE : 5 pieces d'or
-3. hotel de ville de type COMMERCANT : 5 pieces d'or
-4. cathédrale de type RELIGIEUX : 5 pieces d'or
-5. tour de guet de type MILITAIRE : 1 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
- ------------------------   TOUR DE JEU : 2
-
-MELANGE CARTES PERSONNAGE
-
-GESTION DE LA COURONNE
-
-
-POUR CE TOUR LE JOUEUR JOUEUR_1 AURA LA COURONNE
-
-CHOIX DE PERSONNAGE 0
-Le personnage  Eveque est posé face visible
-Le personnage  Magicienne est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Condotierre
-4  Roi
-5  Voleur
-JOUEUR_1 choisissez votre personnage 
-
-
-Le personnage  Eveque est posé face visible
-Le personnage  Magicienne est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Condotierre
-4  Roi
-JOUEUR_2 choisissez votre personnage 
-
-
-Le personnage  Eveque est posé face visible
-Le personnage  Magicienne est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Roi
-JOUEUR_3 choisissez votre personnage 
-
-
-Le personnage  Eveque est posé face visible
-Le personnage  Magicienne est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Roi
-JOUEUR_4 choisissez votre personnage 
-
-
-JOUEUR_1 --> Voleur
-JOUEUR_2 --> Condotierre
-JOUEUR_3 --> Assassin
-JOUEUR_4 --> Roi
-
-APPEL DES PERSONNAGES
-
-PERSONNAGE AVEC LE RANG 1
-Le personnage a le joueur : ASSASSIN
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 5 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 2
-Le personnage a le joueur : VOLEUR
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 7 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 3
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 4
-Le personnage a le joueur : ROI
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 7 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 5
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 6
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 7
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 8
-Le personnage a le joueur : CONDOTIERE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 10 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
- ------------------------   TOUR DE JEU : 3
-
-MELANGE CARTES PERSONNAGE
-
-GESTION DE LA COURONNE
-
-
 POUR CE TOUR LE JOUEUR JOUEUR_2 AURA LA COURONNE
 
 CHOIX DE PERSONNAGE 1
-Le personnage  Magicienne est posé face visible
-Le personnage  Marchande est posé face visible
+Le personnage  Condotierre est posé face visible
+Le personnage  Eveque est posé face visible
 Un personnage  est posé face cachée 
 Liste des personnages disponibles
 1  Architecte
 2  Assassin
-3  Condotierre
-4  Eveque
-5  Voleur
-JOUEUR_2 choisissez votre personnage 
-
-
-Le personnage  Magicienne est posé face visible
-Le personnage  Marchande est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Condotierre
-4  Eveque
-JOUEUR_3 choisissez votre personnage 
-
-
-Le personnage  Magicienne est posé face visible
-Le personnage  Marchande est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Condotierre
-3  Eveque
-JOUEUR_4 choisissez votre personnage 
-
-
-Le personnage  Magicienne est posé face visible
-Le personnage  Marchande est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Condotierre
-2  Eveque
-JOUEUR_1 choisissez votre personnage 
-
-
-JOUEUR_1 --> Eveque
-JOUEUR_2 --> Voleur
-JOUEUR_3 --> Assassin
-JOUEUR_4 --> Architecte
-
-APPEL DES PERSONNAGES
-
-PERSONNAGE AVEC LE RANG 1
-Le personnage a le joueur : ASSASSIN
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. prison de type MILITAIRE coutant 2 pieces d'or
-1. caserne de type MILITAIRE coutant 3 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. tour de guet de type MILITAIRE : 1 pieces d'or
-3. caserne de type MILITAIRE : 3 pieces d'or
-4. eglise de type RELIGIEUX : 2 pieces d'or
-5. prison de type MILITAIRE : 2 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 5 pieces d'or
-voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. tour de guet de type MILITAIRE : 1 pieces d'or
-3. caserne de type MILITAIRE : 3 pieces d'or
-4. eglise de type RELIGIEUX : 2 pieces d'or
-5. prison de type MILITAIRE : 2 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 2
-1. prison de type MILITAIRE : 2 pieces d'or
-2. caserne de type MILITAIRE : 3 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 2
-Le personnage a le joueur : VOLEUR
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. palais de type NOBLE coutant 5 pieces d'or
-1. echoppe de type COMMERCANT coutant 2 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. temple de type RELIGIEUX : 1 pieces d'or
-4. echoppe de type COMMERCANT : 2 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 10 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. temple de type RELIGIEUX : 1 pieces d'or
-4. echoppe de type COMMERCANT : 2 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 2
-1. eglise de type RELIGIEUX : 2 pieces d'or
-2. temple de type RELIGIEUX : 1 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 3
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 4
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 5
-Le personnage a le joueur : EVEQUE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. comptoir de type COMMERCANT coutant 3 pieces d'or
-1. port de type COMMERCANT coutant 4 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. cathédrale de type RELIGIEUX : 5 pieces d'or
-2. forteresse de type MILITAIRE : 5 pieces d'or
-3. hotel de ville de type COMMERCANT : 5 pieces d'or
-4. cathédrale de type RELIGIEUX : 5 pieces d'or
-5. tour de guet de type MILITAIRE : 1 pieces d'or
-6. port de type COMMERCANT : 4 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 6
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 7
-Le personnage a le joueur : ACHITECTE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 12 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 12 pieces d'or
-voici les quartiers de votre main
-1. echoppe de type COMMERCANT : 2 pieces d'or
-2. comptoir de type COMMERCANT : 3 pieces d'or
-3. port de type COMMERCANT : 4 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 2
-1. palais de type NOBLE : 5 pieces d'or
-2. echoppe de type COMMERCANT : 2 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 8
-. . . . . . . . . . . . . . . . . 
-
- ------------------------   TOUR DE JEU : 4
-
-MELANGE CARTES PERSONNAGE
-
-GESTION DE LA COURONNE
-
-
-POUR CE TOUR LE JOUEUR JOUEUR_3 AURA LA COURONNE
-
-CHOIX DE PERSONNAGE 2
-Le personnage  Magicienne est posé face visible
-Le personnage  Marchande est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Condotierre
-4  Eveque
-5  Voleur
-JOUEUR_3 choisissez votre personnage 
-
-
-Le personnage  Magicienne est posé face visible
-Le personnage  Marchande est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Assassin
-2  Condotierre
-3  Eveque
-4  Voleur
-JOUEUR_4 choisissez votre personnage 
-
-
-Le personnage  Magicienne est posé face visible
-Le personnage  Marchande est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Assassin
-2  Eveque
-3  Voleur
-JOUEUR_1 choisissez votre personnage 
-
-
-Le personnage  Magicienne est posé face visible
-Le personnage  Marchande est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Assassin
-2  Voleur
-JOUEUR_2 choisissez votre personnage 
-
-
-JOUEUR_1 --> Eveque
-JOUEUR_2 --> Voleur
-JOUEUR_3 --> Architecte
-JOUEUR_4 --> Condotierre
-
-APPEL DES PERSONNAGES
-
-PERSONNAGE AVEC LE RANG 1
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 2
-Le personnage a le joueur : VOLEUR
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 14 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 14 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. echoppe de type COMMERCANT : 2 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 3
-1. eglise de type RELIGIEUX : 2 pieces d'or
-2. temple de type RELIGIEUX : 1 pieces d'or
-3. echoppe de type COMMERCANT : 2 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 3
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 4
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 5
-Le personnage a le joueur : EVEQUE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 12 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 12 pieces d'or
-voici les quartiers de votre main
-1. cathédrale de type RELIGIEUX : 5 pieces d'or
-2. forteresse de type MILITAIRE : 5 pieces d'or
-3. hotel de ville de type COMMERCANT : 5 pieces d'or
-4. cathédrale de type RELIGIEUX : 5 pieces d'or
-5. tour de guet de type MILITAIRE : 1 pieces d'or
-6. port de type COMMERCANT : 4 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 1
-1. cathédrale de type RELIGIEUX : 5 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 6
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 7
-Le personnage a le joueur : ACHITECTE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 7 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 8
-Le personnage a le joueur : CONDOTIERE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 15 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
- ------------------------   TOUR DE JEU : 5
-
-MELANGE CARTES PERSONNAGE
-
-GESTION DE LA COURONNE
-
-
-POUR CE TOUR LE JOUEUR JOUEUR_4 AURA LA COURONNE
-
-CHOIX DE PERSONNAGE 3
-Le personnage  Magicienne est posé face visible
-Le personnage  Marchande est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Condotierre
-4  Eveque
-5  Voleur
-JOUEUR_4 choisissez votre personnage 
-
-
-Le personnage  Magicienne est posé face visible
-Le personnage  Marchande est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Condotierre
-3  Eveque
-4  Voleur
-JOUEUR_1 choisissez votre personnage 
-
-
-Le personnage  Magicienne est posé face visible
-Le personnage  Marchande est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Condotierre
-3  Voleur
-JOUEUR_2 choisissez votre personnage 
-
-
-Le personnage  Magicienne est posé face visible
-Le personnage  Marchande est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Condotierre
-JOUEUR_3 choisissez votre personnage 
-
-
-JOUEUR_1 --> Eveque
-JOUEUR_2 --> Voleur
-JOUEUR_3 --> Condotierre
-JOUEUR_4 --> Assassin
-
-APPEL DES PERSONNAGES
-
-PERSONNAGE AVEC LE RANG 1
-Le personnage a le joueur : ASSASSIN
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 20 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 2
-Le personnage a le joueur : VOLEUR
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 17 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 17 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 4
-1. eglise de type RELIGIEUX : 2 pieces d'or
-2. temple de type RELIGIEUX : 1 pieces d'or
-3. echoppe de type COMMERCANT : 2 pieces d'or
-4. hotel de ville de type COMMERCANT : 5 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 3
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 4
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 5
-Le personnage a le joueur : EVEQUE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. temple de type RELIGIEUX coutant 1 pieces d'or
-1. eglise de type RELIGIEUX coutant 2 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. cathédrale de type RELIGIEUX : 5 pieces d'or
-2. forteresse de type MILITAIRE : 5 pieces d'or
-3. hotel de ville de type COMMERCANT : 5 pieces d'or
-4. tour de guet de type MILITAIRE : 1 pieces d'or
-5. port de type COMMERCANT : 4 pieces d'or
-6. temple de type RELIGIEUX : 1 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 7 pieces d'or
-voici les quartiers de votre main
-1. cathédrale de type RELIGIEUX : 5 pieces d'or
-2. forteresse de type MILITAIRE : 5 pieces d'or
-3. hotel de ville de type COMMERCANT : 5 pieces d'or
-4. tour de guet de type MILITAIRE : 1 pieces d'or
-5. port de type COMMERCANT : 4 pieces d'or
-6. temple de type RELIGIEUX : 1 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 2
-1. cathédrale de type RELIGIEUX : 5 pieces d'or
-2. cathédrale de type RELIGIEUX : 5 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 6
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 7
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 8
-Le personnage a le joueur : CONDOTIERE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. monastère de type RELIGIEUX coutant 3 pieces d'or
-1. tour de guet de type MILITAIRE coutant 1 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. tour de guet de type MILITAIRE : 1 pieces d'or
-3. eglise de type RELIGIEUX : 2 pieces d'or
-4. prison de type MILITAIRE : 2 pieces d'or
-5. monastère de type RELIGIEUX : 3 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 7 pieces d'or
-voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. tour de guet de type MILITAIRE : 1 pieces d'or
-3. eglise de type RELIGIEUX : 2 pieces d'or
-4. prison de type MILITAIRE : 2 pieces d'or
-5. monastère de type RELIGIEUX : 3 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 3
-1. prison de type MILITAIRE : 2 pieces d'or
-2. caserne de type MILITAIRE : 3 pieces d'or
-3. prison de type MILITAIRE : 2 pieces d'or
-
-
- ------------------------   TOUR DE JEU : 6
-
-MELANGE CARTES PERSONNAGE
-
-GESTION DE LA COURONNE
-
-
-POUR CE TOUR LE JOUEUR JOUEUR_1 AURA LA COURONNE
-
-CHOIX DE PERSONNAGE 0
-Le personnage  Voleur est posé face visible
-Le personnage  Architecte est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Condotierre
-2  Eveque
-3  Magicienne
-4  Marchande
-5  Roi
-JOUEUR_1 choisissez votre personnage 
-
-
-Le personnage  Voleur est posé face visible
-Le personnage  Architecte est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Condotierre
-2  Magicienne
 3  Marchande
 4  Roi
+5  Voleur
 JOUEUR_2 choisissez votre personnage 
 
 
-Le personnage  Voleur est posé face visible
-Le personnage  Architecte est posé face visible
+Le personnage  Condotierre est posé face visible
+Le personnage  Eveque est posé face visible
 Un personnage  est posé face cachée 
 Liste des personnages disponibles
-1  Condotierre
+1  Assassin
 2  Marchande
 3  Roi
+4  Voleur
 JOUEUR_3 choisissez votre personnage 
 
 
-Le personnage  Voleur est posé face visible
-Le personnage  Architecte est posé face visible
+Le personnage  Condotierre est posé face visible
+Le personnage  Eveque est posé face visible
 Un personnage  est posé face cachée 
 Liste des personnages disponibles
-1  Condotierre
-2  Marchande
+1  Assassin
+2  Roi
+3  Voleur
 JOUEUR_4 choisissez votre personnage 
 
 
-JOUEUR_1 --> Eveque
-JOUEUR_2 --> Magicienne
-JOUEUR_3 --> Roi
-JOUEUR_4 --> Condotierre
+Le personnage  Condotierre est posé face visible
+Le personnage  Eveque est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Assassin
+2  Roi
+JOUEUR_1 choisissez votre personnage 
+
+
+JOUEUR_1 --> Roi
+JOUEUR_2 --> Architecte
+JOUEUR_3 --> Marchande
+JOUEUR_4 --> Voleur
 
 APPEL DES PERSONNAGES
 
@@ -1060,10 +86,7 @@ PERSONNAGE AVEC LE RANG 1
 . . . . . . . . . . . . . . . . . 
 
 PERSONNAGE AVEC LE RANG 2
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 3
-Le personnage a le joueur : MAGICIENNE
+Le personnage a le joueur : VOLEUR
 
 PHASE 1 DU TOUR 
 
@@ -1073,7 +96,7 @@ vous pouvez choisir l'une des option suivantes
 choisissez une option 
 
 VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 17 pieces d'or
+votre tresor est maintenant de 7 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -1082,6 +105,9 @@ souhaitez vous construire un quartier dans votre cite ?
 2. NON je ne le souhaite pas 
 choisissez une option 
 
+
+PERSONNAGE AVEC LE RANG 3
+. . . . . . . . . . . . . . . . . 
 
 PERSONNAGE AVEC LE RANG 4
 Le personnage a le joueur : ROI
@@ -1095,227 +121,15 @@ choisissez une option
 
 VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
 voici les cartes que vous avez piocher
-1. prison de type MILITAIRE coutant 2 pieces d'or
-1. caserne de type MILITAIRE coutant 3 pieces d'or
+1. temple de type RELIGIEUX coutant 1 pieces d'or
+1. eglise de type RELIGIEUX coutant 2 pieces d'or
 choisissez celle que vous souhaitez conserver 
 voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. tour de guet de type MILITAIRE : 1 pieces d'or
-3. eglise de type RELIGIEUX : 2 pieces d'or
-4. monastère de type RELIGIEUX : 3 pieces d'or
-5. prison de type MILITAIRE : 2 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 5
-Le personnage a le joueur : EVEQUE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. palais de type NOBLE coutant 5 pieces d'or
-1. echoppe de type COMMERCANT coutant 2 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. temple de type RELIGIEUX : 1 pieces d'or
-6. palais de type NOBLE : 5 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 2 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. temple de type RELIGIEUX : 1 pieces d'or
-6. palais de type NOBLE : 5 pieces d'or
-quel est le quartier que vous voulez construire ? 
-vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
-vous avez 2 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. temple de type RELIGIEUX : 1 pieces d'or
-6. palais de type NOBLE : 5 pieces d'or
-quel est le quartier que vous voulez construire ? 
-vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
-vous avez 2 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. temple de type RELIGIEUX : 1 pieces d'or
-6. palais de type NOBLE : 5 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 3
 1. cathédrale de type RELIGIEUX : 5 pieces d'or
-2. cathédrale de type RELIGIEUX : 5 pieces d'or
-3. temple de type RELIGIEUX : 1 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 6
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 7
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 8
-Le personnage a le joueur : CONDOTIERE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. comptoir de type COMMERCANT coutant 3 pieces d'or
-1. port de type COMMERCANT coutant 4 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. comptoir de type COMMERCANT : 3 pieces d'or
-2. port de type COMMERCANT : 4 pieces d'or
-3. port de type COMMERCANT : 4 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
- ------------------------   TOUR DE JEU : 7
-
-MELANGE CARTES PERSONNAGE
-
-GESTION DE LA COURONNE
-
-
-POUR CE TOUR LE JOUEUR JOUEUR_2 AURA LA COURONNE
-
-CHOIX DE PERSONNAGE 1
-Le personnage  Roi est posé face visible
-Le personnage  Voleur est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Assassin
-2  Condotierre
-3  Eveque
-4  Magicienne
-5  Marchande
-JOUEUR_2 choisissez votre personnage 
-
-
-Le personnage  Roi est posé face visible
-Le personnage  Voleur est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Assassin
-2  Condotierre
-3  Eveque
-4  Magicienne
-JOUEUR_3 choisissez votre personnage 
-
-
-Le personnage  Roi est posé face visible
-Le personnage  Voleur est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Condotierre
-2  Eveque
-3  Magicienne
-JOUEUR_4 choisissez votre personnage 
-
-
-Le personnage  Roi est posé face visible
-Le personnage  Voleur est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Condotierre
-2  Eveque
-JOUEUR_1 choisissez votre personnage 
-
-
-JOUEUR_1 --> Condotierre
-JOUEUR_2 --> Marchande
-JOUEUR_3 --> Assassin
-JOUEUR_4 --> Magicienne
-
-APPEL DES PERSONNAGES
-
-PERSONNAGE AVEC LE RANG 1
-Le personnage a le joueur : ASSASSIN
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 10 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 2
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 3
-Le personnage a le joueur : MAGICIENNE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. marché de type COMMERCANT coutant 2 pieces d'or
-1. chateau de type NOBLE coutant 4 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. comptoir de type COMMERCANT : 3 pieces d'or
-2. port de type COMMERCANT : 4 pieces d'or
-3. port de type COMMERCANT : 4 pieces d'or
-4. marché de type COMMERCANT : 2 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -1324,22 +138,36 @@ souhaitez vous construire un quartier dans votre cite ?
 2. NON je ne le souhaite pas 
 choisissez une option 
 --------    Arrete toi ici      -----------
-vous avez 20 pieces d'or
+vous avez 2 pieces d'or
 voici les quartiers de votre main
-1. comptoir de type COMMERCANT : 3 pieces d'or
-2. port de type COMMERCANT : 4 pieces d'or
-3. port de type COMMERCANT : 4 pieces d'or
-4. marché de type COMMERCANT : 2 pieces d'or
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
+quel est le quartier que vous voulez construire ? 
+vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
+vous avez 2 pieces d'or
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
+quel est le quartier que vous voulez construire ? 
+vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
+vous avez 2 pieces d'or
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
 quel est le quartier que vous voulez construire ? 
 voici les quartiers de votre cite
-nombre de quartiers dans la cite : 3
-1. palais de type NOBLE : 5 pieces d'or
-2. echoppe de type COMMERCANT : 2 pieces d'or
-3. comptoir de type COMMERCANT : 3 pieces d'or
+nombre de quartiers dans la cite : 1
+1. eglise de type RELIGIEUX : 2 pieces d'or
 
-
-PERSONNAGE AVEC LE RANG 4
-. . . . . . . . . . . . . . . . . 
 
 PERSONNAGE AVEC LE RANG 5
 . . . . . . . . . . . . . . . . . 
@@ -1354,8 +182,17 @@ vous pouvez choisir l'une des option suivantes
 2. Piocher deux cartes 
 choisissez une option 
 
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 22 pieces d'or
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. monastère de type RELIGIEUX coutant 3 pieces d'or
+1. tour de guet de type MILITAIRE coutant 1 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. monastère de type RELIGIEUX : 3 pieces d'or
+2. tour de guet de type MILITAIRE : 1 pieces d'or
+3. prison de type MILITAIRE : 2 pieces d'or
+4. caserne de type MILITAIRE : 3 pieces d'or
+5. monastère de type RELIGIEUX : 3 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -1363,25 +200,10 @@ souhaitez vous construire un quartier dans votre cite ?
 1. OUI je souhaite construire un quartier 
 2. NON je ne le souhaite pas 
 choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 22 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 5
-1. eglise de type RELIGIEUX : 2 pieces d'or
-2. temple de type RELIGIEUX : 1 pieces d'or
-3. echoppe de type COMMERCANT : 2 pieces d'or
-4. hotel de ville de type COMMERCANT : 5 pieces d'or
-5. forteresse de type MILITAIRE : 5 pieces d'or
 
 
 PERSONNAGE AVEC LE RANG 7
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 8
-Le personnage a le joueur : CONDOTIERE
+Le personnage a le joueur : ACHITECTE
 
 PHASE 1 DU TOUR 
 
@@ -1390,18 +212,8 @@ vous pouvez choisir l'une des option suivantes
 2. Piocher deux cartes 
 choisissez une option 
 
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. marché de type COMMERCANT coutant 2 pieces d'or
-1. chateau de type NOBLE coutant 4 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. palais de type NOBLE : 5 pieces d'or
-6. marché de type COMMERCANT : 2 pieces d'or
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 7 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -1409,9 +221,23 @@ souhaitez vous construire un quartier dans votre cite ?
 1. OUI je souhaite construire un quartier 
 2. NON je ne le souhaite pas 
 choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 7 pieces d'or
+voici les quartiers de votre main
+1. forteresse de type MILITAIRE : 5 pieces d'or
+2. hotel de ville de type COMMERCANT : 5 pieces d'or
+3. temple de type RELIGIEUX : 1 pieces d'or
+4. eglise de type RELIGIEUX : 2 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 1
+1. eglise de type RELIGIEUX : 2 pieces d'or
 
 
- ------------------------   TOUR DE JEU : 8
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
+
+ ------------------------   TOUR DE JEU : 2
 
 MELANGE CARTES PERSONNAGE
 
@@ -1439,7 +265,7 @@ Un personnage  est posé face cachée
 Liste des personnages disponibles
 1  Condotierre
 2  Eveque
-3  Marchande
+3  Magicienne
 4  Roi
 JOUEUR_4 choisissez votre personnage 
 
@@ -1449,7 +275,7 @@ Le personnage  Architecte est posé face visible
 Un personnage  est posé face cachée 
 Liste des personnages disponibles
 1  Condotierre
-2  Marchande
+2  Eveque
 3  Roi
 JOUEUR_1 choisissez votre personnage 
 
@@ -1458,9 +284,419 @@ Le personnage  Voleur est posé face visible
 Le personnage  Architecte est posé face visible
 Un personnage  est posé face cachée 
 Liste des personnages disponibles
-1  Marchande
+1  Eveque
 2  Roi
 JOUEUR_2 choisissez votre personnage 
+
+
+JOUEUR_1 --> Condotierre
+JOUEUR_2 --> Roi
+JOUEUR_3 --> Marchande
+JOUEUR_4 --> Magicienne
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 2
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 3
+Le personnage a le joueur : MAGICIENNE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. prison de type MILITAIRE coutant 2 pieces d'or
+1. caserne de type MILITAIRE coutant 3 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. palais de type NOBLE : 5 pieces d'or
+2. echoppe de type COMMERCANT : 2 pieces d'or
+3. comptoir de type COMMERCANT : 3 pieces d'or
+4. port de type COMMERCANT : 4 pieces d'or
+5. prison de type MILITAIRE : 2 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 7 pieces d'or
+voici les quartiers de votre main
+1. palais de type NOBLE : 5 pieces d'or
+2. echoppe de type COMMERCANT : 2 pieces d'or
+3. comptoir de type COMMERCANT : 3 pieces d'or
+4. port de type COMMERCANT : 4 pieces d'or
+5. prison de type MILITAIRE : 2 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 1
+1. echoppe de type COMMERCANT : 2 pieces d'or
+
+
+PERSONNAGE AVEC LE RANG 4
+Le personnage a le joueur : ROI
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. palais de type NOBLE coutant 5 pieces d'or
+1. echoppe de type COMMERCANT coutant 2 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. forteresse de type MILITAIRE : 5 pieces d'or
+2. hotel de ville de type COMMERCANT : 5 pieces d'or
+3. temple de type RELIGIEUX : 1 pieces d'or
+4. echoppe de type COMMERCANT : 2 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 5
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 6
+Le personnage a le joueur : MARCHANDE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. comptoir de type COMMERCANT coutant 3 pieces d'or
+1. port de type COMMERCANT coutant 4 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. monastère de type RELIGIEUX : 3 pieces d'or
+2. tour de guet de type MILITAIRE : 1 pieces d'or
+3. prison de type MILITAIRE : 2 pieces d'or
+4. caserne de type MILITAIRE : 3 pieces d'or
+5. monastère de type RELIGIEUX : 3 pieces d'or
+6. comptoir de type COMMERCANT : 3 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+Le personnage a le joueur : CONDOTIERE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. temple de type RELIGIEUX coutant 1 pieces d'or
+1. eglise de type RELIGIEUX coutant 2 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 0 pieces d'or
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
+Vous n'avez pas assez de piece pour construire 
+ Votre tour se termine
+
+
+ ------------------------   TOUR DE JEU : 3
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_4 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 3
+Le personnage  Roi est posé face visible
+Le personnage  Voleur est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Assassin
+2  Condotierre
+3  Eveque
+4  Magicienne
+5  Marchande
+JOUEUR_4 choisissez votre personnage 
+
+
+Le personnage  Roi est posé face visible
+Le personnage  Voleur est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Assassin
+2  Eveque
+3  Magicienne
+4  Marchande
+JOUEUR_1 choisissez votre personnage 
+
+
+Le personnage  Roi est posé face visible
+Le personnage  Voleur est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Assassin
+2  Eveque
+3  Magicienne
+JOUEUR_2 choisissez votre personnage 
+
+
+Le personnage  Roi est posé face visible
+Le personnage  Voleur est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Assassin
+2  Magicienne
+JOUEUR_3 choisissez votre personnage 
+
+
+JOUEUR_1 --> Marchande
+JOUEUR_2 --> Eveque
+JOUEUR_3 --> Assassin
+JOUEUR_4 --> Condotierre
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+Le personnage a le joueur : ASSASSIN
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 7 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 2
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 3
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 4
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. monastère de type RELIGIEUX coutant 3 pieces d'or
+1. tour de guet de type MILITAIRE coutant 1 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. forteresse de type MILITAIRE : 5 pieces d'or
+2. hotel de ville de type COMMERCANT : 5 pieces d'or
+3. temple de type RELIGIEUX : 1 pieces d'or
+4. echoppe de type COMMERCANT : 2 pieces d'or
+5. monastère de type RELIGIEUX : 3 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 6
+Le personnage a le joueur : MARCHANDE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. prison de type MILITAIRE coutant 2 pieces d'or
+1. caserne de type MILITAIRE coutant 3 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
+6. caserne de type MILITAIRE : 3 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 0 pieces d'or
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
+6. caserne de type MILITAIRE : 3 pieces d'or
+Vous n'avez pas assez de piece pour construire 
+ Votre tour se termine
+
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+Le personnage a le joueur : CONDOTIERE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 10 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 10 pieces d'or
+voici les quartiers de votre main
+1. palais de type NOBLE : 5 pieces d'or
+2. comptoir de type COMMERCANT : 3 pieces d'or
+3. port de type COMMERCANT : 4 pieces d'or
+4. prison de type MILITAIRE : 2 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 2
+1. echoppe de type COMMERCANT : 2 pieces d'or
+2. comptoir de type COMMERCANT : 3 pieces d'or
+
+
+ ------------------------   TOUR DE JEU : 4
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_1 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 0
+Le personnage  Voleur est posé face visible
+Le personnage  Architecte est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Condotierre
+2  Eveque
+3  Magicienne
+4  Marchande
+5  Roi
+JOUEUR_1 choisissez votre personnage 
+
+
+Le personnage  Voleur est posé face visible
+Le personnage  Architecte est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Eveque
+2  Magicienne
+3  Marchande
+4  Roi
+JOUEUR_2 choisissez votre personnage 
+
+
+Le personnage  Voleur est posé face visible
+Le personnage  Architecte est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Eveque
+2  Magicienne
+3  Marchande
+JOUEUR_3 choisissez votre personnage 
+
+
+Le personnage  Voleur est posé face visible
+Le personnage  Architecte est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Eveque
+2  Marchande
+JOUEUR_4 choisissez votre personnage 
 
 
 JOUEUR_1 --> Condotierre
@@ -1487,7 +723,7 @@ vous pouvez choisir l'une des option suivantes
 choisissez une option 
 
 VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 15 pieces d'or
+votre tresor est maintenant de 12 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -1495,6 +731,19 @@ souhaitez vous construire un quartier dans votre cite ?
 1. OUI je souhaite construire un quartier 
 2. NON je ne le souhaite pas 
 choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 12 pieces d'or
+voici les quartiers de votre main
+1. monastère de type RELIGIEUX : 3 pieces d'or
+2. tour de guet de type MILITAIRE : 1 pieces d'or
+3. prison de type MILITAIRE : 2 pieces d'or
+4. caserne de type MILITAIRE : 3 pieces d'or
+5. monastère de type RELIGIEUX : 3 pieces d'or
+6. comptoir de type COMMERCANT : 3 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 1
+1. tour de guet de type MILITAIRE : 1 pieces d'or
 
 
 PERSONNAGE AVEC LE RANG 4
@@ -1507,13 +756,8 @@ vous pouvez choisir l'une des option suivantes
 2. Piocher deux cartes 
 choisissez une option 
 
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. marché de type COMMERCANT coutant 2 pieces d'or
-1. chateau de type NOBLE coutant 4 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. chateau de type NOBLE : 4 pieces d'or
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 10 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -1521,19 +765,6 @@ souhaitez vous construire un quartier dans votre cite ?
 1. OUI je souhaite construire un quartier 
 2. NON je ne le souhaite pas 
 choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 17 pieces d'or
-voici les quartiers de votre main
-1. chateau de type NOBLE : 4 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 6
-1. eglise de type RELIGIEUX : 2 pieces d'or
-2. temple de type RELIGIEUX : 1 pieces d'or
-3. echoppe de type COMMERCANT : 2 pieces d'or
-4. hotel de ville de type COMMERCANT : 5 pieces d'or
-5. forteresse de type MILITAIRE : 5 pieces d'or
-6. chateau de type NOBLE : 4 pieces d'or
 
 
 PERSONNAGE AVEC LE RANG 5
@@ -1547,7 +778,7 @@ vous pouvez choisir l'une des option suivantes
 choisissez une option 
 
 VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 22 pieces d'or
+votre tresor est maintenant de 12 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -1573,833 +804,8 @@ vous pouvez choisir l'une des option suivantes
 2. Piocher deux cartes 
 choisissez une option 
 
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. marché de type COMMERCANT coutant 2 pieces d'or
-1. chateau de type NOBLE coutant 4 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. palais de type NOBLE : 5 pieces d'or
-6. marché de type COMMERCANT : 2 pieces d'or
-7. chateau de type NOBLE : 4 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 1 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. palais de type NOBLE : 5 pieces d'or
-6. marché de type COMMERCANT : 2 pieces d'or
-7. chateau de type NOBLE : 4 pieces d'or
-quel est le quartier que vous voulez construire ? 
-vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
-vous avez 1 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. palais de type NOBLE : 5 pieces d'or
-6. marché de type COMMERCANT : 2 pieces d'or
-7. chateau de type NOBLE : 4 pieces d'or
-quel est le quartier que vous voulez construire ? 
-vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
-vous avez 1 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. palais de type NOBLE : 5 pieces d'or
-6. marché de type COMMERCANT : 2 pieces d'or
-7. chateau de type NOBLE : 4 pieces d'or
-quel est le quartier que vous voulez construire ? 
-vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
-vous avez 1 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. palais de type NOBLE : 5 pieces d'or
-6. marché de type COMMERCANT : 2 pieces d'or
-7. chateau de type NOBLE : 4 pieces d'or
-quel est le quartier que vous voulez construire ? 
-vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
-vous avez 1 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. palais de type NOBLE : 5 pieces d'or
-6. marché de type COMMERCANT : 2 pieces d'or
-7. chateau de type NOBLE : 4 pieces d'or
-quel est le quartier que vous voulez construire ? 
-vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
-vous avez 1 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. palais de type NOBLE : 5 pieces d'or
-6. marché de type COMMERCANT : 2 pieces d'or
-7. chateau de type NOBLE : 4 pieces d'or
-quel est le quartier que vous voulez construire ? 
-vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
-vous avez 1 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. palais de type NOBLE : 5 pieces d'or
-6. marché de type COMMERCANT : 2 pieces d'or
-7. chateau de type NOBLE : 4 pieces d'or
-quel est le quartier que vous voulez construire ? 
-vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
-vous avez 1 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. tour de guet de type MILITAIRE : 1 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. palais de type NOBLE : 5 pieces d'or
-6. marché de type COMMERCANT : 2 pieces d'or
-7. chateau de type NOBLE : 4 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 4
-1. cathédrale de type RELIGIEUX : 5 pieces d'or
-2. cathédrale de type RELIGIEUX : 5 pieces d'or
-3. temple de type RELIGIEUX : 1 pieces d'or
-4. tour de guet de type MILITAIRE : 1 pieces d'or
-
-
- ------------------------   TOUR DE JEU : 9
-
-MELANGE CARTES PERSONNAGE
-
-GESTION DE LA COURONNE
-
-
-POUR CE TOUR LE JOUEUR JOUEUR_4 AURA LA COURONNE
-
-CHOIX DE PERSONNAGE 3
-Le personnage  Assassin est posé face visible
-Le personnage  Condotierre est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Magicienne
-3  Marchande
-4  Roi
-5  Voleur
-JOUEUR_4 choisissez votre personnage 
-
-
-Le personnage  Assassin est posé face visible
-Le personnage  Condotierre est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Magicienne
-2  Marchande
-3  Roi
-4  Voleur
-JOUEUR_1 choisissez votre personnage 
-
-
-Le personnage  Assassin est posé face visible
-Le personnage  Condotierre est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Magicienne
-2  Roi
-3  Voleur
-JOUEUR_2 choisissez votre personnage 
-
-
-Le personnage  Assassin est posé face visible
-Le personnage  Condotierre est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Roi
-2  Voleur
-JOUEUR_3 choisissez votre personnage 
-
-
-JOUEUR_1 --> Marchande
-JOUEUR_2 --> Magicienne
-JOUEUR_3 --> Voleur
-JOUEUR_4 --> Architecte
-
-APPEL DES PERSONNAGES
-
-PERSONNAGE AVEC LE RANG 1
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 2
-Le personnage a le joueur : VOLEUR
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. manoir de type NOBLE coutant 3 pieces d'or
-1. taverne de type COMMERCANT coutant 1 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. tour de guet de type MILITAIRE : 1 pieces d'or
-3. eglise de type RELIGIEUX : 2 pieces d'or
-4. monastère de type RELIGIEUX : 3 pieces d'or
-5. prison de type MILITAIRE : 2 pieces d'or
-6. manoir de type NOBLE : 3 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 3
-Le personnage a le joueur : MAGICIENNE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 18 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 18 pieces d'or
-voici les quartiers de votre main
-Votre main est vide vous ne pouvez pas construire 
- Votre tour se termine
-
-
-PERSONNAGE AVEC LE RANG 4
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 5
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 6
-Le personnage a le joueur : MARCHANDE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. manoir de type NOBLE coutant 3 pieces d'or
-1. taverne de type COMMERCANT coutant 1 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. port de type COMMERCANT : 4 pieces d'or
-4. palais de type NOBLE : 5 pieces d'or
-5. marché de type COMMERCANT : 2 pieces d'or
-6. chateau de type NOBLE : 4 pieces d'or
-7. manoir de type NOBLE : 3 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 0 pieces d'or
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. port de type COMMERCANT : 4 pieces d'or
-4. palais de type NOBLE : 5 pieces d'or
-5. marché de type COMMERCANT : 2 pieces d'or
-6. chateau de type NOBLE : 4 pieces d'or
-7. manoir de type NOBLE : 3 pieces d'or
-Vous n'avez pas assez de piece pour construire 
- Votre tour se termine
-
-
-PERSONNAGE AVEC LE RANG 7
-Le personnage a le joueur : ACHITECTE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 27 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 27 pieces d'or
-voici les quartiers de votre main
-1. port de type COMMERCANT : 4 pieces d'or
-2. port de type COMMERCANT : 4 pieces d'or
-3. marché de type COMMERCANT : 2 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 4
-1. palais de type NOBLE : 5 pieces d'or
-2. echoppe de type COMMERCANT : 2 pieces d'or
-3. comptoir de type COMMERCANT : 3 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 8
-. . . . . . . . . . . . . . . . . 
-
- ------------------------   TOUR DE JEU : 10
-
-MELANGE CARTES PERSONNAGE
-
-GESTION DE LA COURONNE
-
-
-POUR CE TOUR LE JOUEUR JOUEUR_1 AURA LA COURONNE
-
-CHOIX DE PERSONNAGE 0
-Le personnage  Condotierre est posé face visible
-Le personnage  Eveque est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Marchande
-4  Roi
-5  Voleur
-JOUEUR_1 choisissez votre personnage 
-
-
-Le personnage  Condotierre est posé face visible
-Le personnage  Eveque est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Roi
-4  Voleur
-JOUEUR_2 choisissez votre personnage 
-
-
-Le personnage  Condotierre est posé face visible
-Le personnage  Eveque est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Assassin
-2  Roi
-3  Voleur
-JOUEUR_3 choisissez votre personnage 
-
-
-Le personnage  Condotierre est posé face visible
-Le personnage  Eveque est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Roi
-2  Voleur
-JOUEUR_4 choisissez votre personnage 
-
-
-JOUEUR_1 --> Marchande
-JOUEUR_2 --> Architecte
-JOUEUR_3 --> Assassin
-JOUEUR_4 --> Voleur
-
-APPEL DES PERSONNAGES
-
-PERSONNAGE AVEC LE RANG 1
-Le personnage a le joueur : ASSASSIN
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. manoir de type NOBLE coutant 3 pieces d'or
-1. taverne de type COMMERCANT coutant 1 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. tour de guet de type MILITAIRE : 1 pieces d'or
-3. eglise de type RELIGIEUX : 2 pieces d'or
-4. monastère de type RELIGIEUX : 3 pieces d'or
-5. prison de type MILITAIRE : 2 pieces d'or
-6. manoir de type NOBLE : 3 pieces d'or
-7. manoir de type NOBLE : 3 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 15 pieces d'or
-voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. tour de guet de type MILITAIRE : 1 pieces d'or
-3. eglise de type RELIGIEUX : 2 pieces d'or
-4. monastère de type RELIGIEUX : 3 pieces d'or
-5. prison de type MILITAIRE : 2 pieces d'or
-6. manoir de type NOBLE : 3 pieces d'or
-7. manoir de type NOBLE : 3 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 4
-1. prison de type MILITAIRE : 2 pieces d'or
-2. caserne de type MILITAIRE : 3 pieces d'or
-3. prison de type MILITAIRE : 2 pieces d'or
-4. manoir de type NOBLE : 3 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 2
-Le personnage a le joueur : VOLEUR
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. manoir de type NOBLE coutant 3 pieces d'or
-1. taverne de type COMMERCANT coutant 1 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. port de type COMMERCANT : 4 pieces d'or
-2. marché de type COMMERCANT : 2 pieces d'or
-3. manoir de type NOBLE : 3 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 3
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 4
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 5
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 6
-Le personnage a le joueur : MARCHANDE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. manoir de type NOBLE coutant 3 pieces d'or
-1. taverne de type COMMERCANT coutant 1 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. port de type COMMERCANT : 4 pieces d'or
-4. palais de type NOBLE : 5 pieces d'or
-5. marché de type COMMERCANT : 2 pieces d'or
-6. chateau de type NOBLE : 4 pieces d'or
-7. manoir de type NOBLE : 3 pieces d'or
-8. taverne de type COMMERCANT : 1 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 7
-Le personnage a le joueur : ACHITECTE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 23 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 8
-. . . . . . . . . . . . . . . . . 
-
- ------------------------   TOUR DE JEU : 11
-
-MELANGE CARTES PERSONNAGE
-
-GESTION DE LA COURONNE
-
-
-POUR CE TOUR LE JOUEUR JOUEUR_2 AURA LA COURONNE
-
-CHOIX DE PERSONNAGE 1
-Le personnage  Condotierre est posé face visible
-Le personnage  Eveque est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Marchande
-4  Roi
-5  Voleur
-JOUEUR_2 choisissez votre personnage 
-
-
-Le personnage  Condotierre est posé face visible
-Le personnage  Eveque est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Roi
-4  Voleur
-JOUEUR_3 choisissez votre personnage 
-
-
-Le personnage  Condotierre est posé face visible
-Le personnage  Eveque est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Roi
-JOUEUR_4 choisissez votre personnage 
-
-
-Le personnage  Condotierre est posé face visible
-Le personnage  Eveque est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Roi
-JOUEUR_1 choisissez votre personnage 
-
-
-JOUEUR_1 --> Architecte
-JOUEUR_2 --> Marchande
-JOUEUR_3 --> Voleur
-JOUEUR_4 --> Assassin
-
-APPEL DES PERSONNAGES
-
-PERSONNAGE AVEC LE RANG 1
-Le personnage a le joueur : ASSASSIN
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. Bibliotheque de type MERVEILLE coutant 6 pieces d'or
-1. Carriere de type MERVEILLE coutant 5 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. port de type COMMERCANT : 4 pieces d'or
-2. marché de type COMMERCANT : 2 pieces d'or
-3. manoir de type NOBLE : 3 pieces d'or
-4. Bibliotheque de type MERVEILLE : 6 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 2
-Le personnage a le joueur : VOLEUR
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 17 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 17 pieces d'or
-voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. tour de guet de type MILITAIRE : 1 pieces d'or
-3. eglise de type RELIGIEUX : 2 pieces d'or
-4. monastère de type RELIGIEUX : 3 pieces d'or
-5. prison de type MILITAIRE : 2 pieces d'or
-6. manoir de type NOBLE : 3 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 5
-1. prison de type MILITAIRE : 2 pieces d'or
-2. caserne de type MILITAIRE : 3 pieces d'or
-3. prison de type MILITAIRE : 2 pieces d'or
-4. manoir de type NOBLE : 3 pieces d'or
-5. manoir de type NOBLE : 3 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 3
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 4
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 5
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 6
-Le personnage a le joueur : MARCHANDE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 28 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 7
-Le personnage a le joueur : ACHITECTE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
 VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
 votre tresor est maintenant de 5 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
-
-
-PERSONNAGE AVEC LE RANG 8
-. . . . . . . . . . . . . . . . . 
-
- ------------------------   TOUR DE JEU : 12
-
-MELANGE CARTES PERSONNAGE
-
-GESTION DE LA COURONNE
-
-
-POUR CE TOUR LE JOUEUR JOUEUR_3 AURA LA COURONNE
-
-CHOIX DE PERSONNAGE 2
-Le personnage  Marchande est posé face visible
-Le personnage  Roi est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Condotierre
-4  Eveque
-5  Magicienne
-JOUEUR_3 choisissez votre personnage 
-
-
-Le personnage  Marchande est posé face visible
-Le personnage  Roi est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Assassin
-2  Condotierre
-3  Eveque
-4  Magicienne
-JOUEUR_4 choisissez votre personnage 
-
-
-Le personnage  Marchande est posé face visible
-Le personnage  Roi est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Condotierre
-2  Eveque
-3  Magicienne
-JOUEUR_1 choisissez votre personnage 
-
-
-Le personnage  Marchande est posé face visible
-Le personnage  Roi est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Condotierre
-2  Eveque
-JOUEUR_2 choisissez votre personnage 
-
-
-JOUEUR_1 --> Magicienne
-JOUEUR_2 --> Eveque
-JOUEUR_3 --> Architecte
-JOUEUR_4 --> Assassin
-
-APPEL DES PERSONNAGES
-
-PERSONNAGE AVEC LE RANG 1
-Le personnage a le joueur : ASSASSIN
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 28 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 28 pieces d'or
-voici les quartiers de votre main
-1. port de type COMMERCANT : 4 pieces d'or
-2. marché de type COMMERCANT : 2 pieces d'or
-3. manoir de type NOBLE : 3 pieces d'or
-4. Bibliotheque de type MERVEILLE : 6 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 5
-1. palais de type NOBLE : 5 pieces d'or
-2. echoppe de type COMMERCANT : 2 pieces d'or
-3. comptoir de type COMMERCANT : 3 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. Bibliotheque de type MERVEILLE : 6 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 2
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 3
-Le personnage a le joueur : MAGICIENNE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. Cours des Miracles de type MERVEILLE coutant 2 pieces d'or
-1. Donjon de type MERVEILLE coutant 3 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. port de type COMMERCANT : 4 pieces d'or
-4. palais de type NOBLE : 5 pieces d'or
-5. marché de type COMMERCANT : 2 pieces d'or
-6. chateau de type NOBLE : 4 pieces d'or
-7. manoir de type NOBLE : 3 pieces d'or
-8. taverne de type COMMERCANT : 1 pieces d'or
-9. Cours des Miracles de type MERVEILLE : 2 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -2410,119 +816,29 @@ choisissez une option
 --------    Arrete toi ici      -----------
 vous avez 5 pieces d'or
 voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. port de type COMMERCANT : 4 pieces d'or
-4. palais de type NOBLE : 5 pieces d'or
-5. marché de type COMMERCANT : 2 pieces d'or
-6. chateau de type NOBLE : 4 pieces d'or
-7. manoir de type NOBLE : 3 pieces d'or
-8. taverne de type COMMERCANT : 1 pieces d'or
-9. Cours des Miracles de type MERVEILLE : 2 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 5
 1. cathédrale de type RELIGIEUX : 5 pieces d'or
-2. cathédrale de type RELIGIEUX : 5 pieces d'or
-3. temple de type RELIGIEUX : 1 pieces d'or
-4. tour de guet de type MILITAIRE : 1 pieces d'or
-5. manoir de type NOBLE : 3 pieces d'or
-
-
-PERSONNAGE AVEC LE RANG 4
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 5
-Le personnage a le joueur : EVEQUE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 33 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 33 pieces d'or
-voici les quartiers de votre main
-Votre main est vide vous ne pouvez pas construire 
- Votre tour se termine
-
-
-PERSONNAGE AVEC LE RANG 6
-. . . . . . . . . . . . . . . . . 
-
-PERSONNAGE AVEC LE RANG 7
-Le personnage a le joueur : ACHITECTE
-
-PHASE 1 DU TOUR 
-
-vous pouvez choisir l'une des option suivantes
-1. Recevoir deux pieces d'or 
-2. Piocher deux cartes 
-choisissez une option 
-
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. Dracoport de type MERVEILLE coutant 6 pieces d'or
-1. Ecole de Magie de type MERVEILLE coutant 6 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. tour de guet de type MILITAIRE : 1 pieces d'or
-3. eglise de type RELIGIEUX : 2 pieces d'or
-4. monastère de type RELIGIEUX : 3 pieces d'or
-5. prison de type MILITAIRE : 2 pieces d'or
-6. Dracoport de type MERVEILLE : 6 pieces d'or
-
-PHASE 4 DU TOUR 
-
-souhaitez vous construire un quartier dans votre cite ?
-1. OUI je souhaite construire un quartier 
-2. NON je ne le souhaite pas 
-choisissez une option 
---------    Arrete toi ici      -----------
-vous avez 14 pieces d'or
-voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. tour de guet de type MILITAIRE : 1 pieces d'or
-3. eglise de type RELIGIEUX : 2 pieces d'or
-4. monastère de type RELIGIEUX : 3 pieces d'or
-5. prison de type MILITAIRE : 2 pieces d'or
-6. Dracoport de type MERVEILLE : 6 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
+6. caserne de type MILITAIRE : 3 pieces d'or
 quel est le quartier que vous voulez construire ? 
 voici les quartiers de votre cite
-nombre de quartiers dans la cite : 6
-1. prison de type MILITAIRE : 2 pieces d'or
+nombre de quartiers dans la cite : 2
+1. eglise de type RELIGIEUX : 2 pieces d'or
 2. caserne de type MILITAIRE : 3 pieces d'or
-3. prison de type MILITAIRE : 2 pieces d'or
-4. manoir de type NOBLE : 3 pieces d'or
-5. manoir de type NOBLE : 3 pieces d'or
-6. tour de guet de type MILITAIRE : 1 pieces d'or
 
 
-PERSONNAGE AVEC LE RANG 8
-. . . . . . . . . . . . . . . . . 
-
- ------------------------   TOUR DE JEU : 13
+ ------------------------   TOUR DE JEU : 5
 
 MELANGE CARTES PERSONNAGE
 
 GESTION DE LA COURONNE
 
 
-POUR CE TOUR LE JOUEUR JOUEUR_4 AURA LA COURONNE
+POUR CE TOUR LE JOUEUR JOUEUR_2 AURA LA COURONNE
 
-CHOIX DE PERSONNAGE 3
+CHOIX DE PERSONNAGE 1
 Le personnage  Assassin est posé face visible
 Le personnage  Condotierre est posé face visible
 Un personnage  est posé face cachée 
@@ -2532,27 +848,6 @@ Liste des personnages disponibles
 3  Marchande
 4  Roi
 5  Voleur
-JOUEUR_4 choisissez votre personnage 
-
-
-Le personnage  Assassin est posé face visible
-Le personnage  Condotierre est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Magicienne
-2  Marchande
-3  Roi
-4  Voleur
-JOUEUR_1 choisissez votre personnage 
-
-
-Le personnage  Assassin est posé face visible
-Le personnage  Condotierre est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Magicienne
-2  Marchande
-3  Voleur
 JOUEUR_2 choisissez votre personnage 
 
 
@@ -2560,15 +855,36 @@ Le personnage  Assassin est posé face visible
 Le personnage  Condotierre est posé face visible
 Un personnage  est posé face cachée 
 Liste des personnages disponibles
-1  Magicienne
-2  Voleur
+1  Architecte
+2  Magicienne
+3  Marchande
+4  Voleur
 JOUEUR_3 choisissez votre personnage 
 
 
-JOUEUR_1 --> Roi
-JOUEUR_2 --> Marchande
-JOUEUR_3 --> Magicienne
-JOUEUR_4 --> Architecte
+Le personnage  Assassin est posé face visible
+Le personnage  Condotierre est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Magicienne
+3  Voleur
+JOUEUR_4 choisissez votre personnage 
+
+
+Le personnage  Assassin est posé face visible
+Le personnage  Condotierre est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Voleur
+JOUEUR_1 choisissez votre personnage 
+
+
+JOUEUR_1 --> Architecte
+JOUEUR_2 --> Roi
+JOUEUR_3 --> Marchande
+JOUEUR_4 --> Magicienne
 
 APPEL DES PERSONNAGES
 
@@ -2588,8 +904,16 @@ vous pouvez choisir l'une des option suivantes
 2. Piocher deux cartes 
 choisissez une option 
 
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 18 pieces d'or
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. palais de type NOBLE coutant 5 pieces d'or
+1. echoppe de type COMMERCANT coutant 2 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. palais de type NOBLE : 5 pieces d'or
+2. port de type COMMERCANT : 4 pieces d'or
+3. prison de type MILITAIRE : 2 pieces d'or
+4. palais de type NOBLE : 5 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -2609,21 +933,8 @@ vous pouvez choisir l'une des option suivantes
 2. Piocher deux cartes 
 choisissez une option 
 
-VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
-voici les cartes que vous avez piocher
-1. Fontaine de type MERVEILLE coutant 5 pieces d'or
-1. Forge de type MERVEILLE coutant 5 pieces d'or
-choisissez celle que vous souhaitez conserver 
-voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. port de type COMMERCANT : 4 pieces d'or
-4. palais de type NOBLE : 5 pieces d'or
-5. marché de type COMMERCANT : 2 pieces d'or
-6. chateau de type NOBLE : 4 pieces d'or
-7. taverne de type COMMERCANT : 1 pieces d'or
-8. Cours des Miracles de type MERVEILLE : 2 pieces d'or
-9. Fontaine de type MERVEILLE : 5 pieces d'or
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 15 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -2631,6 +942,19 @@ souhaitez vous construire un quartier dans votre cite ?
 1. OUI je souhaite construire un quartier 
 2. NON je ne le souhaite pas 
 choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 15 pieces d'or
+voici les quartiers de votre main
+1. forteresse de type MILITAIRE : 5 pieces d'or
+2. hotel de ville de type COMMERCANT : 5 pieces d'or
+3. temple de type RELIGIEUX : 1 pieces d'or
+4. echoppe de type COMMERCANT : 2 pieces d'or
+5. monastère de type RELIGIEUX : 3 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 2
+1. eglise de type RELIGIEUX : 2 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
 
 
 PERSONNAGE AVEC LE RANG 5
@@ -2648,11 +972,16 @@ choisissez une option
 
 VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
 voici les cartes que vous avez piocher
-1. Laboratoire de type MERVEILLE coutant 5 pieces d'or
-1. Manufacture de type MERVEILLE coutant 5 pieces d'or
+1. comptoir de type COMMERCANT coutant 3 pieces d'or
+1. port de type COMMERCANT coutant 4 pieces d'or
 choisissez celle que vous souhaitez conserver 
 voici les quartiers de votre main
-1. Manufacture de type MERVEILLE : 5 pieces d'or
+1. monastère de type RELIGIEUX : 3 pieces d'or
+2. prison de type MILITAIRE : 2 pieces d'or
+3. caserne de type MILITAIRE : 3 pieces d'or
+4. monastère de type RELIGIEUX : 3 pieces d'or
+5. comptoir de type COMMERCANT : 3 pieces d'or
+6. comptoir de type COMMERCANT : 3 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -2672,8 +1001,18 @@ vous pouvez choisir l'une des option suivantes
 2. Piocher deux cartes 
 choisissez une option 
 
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 27 pieces d'or
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. marché de type COMMERCANT coutant 2 pieces d'or
+1. chateau de type NOBLE coutant 4 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
+6. marché de type COMMERCANT : 2 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -2682,80 +1021,100 @@ souhaitez vous construire un quartier dans votre cite ?
 2. NON je ne le souhaite pas 
 choisissez une option 
 --------    Arrete toi ici      -----------
-vous avez 27 pieces d'or
+vous avez 2 pieces d'or
 voici les quartiers de votre main
-1. port de type COMMERCANT : 4 pieces d'or
-2. marché de type COMMERCANT : 2 pieces d'or
-3. manoir de type NOBLE : 3 pieces d'or
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
+6. marché de type COMMERCANT : 2 pieces d'or
+quel est le quartier que vous voulez construire ? 
+vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
+vous avez 2 pieces d'or
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
+6. marché de type COMMERCANT : 2 pieces d'or
+quel est le quartier que vous voulez construire ? 
+vous n'avez pas assez de pièces pour construire ce quartier choississez en un autre
+vous avez 2 pieces d'or
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
+6. marché de type COMMERCANT : 2 pieces d'or
 quel est le quartier que vous voulez construire ? 
 voici les quartiers de votre cite
-nombre de quartiers dans la cite : 6
-1. palais de type NOBLE : 5 pieces d'or
-2. echoppe de type COMMERCANT : 2 pieces d'or
-3. comptoir de type COMMERCANT : 3 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. Bibliotheque de type MERVEILLE : 6 pieces d'or
-6. marché de type COMMERCANT : 2 pieces d'or
+nombre de quartiers dans la cite : 3
+1. eglise de type RELIGIEUX : 2 pieces d'or
+2. caserne de type MILITAIRE : 3 pieces d'or
+3. marché de type COMMERCANT : 2 pieces d'or
 
 
 PERSONNAGE AVEC LE RANG 8
 . . . . . . . . . . . . . . . . . 
 
- ------------------------   TOUR DE JEU : 14
+ ------------------------   TOUR DE JEU : 6
 
 MELANGE CARTES PERSONNAGE
 
 GESTION DE LA COURONNE
 
 
-POUR CE TOUR LE JOUEUR JOUEUR_1 AURA LA COURONNE
+POUR CE TOUR LE JOUEUR JOUEUR_3 AURA LA COURONNE
 
-CHOIX DE PERSONNAGE 0
-Le personnage  Marchande est posé face visible
-Le personnage  Roi est posé face visible
+CHOIX DE PERSONNAGE 2
+Le personnage  Voleur est posé face visible
+Le personnage  Architecte est posé face visible
 Un personnage  est posé face cachée 
 Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Condotierre
-4  Eveque
-5  Magicienne
-JOUEUR_1 choisissez votre personnage 
-
-
-Le personnage  Marchande est posé face visible
-Le personnage  Roi est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Architecte
-2  Assassin
-3  Condotierre
-4  Magicienne
-JOUEUR_2 choisissez votre personnage 
-
-
-Le personnage  Marchande est posé face visible
-Le personnage  Roi est posé face visible
-Un personnage  est posé face cachée 
-Liste des personnages disponibles
-1  Assassin
-2  Condotierre
+1  Condotierre
+2  Eveque
 3  Magicienne
+4  Marchande
+5  Roi
 JOUEUR_3 choisissez votre personnage 
 
 
-Le personnage  Marchande est posé face visible
-Le personnage  Roi est posé face visible
+Le personnage  Voleur est posé face visible
+Le personnage  Architecte est posé face visible
 Un personnage  est posé face cachée 
 Liste des personnages disponibles
-1  Assassin
-2  Condotierre
+1  Condotierre
+2  Eveque
+3  Magicienne
+4  Marchande
 JOUEUR_4 choisissez votre personnage 
 
 
+Le personnage  Voleur est posé face visible
+Le personnage  Architecte est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Eveque
+2  Magicienne
+3  Marchande
+JOUEUR_1 choisissez votre personnage 
+
+
+Le personnage  Voleur est posé face visible
+Le personnage  Architecte est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Magicienne
+2  Marchande
+JOUEUR_2 choisissez votre personnage 
+
+
 JOUEUR_1 --> Eveque
-JOUEUR_2 --> Architecte
-JOUEUR_3 --> Magicienne
+JOUEUR_2 --> Magicienne
+JOUEUR_3 --> Roi
 JOUEUR_4 --> Condotierre
 
 APPEL DES PERSONNAGES
@@ -2777,7 +1136,49 @@ vous pouvez choisir l'une des option suivantes
 choisissez une option 
 
 VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 23 pieces d'or
+votre tresor est maintenant de 15 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 4
+Le personnage a le joueur : ROI
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 16 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 5 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -2786,24 +1187,194 @@ souhaitez vous construire un quartier dans votre cite ?
 2. NON je ne le souhaite pas 
 choisissez une option 
 --------    Arrete toi ici      -----------
-vous avez 23 pieces d'or
+vous avez 5 pieces d'or
 voici les quartiers de votre main
-1. monastère de type RELIGIEUX : 3 pieces d'or
-2. eglise de type RELIGIEUX : 2 pieces d'or
-3. monastère de type RELIGIEUX : 3 pieces d'or
-4. prison de type MILITAIRE : 2 pieces d'or
-5. Dracoport de type MERVEILLE : 6 pieces d'or
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. hotel de ville de type COMMERCANT : 5 pieces d'or
+4. cathédrale de type RELIGIEUX : 5 pieces d'or
+5. eglise de type RELIGIEUX : 2 pieces d'or
 quel est le quartier que vous voulez construire ? 
 voici les quartiers de votre cite
-nombre de quartiers dans la cite : 7
-1. prison de type MILITAIRE : 2 pieces d'or
+nombre de quartiers dans la cite : 4
+1. eglise de type RELIGIEUX : 2 pieces d'or
 2. caserne de type MILITAIRE : 3 pieces d'or
-3. prison de type MILITAIRE : 2 pieces d'or
-4. manoir de type NOBLE : 3 pieces d'or
-5. manoir de type NOBLE : 3 pieces d'or
-6. tour de guet de type MILITAIRE : 1 pieces d'or
-7. eglise de type RELIGIEUX : 2 pieces d'or
+3. marché de type COMMERCANT : 2 pieces d'or
+4. hotel de ville de type COMMERCANT : 5 pieces d'or
 
+
+PERSONNAGE AVEC LE RANG 6
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+Le personnage a le joueur : CONDOTIERE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. marché de type COMMERCANT coutant 2 pieces d'or
+1. chateau de type NOBLE coutant 4 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. palais de type NOBLE : 5 pieces d'or
+2. port de type COMMERCANT : 4 pieces d'or
+3. prison de type MILITAIRE : 2 pieces d'or
+4. palais de type NOBLE : 5 pieces d'or
+5. chateau de type NOBLE : 4 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 12 pieces d'or
+voici les quartiers de votre main
+1. palais de type NOBLE : 5 pieces d'or
+2. port de type COMMERCANT : 4 pieces d'or
+3. prison de type MILITAIRE : 2 pieces d'or
+4. palais de type NOBLE : 5 pieces d'or
+5. chateau de type NOBLE : 4 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 3
+1. echoppe de type COMMERCANT : 2 pieces d'or
+2. comptoir de type COMMERCANT : 3 pieces d'or
+3. chateau de type NOBLE : 4 pieces d'or
+
+
+ ------------------------   TOUR DE JEU : 7
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_4 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 3
+Le personnage  Magicienne est posé face visible
+Le personnage  Marchande est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Assassin
+3  Condotierre
+4  Eveque
+5  Voleur
+JOUEUR_4 choisissez votre personnage 
+
+
+Le personnage  Magicienne est posé face visible
+Le personnage  Marchande est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Assassin
+3  Condotierre
+4  Eveque
+JOUEUR_1 choisissez votre personnage 
+
+
+Le personnage  Magicienne est posé face visible
+Le personnage  Marchande est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Condotierre
+3  Eveque
+JOUEUR_2 choisissez votre personnage 
+
+
+Le personnage  Magicienne est posé face visible
+Le personnage  Marchande est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Condotierre
+2  Eveque
+JOUEUR_3 choisissez votre personnage 
+
+
+JOUEUR_1 --> Assassin
+JOUEUR_2 --> Architecte
+JOUEUR_3 --> Eveque
+JOUEUR_4 --> Voleur
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+Le personnage a le joueur : ASSASSIN
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. marché de type COMMERCANT coutant 2 pieces d'or
+1. chateau de type NOBLE coutant 4 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. cathédrale de type RELIGIEUX : 5 pieces d'or
+4. eglise de type RELIGIEUX : 2 pieces d'or
+5. marché de type COMMERCANT : 2 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 0 pieces d'or
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. cathédrale de type RELIGIEUX : 5 pieces d'or
+4. eglise de type RELIGIEUX : 2 pieces d'or
+5. marché de type COMMERCANT : 2 pieces d'or
+Vous n'avez pas assez de piece pour construire 
+ Votre tour se termine
+
+
+PERSONNAGE AVEC LE RANG 2
+Le personnage a le joueur : VOLEUR
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 13 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 3
+. . . . . . . . . . . . . . . . . 
 
 PERSONNAGE AVEC LE RANG 4
 . . . . . . . . . . . . . . . . . 
@@ -2820,20 +1391,17 @@ choisissez une option
 
 VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
 voici les cartes que vous avez piocher
-1. Salle des Cartes de type MERVEILLE coutant 5 pieces d'or
-1. Statue Equestre de type MERVEILLE coutant 3 pieces d'or
+1. marché de type COMMERCANT coutant 2 pieces d'or
+1. chateau de type NOBLE coutant 4 pieces d'or
 choisissez celle que vous souhaitez conserver 
 voici les quartiers de votre main
-1. forteresse de type MILITAIRE : 5 pieces d'or
-2. hotel de ville de type COMMERCANT : 5 pieces d'or
-3. port de type COMMERCANT : 4 pieces d'or
-4. palais de type NOBLE : 5 pieces d'or
-5. marché de type COMMERCANT : 2 pieces d'or
-6. chateau de type NOBLE : 4 pieces d'or
-7. taverne de type COMMERCANT : 1 pieces d'or
-8. Cours des Miracles de type MERVEILLE : 2 pieces d'or
-9. Fontaine de type MERVEILLE : 5 pieces d'or
-10. Statue Equestre de type MERVEILLE : 3 pieces d'or
+1. monastère de type RELIGIEUX : 3 pieces d'or
+2. prison de type MILITAIRE : 2 pieces d'or
+3. caserne de type MILITAIRE : 3 pieces d'or
+4. monastère de type RELIGIEUX : 3 pieces d'or
+5. comptoir de type COMMERCANT : 3 pieces d'or
+6. comptoir de type COMMERCANT : 3 pieces d'or
+7. marché de type COMMERCANT : 2 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -2856,8 +1424,17 @@ vous pouvez choisir l'une des option suivantes
 2. Piocher deux cartes 
 choisissez une option 
 
-VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
-votre tresor est maintenant de 38 pieces d'or
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. manoir de type NOBLE coutant 3 pieces d'or
+1. taverne de type COMMERCANT coutant 1 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. hotel de ville de type COMMERCANT : 5 pieces d'or
+2. temple de type RELIGIEUX : 1 pieces d'or
+3. echoppe de type COMMERCANT : 2 pieces d'or
+4. monastère de type RELIGIEUX : 3 pieces d'or
+5. manoir de type NOBLE : 3 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -2866,23 +1443,977 @@ souhaitez vous construire un quartier dans votre cite ?
 2. NON je ne le souhaite pas 
 choisissez une option 
 --------    Arrete toi ici      -----------
-vous avez 38 pieces d'or
+vous avez 15 pieces d'or
 voici les quartiers de votre main
-1. Manufacture de type MERVEILLE : 5 pieces d'or
+1. hotel de ville de type COMMERCANT : 5 pieces d'or
+2. temple de type RELIGIEUX : 1 pieces d'or
+3. echoppe de type COMMERCANT : 2 pieces d'or
+4. monastère de type RELIGIEUX : 3 pieces d'or
+5. manoir de type NOBLE : 3 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 3
+1. eglise de type RELIGIEUX : 2 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. manoir de type NOBLE : 3 pieces d'or
+
+
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
+
+ ------------------------   TOUR DE JEU : 8
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_1 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 0
+Le personnage  Magicienne est posé face visible
+Le personnage  Marchande est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Assassin
+3  Condotierre
+4  Eveque
+5  Voleur
+JOUEUR_1 choisissez votre personnage 
+
+
+Le personnage  Magicienne est posé face visible
+Le personnage  Marchande est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Assassin
+3  Eveque
+4  Voleur
+JOUEUR_2 choisissez votre personnage 
+
+
+Le personnage  Magicienne est posé face visible
+Le personnage  Marchande est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Assassin
+3  Voleur
+JOUEUR_3 choisissez votre personnage 
+
+
+Le personnage  Magicienne est posé face visible
+Le personnage  Marchande est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Voleur
+JOUEUR_4 choisissez votre personnage 
+
+
+JOUEUR_1 --> Condotierre
+JOUEUR_2 --> Eveque
+JOUEUR_3 --> Assassin
+JOUEUR_4 --> Voleur
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+Le personnage a le joueur : ASSASSIN
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 21 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 2
+Le personnage a le joueur : VOLEUR
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. manoir de type NOBLE coutant 3 pieces d'or
+1. taverne de type COMMERCANT coutant 1 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. palais de type NOBLE : 5 pieces d'or
+2. port de type COMMERCANT : 4 pieces d'or
+3. prison de type MILITAIRE : 2 pieces d'or
+4. palais de type NOBLE : 5 pieces d'or
+5. manoir de type NOBLE : 3 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 3
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 4
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. manoir de type NOBLE coutant 3 pieces d'or
+1. taverne de type COMMERCANT coutant 1 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. hotel de ville de type COMMERCANT : 5 pieces d'or
+2. temple de type RELIGIEUX : 1 pieces d'or
+3. echoppe de type COMMERCANT : 2 pieces d'or
+4. monastère de type RELIGIEUX : 3 pieces d'or
+5. taverne de type COMMERCANT : 1 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 12 pieces d'or
+voici les quartiers de votre main
+1. hotel de ville de type COMMERCANT : 5 pieces d'or
+2. temple de type RELIGIEUX : 1 pieces d'or
+3. echoppe de type COMMERCANT : 2 pieces d'or
+4. monastère de type RELIGIEUX : 3 pieces d'or
+5. taverne de type COMMERCANT : 1 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 4
+1. eglise de type RELIGIEUX : 2 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. manoir de type NOBLE : 3 pieces d'or
+4. monastère de type RELIGIEUX : 3 pieces d'or
+
+
+PERSONNAGE AVEC LE RANG 6
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+Le personnage a le joueur : CONDOTIERE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. manoir de type NOBLE coutant 3 pieces d'or
+1. taverne de type COMMERCANT coutant 1 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. cathédrale de type RELIGIEUX : 5 pieces d'or
+4. eglise de type RELIGIEUX : 2 pieces d'or
+5. marché de type COMMERCANT : 2 pieces d'or
+6. manoir de type NOBLE : 3 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+ ------------------------   TOUR DE JEU : 9
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_2 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 1
+Le personnage  Marchande est posé face visible
+Le personnage  Roi est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Assassin
+3  Condotierre
+4  Eveque
+5  Magicienne
+JOUEUR_2 choisissez votre personnage 
+
+
+Le personnage  Marchande est posé face visible
+Le personnage  Roi est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Condotierre
+3  Eveque
+4  Magicienne
+JOUEUR_3 choisissez votre personnage 
+
+
+Le personnage  Marchande est posé face visible
+Le personnage  Roi est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Condotierre
+3  Eveque
+JOUEUR_4 choisissez votre personnage 
+
+
+Le personnage  Marchande est posé face visible
+Le personnage  Roi est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Eveque
+JOUEUR_1 choisissez votre personnage 
+
+
+JOUEUR_1 --> Eveque
+JOUEUR_2 --> Assassin
+JOUEUR_3 --> Magicienne
+JOUEUR_4 --> Condotierre
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+Le personnage a le joueur : ASSASSIN
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 14 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 14 pieces d'or
+voici les quartiers de votre main
+1. hotel de ville de type COMMERCANT : 5 pieces d'or
+2. temple de type RELIGIEUX : 1 pieces d'or
+3. echoppe de type COMMERCANT : 2 pieces d'or
+4. taverne de type COMMERCANT : 1 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 5
+1. eglise de type RELIGIEUX : 2 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. manoir de type NOBLE : 3 pieces d'or
+4. monastère de type RELIGIEUX : 3 pieces d'or
+5. temple de type RELIGIEUX : 1 pieces d'or
+
+
+PERSONNAGE AVEC LE RANG 2
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 3
+Le personnage a le joueur : MAGICIENNE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 26 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 4
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. manoir de type NOBLE coutant 3 pieces d'or
+1. taverne de type COMMERCANT coutant 1 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. cathédrale de type RELIGIEUX : 5 pieces d'or
+4. eglise de type RELIGIEUX : 2 pieces d'or
+5. marché de type COMMERCANT : 2 pieces d'or
+6. manoir de type NOBLE : 3 pieces d'or
+7. manoir de type NOBLE : 3 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 6
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+Le personnage a le joueur : CONDOTIERE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. Bibliotheque de type MERVEILLE coutant 6 pieces d'or
+1. Carriere de type MERVEILLE coutant 5 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. palais de type NOBLE : 5 pieces d'or
+2. port de type COMMERCANT : 4 pieces d'or
+3. prison de type MILITAIRE : 2 pieces d'or
+4. palais de type NOBLE : 5 pieces d'or
+5. manoir de type NOBLE : 3 pieces d'or
+6. Bibliotheque de type MERVEILLE : 6 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 13 pieces d'or
+voici les quartiers de votre main
+1. palais de type NOBLE : 5 pieces d'or
+2. port de type COMMERCANT : 4 pieces d'or
+3. prison de type MILITAIRE : 2 pieces d'or
+4. palais de type NOBLE : 5 pieces d'or
+5. manoir de type NOBLE : 3 pieces d'or
+6. Bibliotheque de type MERVEILLE : 6 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 4
+1. echoppe de type COMMERCANT : 2 pieces d'or
+2. comptoir de type COMMERCANT : 3 pieces d'or
+3. chateau de type NOBLE : 4 pieces d'or
+4. manoir de type NOBLE : 3 pieces d'or
+
+
+ ------------------------   TOUR DE JEU : 10
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_3 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 2
+Le personnage  Assassin est posé face visible
+Le personnage  Condotierre est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Magicienne
+3  Marchande
+4  Roi
+5  Voleur
+JOUEUR_3 choisissez votre personnage 
+
+
+Le personnage  Assassin est posé face visible
+Le personnage  Condotierre est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Magicienne
+2  Marchande
+3  Roi
+4  Voleur
+JOUEUR_4 choisissez votre personnage 
+
+
+Le personnage  Assassin est posé face visible
+Le personnage  Condotierre est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Magicienne
+2  Roi
+3  Voleur
+JOUEUR_1 choisissez votre personnage 
+
+
+Le personnage  Assassin est posé face visible
+Le personnage  Condotierre est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Magicienne
+2  Roi
+JOUEUR_2 choisissez votre personnage 
+
+
+JOUEUR_1 --> Voleur
+JOUEUR_2 --> Roi
+JOUEUR_3 --> Architecte
+JOUEUR_4 --> Marchande
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 2
+Le personnage a le joueur : VOLEUR
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. Cours des Miracles de type MERVEILLE coutant 2 pieces d'or
+1. Donjon de type MERVEILLE coutant 3 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. cathédrale de type RELIGIEUX : 5 pieces d'or
+4. eglise de type RELIGIEUX : 2 pieces d'or
+5. marché de type COMMERCANT : 2 pieces d'or
+6. manoir de type NOBLE : 3 pieces d'or
+7. manoir de type NOBLE : 3 pieces d'or
+8. Donjon de type MERVEILLE : 3 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 3
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 4
+Le personnage a le joueur : ROI
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. Dracoport de type MERVEILLE coutant 6 pieces d'or
+1. Ecole de Magie de type MERVEILLE coutant 6 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. hotel de ville de type COMMERCANT : 5 pieces d'or
+2. echoppe de type COMMERCANT : 2 pieces d'or
+3. taverne de type COMMERCANT : 1 pieces d'or
+4. Dracoport de type MERVEILLE : 6 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 5
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 6
+Le personnage a le joueur : MARCHANDE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 15 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 15 pieces d'or
+voici les quartiers de votre main
+1. palais de type NOBLE : 5 pieces d'or
+2. port de type COMMERCANT : 4 pieces d'or
+3. prison de type MILITAIRE : 2 pieces d'or
+4. palais de type NOBLE : 5 pieces d'or
+5. Bibliotheque de type MERVEILLE : 6 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 5
+1. echoppe de type COMMERCANT : 2 pieces d'or
+2. comptoir de type COMMERCANT : 3 pieces d'or
+3. chateau de type NOBLE : 4 pieces d'or
+4. manoir de type NOBLE : 3 pieces d'or
+5. palais de type NOBLE : 5 pieces d'or
+
+
+PERSONNAGE AVEC LE RANG 7
+Le personnage a le joueur : ACHITECTE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. Fontaine de type MERVEILLE coutant 5 pieces d'or
+1. Forge de type MERVEILLE coutant 5 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. monastère de type RELIGIEUX : 3 pieces d'or
+2. prison de type MILITAIRE : 2 pieces d'or
+3. caserne de type MILITAIRE : 3 pieces d'or
+4. monastère de type RELIGIEUX : 3 pieces d'or
+5. comptoir de type COMMERCANT : 3 pieces d'or
+6. comptoir de type COMMERCANT : 3 pieces d'or
+7. marché de type COMMERCANT : 2 pieces d'or
+8. Forge de type MERVEILLE : 5 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 26 pieces d'or
+voici les quartiers de votre main
+1. monastère de type RELIGIEUX : 3 pieces d'or
+2. prison de type MILITAIRE : 2 pieces d'or
+3. caserne de type MILITAIRE : 3 pieces d'or
+4. monastère de type RELIGIEUX : 3 pieces d'or
+5. comptoir de type COMMERCANT : 3 pieces d'or
+6. comptoir de type COMMERCANT : 3 pieces d'or
+7. marché de type COMMERCANT : 2 pieces d'or
+8. Forge de type MERVEILLE : 5 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 2
+1. tour de guet de type MILITAIRE : 1 pieces d'or
+2. comptoir de type COMMERCANT : 3 pieces d'or
+
+
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
+
+ ------------------------   TOUR DE JEU : 11
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_4 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 3
+Le personnage  Marchande est posé face visible
+Le personnage  Roi est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Assassin
+3  Condotierre
+4  Eveque
+5  Magicienne
+JOUEUR_4 choisissez votre personnage 
+
+
+Le personnage  Marchande est posé face visible
+Le personnage  Roi est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Condotierre
+3  Eveque
+4  Magicienne
+JOUEUR_1 choisissez votre personnage 
+
+
+Le personnage  Marchande est posé face visible
+Le personnage  Roi est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Condotierre
+3  Magicienne
+JOUEUR_2 choisissez votre personnage 
+
+
+Le personnage  Marchande est posé face visible
+Le personnage  Roi est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Condotierre
+JOUEUR_3 choisissez votre personnage 
+
+
+JOUEUR_1 --> Eveque
+JOUEUR_2 --> Magicienne
+JOUEUR_3 --> Condotierre
+JOUEUR_4 --> Assassin
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+Le personnage a le joueur : ASSASSIN
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 15 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 2
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 3
+Le personnage a le joueur : MAGICIENNE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. Laboratoire de type MERVEILLE coutant 5 pieces d'or
+1. Manufacture de type MERVEILLE coutant 5 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. hotel de ville de type COMMERCANT : 5 pieces d'or
+2. echoppe de type COMMERCANT : 2 pieces d'or
+3. taverne de type COMMERCANT : 1 pieces d'or
+4. Dracoport de type MERVEILLE : 6 pieces d'or
+5. Manufacture de type MERVEILLE : 5 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 13 pieces d'or
+voici les quartiers de votre main
+1. hotel de ville de type COMMERCANT : 5 pieces d'or
+2. echoppe de type COMMERCANT : 2 pieces d'or
+3. taverne de type COMMERCANT : 1 pieces d'or
+4. Dracoport de type MERVEILLE : 6 pieces d'or
+5. Manufacture de type MERVEILLE : 5 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 6
+1. eglise de type RELIGIEUX : 2 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. manoir de type NOBLE : 3 pieces d'or
+4. monastère de type RELIGIEUX : 3 pieces d'or
+5. temple de type RELIGIEUX : 1 pieces d'or
+6. hotel de ville de type COMMERCANT : 5 pieces d'or
+
+
+PERSONNAGE AVEC LE RANG 4
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 5
+Le personnage a le joueur : EVEQUE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. Salle des Cartes de type MERVEILLE coutant 5 pieces d'or
+1. Statue Equestre de type MERVEILLE coutant 3 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. cathédrale de type RELIGIEUX : 5 pieces d'or
+4. eglise de type RELIGIEUX : 2 pieces d'or
+5. marché de type COMMERCANT : 2 pieces d'or
+6. manoir de type NOBLE : 3 pieces d'or
+7. manoir de type NOBLE : 3 pieces d'or
+8. Donjon de type MERVEILLE : 3 pieces d'or
+9. Statue Equestre de type MERVEILLE : 3 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 0 pieces d'or
+voici les quartiers de votre main
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. cathédrale de type RELIGIEUX : 5 pieces d'or
+4. eglise de type RELIGIEUX : 2 pieces d'or
+5. marché de type COMMERCANT : 2 pieces d'or
+6. manoir de type NOBLE : 3 pieces d'or
+7. manoir de type NOBLE : 3 pieces d'or
+8. Donjon de type MERVEILLE : 3 pieces d'or
+9. Statue Equestre de type MERVEILLE : 3 pieces d'or
+Vous n'avez pas assez de piece pour construire 
+ Votre tour se termine
+
+
+PERSONNAGE AVEC LE RANG 6
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 7
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 8
+Le personnage a le joueur : CONDOTIERE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 28 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 28 pieces d'or
+voici les quartiers de votre main
+1. monastère de type RELIGIEUX : 3 pieces d'or
+2. prison de type MILITAIRE : 2 pieces d'or
+3. caserne de type MILITAIRE : 3 pieces d'or
+4. monastère de type RELIGIEUX : 3 pieces d'or
+5. comptoir de type COMMERCANT : 3 pieces d'or
+6. marché de type COMMERCANT : 2 pieces d'or
+7. Forge de type MERVEILLE : 5 pieces d'or
+quel est le quartier que vous voulez construire ? 
+voici les quartiers de votre cite
+nombre de quartiers dans la cite : 3
+1. tour de guet de type MILITAIRE : 1 pieces d'or
+2. comptoir de type COMMERCANT : 3 pieces d'or
+3. Forge de type MERVEILLE : 5 pieces d'or
+
+
+ ------------------------   TOUR DE JEU : 12
+
+MELANGE CARTES PERSONNAGE
+
+GESTION DE LA COURONNE
+
+
+POUR CE TOUR LE JOUEUR JOUEUR_1 AURA LA COURONNE
+
+CHOIX DE PERSONNAGE 0
+Le personnage  Condotierre est posé face visible
+Le personnage  Eveque est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Assassin
+3  Marchande
+4  Roi
+5  Voleur
+JOUEUR_1 choisissez votre personnage 
+
+
+Le personnage  Condotierre est posé face visible
+Le personnage  Eveque est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Assassin
+3  Marchande
+4  Voleur
+JOUEUR_2 choisissez votre personnage 
+
+
+Le personnage  Condotierre est posé face visible
+Le personnage  Eveque est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Marchande
+3  Voleur
+JOUEUR_3 choisissez votre personnage 
+
+
+Le personnage  Condotierre est posé face visible
+Le personnage  Eveque est posé face visible
+Un personnage  est posé face cachée 
+Liste des personnages disponibles
+1  Architecte
+2  Voleur
+JOUEUR_4 choisissez votre personnage 
+
+
+JOUEUR_1 --> Roi
+JOUEUR_2 --> Assassin
+JOUEUR_3 --> Marchande
+JOUEUR_4 --> Architecte
+
+APPEL DES PERSONNAGES
+
+PERSONNAGE AVEC LE RANG 1
+Le personnage a le joueur : ASSASSIN
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 13 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+--------    Arrete toi ici      -----------
+vous avez 13 pieces d'or
+voici les quartiers de votre main
+1. echoppe de type COMMERCANT : 2 pieces d'or
+2. taverne de type COMMERCANT : 1 pieces d'or
+3. Dracoport de type MERVEILLE : 6 pieces d'or
+4. Manufacture de type MERVEILLE : 5 pieces d'or
 quel est le quartier que vous voulez construire ? 
 voici les quartiers de votre cite
 nombre de quartiers dans la cite : 7
 1. eglise de type RELIGIEUX : 2 pieces d'or
-2. temple de type RELIGIEUX : 1 pieces d'or
-3. echoppe de type COMMERCANT : 2 pieces d'or
-4. hotel de ville de type COMMERCANT : 5 pieces d'or
-5. forteresse de type MILITAIRE : 5 pieces d'or
-6. chateau de type NOBLE : 4 pieces d'or
-7. Manufacture de type MERVEILLE : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. manoir de type NOBLE : 3 pieces d'or
+4. monastère de type RELIGIEUX : 3 pieces d'or
+5. temple de type RELIGIEUX : 1 pieces d'or
+6. hotel de ville de type COMMERCANT : 5 pieces d'or
+7. Dracoport de type MERVEILLE : 6 pieces d'or
 
 
-PERSONNAGE AVEC LE RANG 8
-Le personnage a le joueur : CONDOTIERE
+PERSONNAGE AVEC LE RANG 2
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 3
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 4
+Le personnage a le joueur : ROI
 
 PHASE 1 DU TOUR 
 
@@ -2897,9 +2428,16 @@ voici les cartes que vous avez piocher
 1. Tripot de type MERVEILLE coutant 6 pieces d'or
 choisissez celle que vous souhaitez conserver 
 voici les quartiers de votre main
-1. port de type COMMERCANT : 4 pieces d'or
-2. manoir de type NOBLE : 3 pieces d'or
-3. Trésor Impérial de type MERVEILLE : 5 pieces d'or
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. cathédrale de type RELIGIEUX : 5 pieces d'or
+4. eglise de type RELIGIEUX : 2 pieces d'or
+5. marché de type COMMERCANT : 2 pieces d'or
+6. manoir de type NOBLE : 3 pieces d'or
+7. manoir de type NOBLE : 3 pieces d'or
+8. Donjon de type MERVEILLE : 3 pieces d'or
+9. Statue Equestre de type MERVEILLE : 3 pieces d'or
+10. Tripot de type MERVEILLE : 6 pieces d'or
 
 PHASE 4 DU TOUR 
 
@@ -2908,36 +2446,92 @@ souhaitez vous construire un quartier dans votre cite ?
 2. NON je ne le souhaite pas 
 choisissez une option 
 --------    Arrete toi ici      -----------
-vous avez 25 pieces d'or
+vous avez 0 pieces d'or
 voici les quartiers de votre main
-1. port de type COMMERCANT : 4 pieces d'or
-2. manoir de type NOBLE : 3 pieces d'or
-3. Trésor Impérial de type MERVEILLE : 5 pieces d'or
-quel est le quartier que vous voulez construire ? 
-voici les quartiers de votre cite
-nombre de quartiers dans la cite : 7
-1. palais de type NOBLE : 5 pieces d'or
-2. echoppe de type COMMERCANT : 2 pieces d'or
-3. comptoir de type COMMERCANT : 3 pieces d'or
-4. port de type COMMERCANT : 4 pieces d'or
-5. Bibliotheque de type MERVEILLE : 6 pieces d'or
-6. marché de type COMMERCANT : 2 pieces d'or
-7. Trésor Impérial de type MERVEILLE : 5 pieces d'or
+1. cathédrale de type RELIGIEUX : 5 pieces d'or
+2. forteresse de type MILITAIRE : 5 pieces d'or
+3. cathédrale de type RELIGIEUX : 5 pieces d'or
+4. eglise de type RELIGIEUX : 2 pieces d'or
+5. marché de type COMMERCANT : 2 pieces d'or
+6. manoir de type NOBLE : 3 pieces d'or
+7. manoir de type NOBLE : 3 pieces d'or
+8. Donjon de type MERVEILLE : 3 pieces d'or
+9. Statue Equestre de type MERVEILLE : 3 pieces d'or
+10. Tripot de type MERVEILLE : 6 pieces d'or
+Vous n'avez pas assez de piece pour construire 
+ Votre tour se termine
 
+
+PERSONNAGE AVEC LE RANG 5
+. . . . . . . . . . . . . . . . . 
+
+PERSONNAGE AVEC LE RANG 6
+Le personnage a le joueur : MARCHANDE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR
+votre tresor est maintenant de 28 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 7
+Le personnage a le joueur : ACHITECTE
+
+PHASE 1 DU TOUR 
+
+vous pouvez choisir l'une des option suivantes
+1. Recevoir deux pieces d'or 
+2. Piocher deux cartes 
+choisissez une option 
+
+VOUS AVEZ CHOISI DE PIOCHER DEUX CARTES
+voici les cartes que vous avez piocher
+1. temple de type RELIGIEUX coutant 1 pieces d'or
+1. tour de guet de type MILITAIRE coutant 1 pieces d'or
+choisissez celle que vous souhaitez conserver 
+voici les quartiers de votre main
+1. palais de type NOBLE : 5 pieces d'or
+2. port de type COMMERCANT : 4 pieces d'or
+3. prison de type MILITAIRE : 2 pieces d'or
+4. Bibliotheque de type MERVEILLE : 6 pieces d'or
+5. tour de guet de type MILITAIRE : 1 pieces d'or
+
+PHASE 4 DU TOUR 
+
+souhaitez vous construire un quartier dans votre cite ?
+1. OUI je souhaite construire un quartier 
+2. NON je ne le souhaite pas 
+choisissez une option 
+
+
+PERSONNAGE AVEC LE RANG 8
+. . . . . . . . . . . . . . . . . 
 
 CALCUL DES POINTS
 
 
 TABLEAU DE SCORES 
 
-JOUEUR_1	 --------------- 	 : 15
-JOUEUR_2	 --------------- 	 : 31
-JOUEUR_3	 --------------- 	 : 18
-JOUEUR_4	 --------------- 	 : 29
+JOUEUR_1	 --------------- 	 : 12
+JOUEUR_2	 --------------- 	 : 32
+JOUEUR_3	 --------------- 	 : 9
+JOUEUR_4	 --------------- 	 : 17
 
 LE VAINQUEUR DE LA PARTIE EST JOUEUR_2
 
-LA PARTIE A DUREE 14 tours de jeu
+LA PARTIE A DUREE 12 tours de jeu
 
 FIN DE PARTIE 
 
@@ -2950,7 +2544,3 @@ FIN DE PARTIE
 
 
 Veuillez choisir une option 
-
-FERMETURE DU PROGRAMME
-
-REVENEZ QUAND VOUS VOUDREZ :)

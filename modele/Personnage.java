@@ -74,7 +74,7 @@ public abstract class Personnage {
 
     public abstract void utiliserPouvoir();
 
-    public abstract void utiliserPouvoirAvatar();
+    public abstract void utiliserPouvoirAvatar(); // @audit find how to integrate this to the application behavior
 
     public void reinitialiser() {
         this.joueur=null;
