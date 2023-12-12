@@ -55,6 +55,15 @@ public class Jeu {
         System.out.println("CONTINUEZ DE PATIENTER LES RÈGLES ARRIVENT BIENTÔT");
     }
 
+    private void afficherDetailsPartie() {
+        for(int i=0; i<this.plateauDeJeu.getNombreJoueurs(); i++){
+            System.out.println("JOUEUR "+ i+1 +" : "+ this.plateauDeJeu.getJoueur(i).getNom());
+            System.out.println("Nombre de pieces : "+ this.plateauDeJeu.getJoueur(i).nbPieces());
+            // TODO Implemente affichage du score final
+            this.plateauDeJeu.getJoueur(i).afficherQuartierDansCite();
+        }
+    }
+
     private void jouerPartie() {
         System.out.println("LANCEMENT DE LA PARTIE \n");
 
