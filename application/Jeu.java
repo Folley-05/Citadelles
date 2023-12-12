@@ -58,15 +58,6 @@ public class Jeu {
         System.out.println("\nCONTINUEZ DE PATIENTER LES RÈGLES ARRIVENT BIENTÔT");
     }
 
-    private void afficherDetailsPartie() {
-        for(int i=0; i<this.plateauDeJeu.getNombreJoueurs(); i++){
-            System.out.println("JOUEUR "+ i+1 +" : "+ this.plateauDeJeu.getJoueur(i).getNom());
-            System.out.println("Nombre de pieces : "+ this.plateauDeJeu.getJoueur(i).nbPieces());
-            // TODO Implemente affichage du score final
-            this.plateauDeJeu.getJoueur(i).afficherQuartierDansCite();
-        }
-    }
-
     private void jouerPartie() {
         System.out.println("\nLANCEMENT DE LA PARTIE \n");
 
@@ -196,6 +187,42 @@ public class Jeu {
         System.out.println(menu);
 
         return Interaction.lireUnEntier(0, 4);
+    }
+
+    private void afficherDetailsPartie(int [] scores) {
+        for(int i=0; i<this.plateauDeJeu.getNombreJoueurs(); i++){
+            System.out.println("JOUEUR "+ (i+1) +" : "+ this.plateauDeJeu.getJoueur(i).getNom());
+            System.out.println("Nombre de pieces : "+ this.plateauDeJeu.getJoueur(i).nbPieces());
+            System.out.println("Score : "+ scores[i]);
+            this.plateauDeJeu.getJoueur(i).afficherQuartierDansCite();
+            System.out.println("\n");
+        }
+    }
+
+    protected Boolean bibliotheque(Personnage p) {
+        if (p.getJoueur().quartierPresentDansCite("Bibliotheque")) {
+            for (int i = 0; i < 2; i++) {
+                Quartier quartier = this.plateauDeJeu.getPioche().piocher();
+                if (quartier != null) {
+                    System.out.println(i+1 + "- " + quartier.getNom() + " (coût " + quartier.getCout() + ")");
+                    p.ajouterQuartier(quartier);
+                }
+            }
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+    protected Boolean carriere(Personnage p, Quartier quartier) {
+        if(p.getJoueur().quartierPresentDansCite(quartier.getNom()) && p.getJoueur().quartierPresentDansCite("Carriere")) {
+            return true;
+        }else if(!p.getJoueur().quartierPresentDansCite(quartier.getNom())) {
+            return true;
+        }else {
+            System.out.println("Impossible de construire ce quartier");
+            return false;
+        }
     }
 
     private void appelerPersonnage() {
@@ -448,9 +475,12 @@ public class Jeu {
         }
         System.out.println("\nLE VAINQUEUR DE LA PARTIE EST "+winner);
         System.out.println("\nLA PARTIE A DUREE "+nbTours+" tours de jeu");
-
+        System.out.print("\nVOULEZ VOUS PLUS DE DETAILS ?");
+        Boolean details = Interaction.lireOuiOuNon();
+        if(details){
+            afficherDetailsPartie(scores);
+        }
     }
-
     
 // @audit found an infinite loop in the program try to check what causes it
 }
