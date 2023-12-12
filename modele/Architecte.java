@@ -1,7 +1,5 @@
 package modele;
 
-import controleur.Interaction;
-
 import java.util.Random;
 
 public class Architecte extends Personnage {
