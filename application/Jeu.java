@@ -24,7 +24,7 @@ public class Jeu {
         plateauDeJeu = p;
         numeroConfiguration = config;
         generator = gen;
-        JoueurPerso = new Joueur[8];
+        JoueurPerso = new Joueur[8]; // @audit create the table according to the number of player
     }
     public static void main(String[] args) {
         
@@ -68,7 +68,7 @@ public class Jeu {
         afficherScores(calculDesPoints());
 
 
-        System.out.println("\n FIN DE PARTIE \n");
+        System.out.println("\nFIN DE PARTIE \n");
     }
 
     private void initialisation() {
@@ -118,22 +118,22 @@ public class Jeu {
     private void tourDeJeu() {
         do {
             nbTours++;
+            JoueurPerso=new Joueur[8];
             System.out.println("\n ------------------------   TOUR DE JEU : "+nbTours);
-            // gestionCouronne();
             choixPersonnages();
             for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
                 Joueur player=plateauDeJeu.getJoueur(i);
-                // associé les personnages aux joueurs
+                // associer les personnages aux joueurs
                 JoueurPerso[player.getPersonnage().getRang()-1]=player;
                 System.out.println(player.getNom()+" --> "+player.getPersonnage().getNom());
             }
 
-            System.out.println("\nNOW WE CALL THE PLAYERS");
+            System.out.println("\nAPPEL DES PERSONNAGES");
             // call character and play their turn
             this.appelerPersonnage();
             partieFinie();
         } while (!lastTurn);
-        // } while (nbTours<11); 
+        // } while (nbTours<2); 
 
     }
 
@@ -178,7 +178,7 @@ public class Jeu {
     }
 
     private int afficherMenu() {
-        String menu="\n\t MENU \n\n"+
+        String menu="\n\tMENU \n\n"+
             "0. AFFICHER LES RÈGLES \n"+
             "1. JOUER UNE PARTIE \n"+
             "2. QUITTER LE JEU \n" +
@@ -197,8 +197,8 @@ public class Jeu {
                 // System.out.println("Joueur Actif : "+joueurActif.getNom());
                 tourJoueur(joueurActif);
             }
-            else System.out.println("IL N'Y A PAS DE PERSONNAGE AVEC LE RANG "+(i+1));
-            
+            else // System.out.println("IL N'Y A PAS DE PERSONNAGE AVEC LE RANG "+(i+1));
+                System.out.printf(". . . . . . . . . . . . . . . . . ");
             // code that pause the program 5 seconds
             try {
                 Thread.sleep(500);
@@ -213,7 +213,7 @@ public class Jeu {
     private void tourJoueur(Joueur j) {
         switch (j.getPersonnage().getNom()) {
             case "Assassin":
-                System.out.println("Le joueur a le personnage : ASSASSIN");
+                System.out.println("Le personnage a le joueur : ASSASSIN");
                 // reçoit les ressources
                 percevoirRessource(j);
                 // reçoit les ressources specifiques liées à son pouvoir et à ses merveilles
@@ -225,7 +225,7 @@ public class Jeu {
                 
             break;
             case "Voleur":
-                System.out.println("the player has : VOLEUR");
+                System.out.println("Le personnage a le joueur : VOLEUR");
                 percevoirRessource(j);
 
 
@@ -233,42 +233,42 @@ public class Jeu {
                 
             break;
             case "Magicienne":
-                System.out.println("the player has : MAGICIENNE");
+                System.out.println("Le personnage a le joueur : MAGICIENNE");
                 percevoirRessource(j);
                 
                 construireQuartier(j);
                 
             break;
             case "Roi":
-                System.out.println("the player has : ROI");
+                System.out.println("Le personnage a le joueur : ROI");
                 percevoirRessource(j);
                 
                 construireQuartier(j);
                 
             break;
             case "Eveque":
-                System.out.println("the player has : EVEQUE");
+                System.out.println("Le personnage a le joueur : EVEQUE");
                 percevoirRessource(j);
                 
                 construireQuartier(j);
                 
             break;
             case "Marchande":
-                System.out.println("the player has : MARCHANDE");
+                System.out.println("Le personnage a le joueur : MARCHANDE");
                 percevoirRessource(j);
                 
                 construireQuartier(j);
                 
             break;
             case "Architecte":
-                System.out.println("the player has : ACHITECTE");
+                System.out.println("Le personnage a le joueur : ACHITECTE");
                 percevoirRessource(j);
                 
                 construireQuartier(j);
                 
             break;
             case "Condotierre":
-                System.out.println("the player has : CONDOTIERE");
+                System.out.println("Le personnage a le joueur : CONDOTIERE");
                 percevoirRessource(j);
                 
                 construireQuartier(j);
@@ -291,7 +291,7 @@ public class Jeu {
         int choix=Interaction.automatedChoice(2, true);
         if(choix<1) { // @audit do not forget do manage that part
             System.out.println("\nVOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR");
-            j.ajouterPieces(10); // @audit set 2 here
+            j.ajouterPieces(5); // @audit set 2 here
             System.out.println("votre tresor est maintenant de "+j.nbPieces()+" pieces d'or");
         }
         else {
@@ -437,8 +437,8 @@ public class Jeu {
                 winner=plateauDeJeu.getJoueur(i).getNom();
             }
         }
-        System.out.println("\n LE VAINQUEUR DE LA PARTIE EST "+winner);
-        System.out.println("\n LA PARTIE A DUREE "+nbTours+" tours de jeu");
+        System.out.println("\nLE VAINQUEUR DE LA PARTIE EST "+winner);
+        System.out.println("\nLA PARTIE A DUREE "+nbTours+" tours de jeu");
 
     }
 
