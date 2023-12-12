@@ -59,6 +59,7 @@ public abstract class Personnage {
         // }
     }
 
+
     public void ajouterQuartier(Quartier q){
         if(this.isValid()) this.joueur.ajouterQuartierDansMain(q);
     }

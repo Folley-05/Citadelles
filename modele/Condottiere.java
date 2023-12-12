@@ -1,6 +1,7 @@
 package modele;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 import controleur.Interaction;
 
@@ -70,10 +71,67 @@ public class Condottiere extends Personnage {
             System.out.println("Vous n'utilisez pas votre pouvoir de destruction");
         }
     }
+    public void utiliserPouvoirAvatar() {
+        int choixPersonnage;
+        int	choixQuartier=0;
+        String nomQuartier =null;
+        boolean choixBoolean=false;
+        int choix;
+        Random randnumber = new Random();
+        ArrayList<Personnage> listePersonnage = new ArrayList<Personnage>(this.getPlateau().getNombreJoueurs());
+        for(int i=0; i<this.getPlateau().getNombrePersonnages(); i++) {
+            if(this.getPlateau().getPersonnage(i).getJoueur()!= null && this.getPlateau().getPersonnage(i) != null && this.getPlateau().getPersonnage(i).getJoueur().nbQuartiersDansCite()<7) {
+                listePersonnage.add(this.getPlateau().getPersonnage(i));
+            }
+        }
+        choix=randnumber.nextInt(2);
+        switch(choix) {
+            case 0 :
+                choixBoolean=false;
+                break;
+            case 1:
+                choixBoolean=true;
+                break;
+            default:
+                break;
+        }
+        if (choixBoolean) {
+            do {
+                choixPersonnage = randnumber.nextInt(listePersonnage.size()+1);
+                if(choixPersonnage==0) {
+                    break;
+                }else {
+                    do {
+                        choixQuartier = randnumber.nextInt(listePersonnage.get(choixPersonnage-1).getJoueur().nbQuartiersDansCite()+1);
+                        if(choixQuartier==0) { // L'index 0 correspond à la liberté de ne pas continuer
+                            break;
+                        }
+                    }while(listePersonnage.get(choixPersonnage-1).getJoueur().getCite()[choixQuartier-1].getCout() - 1 > this.getJoueur().nbPieces()|| listePersonnage.get(choixPersonnage-1).getJoueur().getCite()[choixQuartier-1].getNom().equals("Donjon")); //tourne tant que le quartier n'est pas achetable
+                    if(choixQuartier!=0) {
+                        for(int i=0; i<this.getPlateau().getNombrePersonnages(); i++) {
+                            if(this.getPlateau().getPersonnage(i).getNom().equals(listePersonnage.get(choixPersonnage-1).getNom())) {
+                                nomQuartier = this.getPlateau().getPersonnage(i).getJoueur().getCite()[choixQuartier-1].getNom();
+                                this.getJoueur().retirerPieces(this.getPlateau().getPersonnage(i).getJoueur().getCite()[choixQuartier-1].getCout() - 1);
+                                this.getPlateau().getPersonnage(i).getJoueur().retirerQuartierDansCite(nomQuartier);
+                                System.out.println(this.getPlateau().getPersonnage(i).getJoueur().getNom()+" votre quartier : " + nomQuartier + " à  été détruit par le Condottiere");
+                            }
+                        }
+                    }
+
+                }
+            }while(listePersonnage.get(choixPersonnage-1).getNom().equals("Eveque") && !listePersonnage.get(choixPersonnage-1).getAssassine() || choixQuartier==0);
+        }else {
+            System.out.println("Vous n'utilisez pas votre pouvoir de destruction");
+        }
+
+    }
 
 
 
-    // Perception des ressources sp�cifiques
+
+
+
+    // Perception des ressources spécifiques
     public void percevoirRessourcesSpecifiques() {
         int nbQuartierMilitaire = 0;
         super.percevoirRessourcesSpecifiques();
