@@ -124,13 +124,15 @@ public class Jeu {
         int nbJoueurs=plateauDeJeu.getNombreJoueurs();
         if(crown==-1) {
             System.out.println("Quel joueur aura la couronne pour le premier tour ?");
-            for (int i = 0; i < nbJoueurs; i++) {if(j.getPersonnage().getVole()) {
-                    recupererPiece(j);
-                    if(!j.getAutomated()) {
-                        System.out.println("\n VOTRE PERSONNAGE A ÉTÉ VOLE \n Entrez o pour continuer");
-                        Interaction.lireOuiOuNon();
-                    }
-                }
+            for (int i = 0; i < nbJoueurs; i++) {
+                System.out.println((i+1)+". "+ plateauDeJeu.getJoueur(i).getNom());
+            }
+            System.out.println("choisissez une option ");
+            int choix=Interaction.automatedChoice(nbJoueurs, false);
+            crown=choix;
+            plateauDeJeu.getJoueur(crown).setPossedeCouronne(true);
+        } else {
+            if(!nextKing.equals("")) {
                 for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
                     if(plateauDeJeu.getJoueur(i).getNom()==nextKing) crown=i;
                 }
@@ -496,9 +498,9 @@ public class Jeu {
             "choisissez une option ";
         System.out.println(optionsText);
         int choix=Interaction.automatedChoice(2, j.getAutomated());
-        if(choix<1) {
+        if(choix<1) { // @audit do not forget do manage that part
             System.out.println("\nVOUS AVEZ CHOISI DE RECEVOIR DEUX PIECES D'OR");
-            j.ajouterPieces(2);
+            j.ajouterPieces(10); // @audit set 2 here
             System.out.println("votre tresor est maintenant de "+j.nbPieces()+" pieces d'or");
         }
         else {
@@ -668,7 +670,4 @@ public class Jeu {
     }
     
 
-// @audit handle the case where there is no more quartier in the pioche
-
-// @audit do not forget to implement the fact that we can't steal a player murdered
 }
