@@ -152,6 +152,7 @@ public class Jeu {
         do {
             nbTours++;
             if(nbTours>1)reinitialisationPersonnages();
+            if(nbTours==3) setPlayersAutomated();
             System.out.println("\n-------------------------------------------------------------------------------------");
             System.out.println("-------------------------------------------------------------------------------------");
             System.out.println("\n ------------------------   TOUR DE JEU : "+nbTours);
@@ -669,5 +670,12 @@ public class Jeu {
         System.out.println("*******************     VOUS AVEZ ETE VOLE");
     }
     
-
+    public void setPlayersAutomated(){
+        System.out.println("//////////////////////// all player become automated ");
+        System.out.println("entrer 1 pour continuer ");
+        Interaction.lireUnEntier(1, 2);
+        for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
+            plateauDeJeu.getJoueur(i).setAutomated(true);
+        }
+    }
 }
