@@ -31,7 +31,8 @@ public class Jeu {
 
     public void jouer() {
         int choix=-1;
-        System.out.println("BIENVENUE SUR CITADELLES \n\n");
+        // System.out.println("BIENVENUE SUR CITADELLES \n\n");
+        Print.citadelle();
         do {
             choix=afficherMenu();
             switch (choix) {
@@ -42,7 +43,8 @@ public class Jeu {
                     jouerPartie();
                     break;
                 case 2:
-                    System.out.println("\nFERMETURE DU PROGRAMME\n\nREVENEZ QUAND VOUS VOUDREZ :)");
+                    // System.out.println("\nFERMETURE DU PROGRAMME\n\nREVENEZ QUAND VOUS VOUDREZ :)");
+                    Print.closing();
                     break;
             
                 default:
@@ -55,27 +57,36 @@ public class Jeu {
         int choixregle=-1;
         do {
             System.out.println("REGLES\n");
-            System.out.println("\n1. Objectif du jeu\n2.Personnages \n3.Tour des Joueurs \n4.Fin du jeu \n5.Retour au menu ");
+            // System.out.println("\n1. Objectif du jeu\n2.Personnages \n3.Tour des Joueurs \n4.Fin du jeu \n5.Retour au menu ");
+            Print.choice("\n1. Objectif du jeu\n2.Personnages \n3.Tour des Joueurs \n4.Fin du jeu \n5.Retour au menu ");
             choixregle=Interaction.lireUnEntier(1,6);
             switch (choixregle) {
                 case 1:
-                    System.out.println("\nObjectif du jeu\n");
+                    // System.out.println();
+                    Print.choice("\nObjectif du jeu\n");
                     System.out.println(Caracteristiques.OBJECTIF);
                     break;
                 case 2:
-                    System.out.println("\nPersonnage\n");
+                    // System.out.println("\nPersonnage\n");
+                    Print.choice("\nPersonnage\n");
                     System.out.println(Caracteristiques.PERSONNAGE);
                     break;
                 case 3:
-                    System.out.println("\nTour des joueurs\n");
+                    // System.out.println("\nTour des joueurs\n");
+                    Print.choice("\nTour des joueurs\n");
                     System.out.println(Caracteristiques.TOUR);
                     break;
                 case 4:
-                    System.out.println("\nFin de la partie\n");
+                    // System.out.println("\nFin de la partie\n");
+                    Print.choice("\nFin de la partie\n");
                     System.out.println(Caracteristiques.FIN);
                     break;
                 case 5:
-                    System.out.println("\nFERMETURE \n\n");
+                    // System.out.println("\nFERMETURE \n\n");
+                    Print.choice("\"\\n" + //
+                            "FERMETURE \\n" + //
+                            "\\n" + //
+                            "\"");
                     afficherMenu();
                     break;
                 default:
@@ -85,7 +96,8 @@ public class Jeu {
     }
 
     private void jouerPartie() {
-        System.out.println("\nLANCEMENT DE LA PARTIE \n");
+        // System.out.println("\nLANCEMENT DE LA PARTIE \n");
+        Print.choice("\nLANCEMENT DE LA PARTIE \n");
 
         initialisation();
 
@@ -94,11 +106,13 @@ public class Jeu {
         afficherScores(calculDesPoints());
 
 
-        System.out.println("\nFIN DE PARTIE \n");
+        // System.out.println("\nFIN DE PARTIE \n");
+        Print.choice("\nFIN DE PARTIE \n");
     }
 
     private void initialisation() {
-        System.out.println("\nINITIALISATION DU JEU");
+        // System.out.println("\nINITIALISATION DU JEU\n");
+        Print.choice("\nINITIALISATION DU JEU\n");
         lastTurn=false;
         firstPlayer=null;
         nbTours=0;
@@ -120,14 +134,17 @@ public class Jeu {
     }
 
     private void gestionCouronne() {
-        System.out.println("\nGESTION DE LA COURONNE\n");
+        // System.out.println("\nGESTION DE LA COURONNE\n");
+        Print.choice("\nGESTION DE LA COURONNE\n");
         int nbJoueurs=plateauDeJeu.getNombreJoueurs();
         if(crown==-1) {
-            System.out.println("Quel joueur aura la couronne pour le premier tour ?");
+            // System.out.println("Quel joueur aura la couronne pour le premier tour ?");
+            Print.choice("Quel joueur aura la couronne pour le premier tour ?");
             for (int i = 0; i < nbJoueurs; i++) {
                 System.out.println((i+1)+". "+ plateauDeJeu.getJoueur(i).getNom());
             }
-            System.out.println("choisissez une option ");
+            // System.out.println("\nchoisissez une option ");
+            Print.choice("\nchoisissez une option ");
             int choix=Interaction.automatedChoice(nbJoueurs, false);
             crown=choix;
             plateauDeJeu.getJoueur(crown).setPossedeCouronne(true);
@@ -145,7 +162,9 @@ public class Jeu {
             }
             plateauDeJeu.getJoueur(crown).setPossedeCouronne(true);
         }
-        System.out.println("\nPOUR CE TOUR LE JOUEUR "+plateauDeJeu.getJoueur(crown).getNom()+" AURA LA COURONNE");
+        // System.out.println("\nPOUR CE TOUR LE JOUEUR "+plateauDeJeu.getJoueur(crown).getNom()+" AURA LA COURONNE");
+        // Print.choice("\nPOUR CE TOUR LE JOUEUR "+plateauDeJeu.getJoueur(crown).getNom()+" AURA LA COURONNE");
+        Print.choice("\nPOUR CE TOUR LE JOUEUR "+plateauDeJeu.getJoueur(crown).getNom()+" AURA LA COURONNE");
     }
 
     private void tourDeJeu() {
@@ -161,7 +180,7 @@ public class Jeu {
                 Joueur player=plateauDeJeu.getJoueur(i);
                 // associer les personnages aux joueurs
                 JoueurPerso[player.getPersonnage().getRang()-1]=player;
-                System.out.println(player.getNom()+" --> "+player.getPersonnage().getNom());
+                // System.out.println(player.getNom()+" --> "+player.getPersonnage().getNom());
             }
 
             System.out.println("\nAPPEL DES PERSONNAGES");
@@ -197,6 +216,7 @@ public class Jeu {
                 "Un personnage  est posé face cachée \n"+
                 "Liste des personnages disponibles";
             // System.out.println(textToPrint);
+            Print.choice(textToPrint);
         
             for (int j = 0; j < selectable.size(); j++) {
                 System.out.println((j+1)+"  "+ selectable.get(j).getNom());
@@ -221,7 +241,8 @@ public class Jeu {
             "2. QUITTER LE JEU \n" +
             "\n\n"+
             "Veuillez choisir une option ";
-        System.out.println(menu);
+        // System.out.println(menu);
+        Print.choice(menu);
 
         return Interaction.lireUnEntier(0, 4);
     }
@@ -241,7 +262,8 @@ public class Jeu {
             for (int i = 0; i < 2; i++) {
                 Quartier quartier = this.plateauDeJeu.getPioche().piocher();
                 if (quartier != null) {
-                    System.out.println(i+1 + "- " + quartier.getNom() + " (coût " + quartier.getCout() + ")");
+                    // System.out.println(i+1 + "- " + quartier.getNom() + " (coût " + quartier.getCout() + ")");
+                    Print.choice(i+1 + "- " + quartier.getNom() + " (coût " + quartier.getCout() + ")");
                     joueur.getPersonnage().ajouterQuartier(quartier);
                 }
             }
@@ -262,17 +284,9 @@ public class Jeu {
     }
 
     private void appelerPersonnage() {
-        for (int i = 0; i < plateauDeJeu.getNombreJoueurs(); i++) {
-            if(!plateauDeJeu.getJoueur(i).getPersonnage().isValid()) {
-                System.out.println("MORT AVANT LE DEBUT DU TOUR "+nbTours);
-                System.out.println("PERSONNAGE JOUEUR "+plateauDeJeu.getJoueur(i).getPersonnage().getJoueur());
-                System.out.println("PERSONNAGE ASSASSINE "+plateauDeJeu.getJoueur(i).getPersonnage().getAssassine());
-                System.out.println(plateauDeJeu.getJoueur(i).getNom()+"  "+plateauDeJeu.getJoueur(i).getPersonnage().getNom());
-                System.exit(0);
-            }
-        }
         for (int i = 0; i < 8; i++) {
-            System.out.println("\nPERSONNAGE AVEC LE RANG "+(i+1));
+            // System.out.println("\nPERSONNAGE AVEC LE RANG "+(i+1));
+            Print.choice("\nPERSONNAGE AVEC LE RANG "+(i+1));
             Joueur joueurActif=JoueurPerso[i];
             if(joueurActif!=null) {
                 // System.out.println("Joueur Actif : "+joueurActif.getNom());
@@ -300,7 +314,8 @@ public class Jeu {
                 // reçoit les ressources specifiques liées à son pouvoir et à ses merveilles
 
                 // utilise son pouvoir
-                System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
+                // System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
+                Print.pouvoir();
                 if(!j.getAutomated()) j.getPersonnage().utiliserPouvoir();
                 else j.getPersonnage().utiliserPouvoirAvatar();
                 
@@ -319,7 +334,8 @@ public class Jeu {
                 }
                 System.out.println("Le personnage a le joueur : VOLEUR");
                 percevoirRessource(j);
-                System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
+                // System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
+                Print.pouvoir();
                 if(!j.getAutomated()) j.getPersonnage().utiliserPouvoir();
                 else j.getPersonnage().utiliserPouvoirAvatar();
                 construireQuartier(j);
@@ -420,7 +436,8 @@ public class Jeu {
                         Interaction.lireOuiOuNon();
                     }
                 }
-                System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
+                // System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
+                Print.pouvoir();
                 
                 if(!j.getAutomated()) j.getPersonnage().utiliserPouvoir();
                 else j.getPersonnage().utiliserPouvoirAvatar();
@@ -476,7 +493,8 @@ public class Jeu {
                 }
                 
                 percevoirRessource(j);
-                System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
+                // System.out.println("PPPPPPPPPPPPPPPPPPPPPPPP  utilisation de pouvoir PPPPPPPPPPPPPPPPPPPPPPPP");
+                Print.pouvoir();
                 
                 if(!j.getAutomated()) j.getPersonnage().utiliserPouvoir();
                 else j.getPersonnage().utiliserPouvoirAvatar();
